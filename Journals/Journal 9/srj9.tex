@@ -1,0 +1,114 @@
+% Syslab Research Journal Template
+% By Patrick White
+% September 2019
+
+% Do not edit this header
+\documentclass[letterpaper,11pt]{article}
+\usepackage{fullpage}
+\usepackage{palatino}
+\usepackage{enumitem}
+\usepackage{courier}
+\usepackage{graphicx}
+\def\hrulefill{\leavevmode\leaders\hrule height 20pt\hfill\kern\z@}
+
+% ------------- Edit these definitions ---------------------
+\def\name{Bryan Lu}
+\def\journalnum{9}
+\def\daterange{11/11/19-11/18/19} % starts on Monday
+\def\period{2}
+% ------------------ END ---------------------------------
+% Do not edit this
+\begin{document}
+	\thispagestyle{empty}
+	\begin{flushright}
+		{\Large Journal Report \journalnum} \\
+		\daterange\\
+		\name \\
+		Computer Systems Research Lab \\
+		Period \period, White
+		\end{flushright}
+	\hrule height 1pt
+
+% ------ SECTION DAILY LOG -------------------------------------
+\vspace{-0.8em}
+\section*{Daily Log}
+%Detail for each day about what you research, coded, debug, designed, created, etc. Informal style is OK.
+\vspace{-0.8em}
+
+\subsection*{Monday, November 11}
+\vspace{-0.6em}
+Extracted problems from \texttt{https://imogeometry.blogspot.com}, a curated website for all olympiad geometry problems on AoPS in the Contest Collections, and performed some string parsing to get rid of unicode characters. 
+\vspace{-1.3em}
+\subsection*{Tuesday, November 12}
+\vspace{-0.6em}
+Randomly generated problems from China, Turkey, and Iranian Team Selection Tests (TSTs), and from the ELMO (a MOP contest), and picked 40 triangle geometry problems from this set of problems. 
+
+\vspace{-1.3em}
+\subsection*{Thursday, November 14}
+\vspace{-0.6em}
+Began assigning all of the valid relations associated with the  the selected problems on Tuesday, and adjusted \texttt{lexicon.txt} and \texttt{finalrelations.txt} to accomodate new relations I hadn't anticipated. 
+
+\vspace{-1.0em}
+
+% ------ SECTION TIMELINE -------------------------------------
+%\newpage
+%\vspace{-1.7em}
+\vspace{-1.0em}
+\section*{Timeline}
+\begin{tabular}{|p{1in}|p{2.5in}|p{2.5in}|}
+	\hline
+\textbf{Date} & \textbf{Goal} & \textbf{Met}\\ \hline 
+	\hline 
+10/28 & Begin writing code to create a log-linear classifier using \texttt{scikit}, and finalize the inputs needed for the algorithm. & Yes, I have all of the features I need per sentence.   \\
+	\hline
+11/4 & Create the log-linear classifier/learning algorithm and the training data, and begin testing. & I've started, but I've realized this is a rather ambitious task because I still need to finish creating my training data.\\
+	\hline
+11/11 & Complete a set of about 40 problems to serve as my training data set, with the correct relations. & I have the problems, but putting in the correct relations for these problems is a lot of work. \\
+	\hline
+11/18 & Build the model with \texttt{scikit}, tweaking previous steps as needed, and finish the necessary test cases. & N/A \\
+	\hline
+11/25 & Test and train the logistic model, and see if any methods could be added to improve accuracy. & N/A \\
+	\hline 
+Winter Goal & Be able to output a set of possible literals (statements) based on detected relations in the problem. & N/A \\
+	\hline 
+\end{tabular}
+
+
+% ------ SECTION REFLECTION  ---------------------------------
+\section*{Reflection}
+%In narrative style, talk about your work this week. Successes, failures, changes to timeline, goals. This should also include concrete data, e.g. snippets of code, screenshots, output, analysis, graphs, etc.
+
+This week, my lack of test cases from first quarter started to really impact my work this week. Luckily, I sent out a forum post to the community a while ago, asking if anyone knew of another compendium of olympiad geometry problems. Sure enough, the community pulled through and some user on AoPS has been doing exactly that! I took the liberty of ripping some of the problems from his blog (but I'm not sure how I should eventually cite this source...) 
+
+This still doesn't account for the fact that I still have to create all of my test cases myself -- each problem takes a decent amount of time to complete. Here's one of the problems that I'll be testing with, with the correct relations I have associated with the problem: 
+
+\begin{center}
+\textbf{Problem: }Let Gamma be the circumcircle of acute triangle ABC. Points D and E are on segments AB and AC respectively
+such that AD = AE. The perpendicular bisectors of BD and CE intersect minor arcs AB and AC of Gamma at
+points F and G respectively. Prove that lines DE and FG are either parallel or they are the same line.
+\end{center}
+
+\begin{center}
+\textbf{Relations: }
+IsTriangle(ABC) \quad 
+IsCircle(Gamma) \quad 
+IsCircumcircle(Gamma, ABC) \quad 
+IsSegment(AB) \quad 
+IsSegment(AC) \quad 
+IsPoint(D) \quad 
+IsPoint(E) \quad 
+Equals(AD, AE) \quad \\
+Collinear(D, A, B) \quad 
+Collinear(E, A, C) \quad 
+IsLine(DE) \quad 
+IsLine(FG) \quad 
+IsParallel(DE, FG) \quad 
+\end{center}
+
+This will probably expand to include more information about the perpendicular bisectors being accepted as well. 
+
+I'm fairly sure that I can finish these test cases this week, but considering the volume of tests associated with each problem, I might not need all of these to train the model. After all, I need to consider all possible pairs of explicit/abstract variables when testing, as long as they're close enough in the statement/in the same sentence, which is still a decent number of pairs per problem.
+
+I am a bit concerned with my progress towards my winter goal -- I think it's reasonable, but if I encounter another major challenge to my process in the building and testing of the logistic model I may not be able finish. Fingers crossed that everything goes smoothly. 
+\end{document}
+

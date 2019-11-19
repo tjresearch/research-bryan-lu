@@ -1,0 +1,15 @@
+// This file is responsible for determining when critical page functionality
+// has failed to load and showing a message to users explaining that they
+// should probably refresh. It also exports AoPS.isEpicFailing which other
+// scripts can use to detect when we are showing
+
+(function(AoPS) {
+	AoPS.isEpicFailing = function() {
+		return typeof $ === "undefined";
+	};
+
+	if (AoPS.isEpicFailing()) {
+		var div = document.getElementById("epicfail");
+		div.style.display = "block";
+	}
+})(window.AoPS || {});

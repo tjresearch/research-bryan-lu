@@ -1,0 +1,78 @@
+point : point IsPoint
+circle : circle IsCircle
+line : line IsLine
+ray : ray IsRay
+segment : segment IsSegment
+arc : arc IsArc
+triangle : triangle IsTriangle
+angle : angle IsAngle HasRay
+quadrilateral : quadrilateral IsQuadrilateral
+length : LengthOf
+polygon : polygon IsPolygon
+pentagon : pentagon polygon IsPentagon IsPolygon
+hexagon : polygon hexagon 
+radius : RadiusOf
+side : segment IsSegment
+square : square IsSquare rectangle IsRectangle quadrilateral IsQuadrilateral
+rectangle : rectangle IsRectangle quadrilateral IsQuadrilateral
+trapezoid : trapezoid IsTrapezoid quadrilateral IsQuadrilateral
+vertex : point IsPoint
+tangent : TangentTo line 
+circumcircle : circumcircle circle IsCircumcircle IsCircle
+midpoint : midpoint point MidpointOf
+bisector : line IsLine
+angle bisector : line IsLine angle_bisector FootOf 
+perpendicular bisector : line IsPerpendicular midpoint perpendicular_bisector
+incircle : incircle circle IsIncircle IsCircle
+incenter : point angle_bisector IntersectsAt incircle
+incentre : point angle_bisector IntersectsAt incircle
+circumcenter : point perpendicular_bisector IntersectsAt circumcircle
+circumcentre : point perpendicular_bisector IntersectsAt circumcircle
+centroid : point median IntersectsAt midpoint
+median : line IsLine midpoint IsMidpoint IntersectsAt FootOf 
+perpendicular : IsPerpendicular 
+reflection : midpoint IsMidpoint IsPerpendicular 
+diagonal : line IsLine
+altitude : line IsLine IsPerpendicular FootOf 
+orthocenter : point altitude IntersectsAt
+orthocentre : point altitude IntersectsAt
+cevian : line FootOf IsLine
+chord : segment IsSegment circle 
+parallelogram : quadrilateral IsQuadrilateral parallel 
+centre : point circle
+center : point circle
+excircle : circle IsCircle 
+inradius : LengthOf incircle 
+circumradius : LengthOf circumcircle
+diameter : LengthOf 
+rhombus : quadrilateral IsQuadrilateral 
+semicircle : arc IsArc diameter 
+semi-circle : arc IsArc diameter
+quadrangle : quadrilateral IsQuadrilateral
+circumference : LengthOf
+intersection : IntersectsAt
+excenter : point IsPoint excircle angle_bisector IntersectsAt
+excentre : point IsPoint excircle angle_bisector IntersectsAt
+hypotenuse : LengthOf segment IsSegment
+antipode : point IsPoint diameter
+= : Equals 
+on : FootOf IsCollinear
+at : FootOf
+meets : IntersectsAt
+meet : IntersectsAt
+tangent : IsTangent
+perpendicular : IsPerpendicular
+midpoint : point IsPoint midpoint MidpointOf
+parallel : IsParallel
+intersect : IntersectsAt
+intersects : IntersectsAt
+collinear : IsCollinear
+concurrent : IsConcurrent ConcurrentAt
+cyclic : IsCyclic circle 
+orthogonal : IsPerpendicular
+right-angled : IsPerpendicular
+perp : IsPerpendicular 
+concyclic : circle IsCyclic 
+neq : NotEquals
+unequal : NotEquals
+bisect : angle_bisector perpendicular_bisector midpoint MidpointOf IsPerpendicular

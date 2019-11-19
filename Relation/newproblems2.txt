@@ -1,0 +1,283 @@
+1999 ELMO problem 1
+In nonisosceles triangle ABC the excenters of the triangle opposite B and C be XB and XC, respectively.  Let the external angle bisector of A intersect the circumcircle of △ABC again at Q.  Prove that QXB=QB=QC=QXC.
+
+2003 ELMO problem 1
+Let ABCDEF be a convex equilateral hexagon with sides of length 1.  Let R1 be the area of the region contained within both ACE and BDF, and let R2 be the area of the region within the hexagon outside both triangles.  Prove that: min{[ACE],[BDF]}+R2−R1≤33√4.
+
+2009 ELMO problem 2
+Let ABC be a triangle such that AB<AC. Let P lie on a line through A parallel to line BC such that C and P are on the same side of line AB. Let M be the midpoint of segment BC.  Define D on segment BC such that ∠BAD=∠CAM, and define T on the extension of ray CB beyond B so that ∠BAT=∠CAP.  Given that lines PC and AD intersect at Q, that lines PD and AB intersect at R, and that S is the midpoint of segment DT, prove that if A,P,Q, and R lie on a circle, then Q, R, and S are collinear.
+
+by David Rush
+2009 ELMO problem 5
+Let ABCDEFG be a regular heptagon with center O. Let M be the centroid of △ABD. Prove that cos2(∠GOM) is rational and determine its value.
+
+by Evan o'Dorney
+2010 ELMO Shortlist G1
+Let ABC be a triangle. Let A1, A2 be points on AB and AC respectively such that A1A2∥BC and the circumcircle of △AA1A2 is tangent to BC at A3. Define B3, C3 similarly. Prove that AA3, BB3, and CC3 are concurrent.
+
+by Carl Lian
+2010 ELMO Shortlist G2
+Given a triangle ABC, a point P is chosen on side BC. Points M and N lie on sides AB and AC, respectively, such that MP∥AC and NP∥AB. Point P is reflected across MN to point Q. Show that triangle QMB is similar to triangle CNQ.
+
+by Brian Hamrick
+2010 ELMO Shortlist G3
+A circle ω not passing through any vertex of △ABC intersects each of the segments AB, BC, CA in 2 distinct points. Prove that the incenter of △ABC lies inside ω.
+
+by Evan O' Dorney
+2010 ELMO Shortlist G4 problem 6
+Let ABC be a triangle with circumcircle ω, incenter I, and A-excenter IA. Let the incircle and the A-excircle hit BC at D and E, respectively, and let M be the midpoint of arc BC without A. Consider the circle tangent to BC at D and arc BAC at T. If TI intersects ω again at S, prove that SIA and ME meet on ω.
+
+by Amol Aggarwal
+2010 ELMO Shortlist G5 problem 1
+Determine all (not necessarily finite) sets S of points in the plane such that given any four distinct points in S, there is a circle passing through all four or a line passing through some three.
+
+by Carl Lian
+2010 ELMO Shortlist G6
+Let ABC be a triangle with circumcircle Ω. X and Y are points on Ω such that XY meets AB and AC at D and E, respectively. Show that the midpoints of XY, BE, CD, and DE are concyclic.
+
+by Carl Lian
+2011 ELMO Shortlist G1 problem 1
+Let ABCD be a convex quadrilateral. Let E,F,G,H be points on segments AB, BC, CD, DA, respectively, and let P be the intersection of EG and FH. Given that quadrilaterals HAEP, EBFP, FCGP, GDHP all have inscribed circles, prove that ABCD also has an inscribed circle.
+
+by Evan O'Dorney
+2011 ELMO Shortlist G2
+Let ω,ω1,ω2 be three mutually tangent circles such that ω1,ω2 are externally tangent at P, ω1,ω are internally tangent at A, and ω,ω2 are internally tangent at B. Let O,O1,O2 be the centers of ω,ω1,ω2, respectively. Given that X is the foot of the perpendicular from P to AB, prove that ∠O1XP=∠O2XP.
+
+by David Yang.
+2011 ELMO Shortlist G3
+Let ABC be a triangle. Draw circles ωA, ωB, and ωC such that ωA is tangent to AB and AC, and ωB and ωC are defined similarly. Let PA be the insimilicenter of ωB and ωC. Define PB and PC similarly. Prove that APA, BPB, and CPC are concurrent.
+
+ by Tom Lu
+2011 ELMO Shortlist G4
+Prove that for any convex pentagon A1A2A3A4A5, there exists a unique pair of points {P,Q} (possibly with P=Q) such that ∡PAiAi−1=∡Ai+1AiQ for 1≤i≤5, where indices are taken (mod5) and angles are directed (modπ).
+
+by Calvin Deng
+2012 ELMO Shortlist G1 problem 1
+In acute triangle ABC, let D,E,F denote the feet of the altitudes from A,B,C, respectively, and let ω be the circumcircle of △AEF. Let ω1 and ω2 be the circles through D tangent to ω at E and F, respectively. Show that ω1 and ω2 meet at a point P on BC other than D.
+
+by Ray Li
+2012 ELMO Shortlist G2
+In triangle ABC, P is a point on altitude AD. Q,R are the feet of the perpendiculars from P to AB,AC, and QP,RP meet BC at S and T respectively. the circumcircles of BQS and CRT meet QR at X,Y.
+a) Prove SX,TY,AD are concurrent at a point Z.
+b) Prove Z is on QR iff Z=H, where H is the orthocenter of ABC.
+
+by Ray Li
+2012 ELMO Shortlist G3
+ABC is a triangle with incenter I. The foot of the perpendicular from I to BC is D, and the foot of the perpendicular from I to AD is P. Prove that ∠BPD=∠DPC.
+
+by Alex Zhu
+2012 ELMO Shortlist G4
+Circles Ω and ω are internally tangent at point C. Chord AB of Ω is tangent to ω at E, where E is the midpoint of AB. Another circle, ω1 is tangent to Ω,ω, and AB at D,Z, and F respectively. Rays CD and AB meet at P. If M is the midpoint of major arc AB, show that tan∠ZEP=PECM.
+
+by Ray Li
+2012 ELMO Shortlist G5 problem 5
+Let ABC be an acute triangle with AB<AC, and let D and E be points on side BC such that BD=CE and D lies between B and E. Suppose there exists a point P inside ABC such that PD∥AE and ∠PAB=∠EAC. Prove that ∠PBA=∠PCA.
+
+by Calvin Deng
+2012 ELMO Shortlist G6
+In △ABC, H is the orthocenter, and AD,BE are arbitrary cevians. Let ω1,ω2 denote the circles with diameters AD and BE, respectively. HD,HE meet ω1,ω2 again at F,G. DE meets ω1,ω2 again at P1,P2 respectively. FG meets ω1,ω2 again Q1,Q2 respectively. P1H,Q1H meet ω1 at R1,S1 respectively. P2H,Q2H meet ω2 at R2,S2 respectively. Let P1Q1∩P2Q2=X, and R1S1∩R2S2=Y. Prove that X,Y,H are collinear.
+
+by Ray Li
+2012 ELMO Shortlist G7
+Let △ABC be an acute triangle with circumcenter O such that AB<AC, let Q be the intersection of the external bisector of ∠A with BC, and let P be a point in the interior of △ABC such that △BPA is similar to △APC. Show that ∠QPA+∠OQB=90∘.
+
+by Alex Zhu
+2013 ELMO Shortlist G1
+Let ABC be a triangle with incenter I. Let U, V and W be the intersections of the angle bisectors of angles A, B, and C with the incircle, so that V lies between B and I, and similarly with U and W. Let X, Y, and Z be the points of tangency of the incircle of triangle ABC with BC, AC, and AB, respectively.  Let triangle UVW be the  David Yang triangle of ABC and let XYZ be the  Scott Wu triangle  of ABC. Prove that the David Yang and Scott Wu triangles of a triangle are congruent if and only if ABC is equilateral.
+
+by Owen Goff
+2013 ELMO Shortlist G2
+Let ABC be a scalene triangle with circumcircle Γ, and let D,E,F be the points where its incircle meets BC, AC, AB respectively. Let the circumcircles of △AEF, △BFD, and △CDE meet Γ a second time at X,Y,Z respectively. Prove that the perpendiculars from A,B,C to AX,BY,CZ respectively are concurrent.
+
+by Michael Kural
+2013 ELMO Shortlist G3
+In △ABC, a point D lies on line BC.  The circumcircle of ABD meets AC at F (other than A), and the circumcircle of ADC meets AB at E (other than A).  Prove that as D varies, the circumcircle of AEF always passes through a fixed point other than A, and that this point lies on the median from A to BC.
+
+by Allen Liu
+2013 ELMO Shortlist G4 problem 4
+Triangle ABC is inscribed in circle ω.  A circle with chord BC intersects segments AB and AC again at S and R, respectively.  Segments BR and CS meet at L, and rays LR and LS intersect ω at D and E, respectively.  The internal angle bisector of ∠BDE meets line ER at K.  Prove that if BE=BR, then ∠ELK=12∠BCD.
+
+ by Evan Chen
+2013 ELMO Shortlist G5
+Let ω1 and ω2 be two orthogonal circles, and let the center of ω1 be O. Diameter AB of ω1 is selected so that B lies strictly inside ω2.  The two circles tangent to ω2, passing through O and A, touch ω2 at F and G. Prove that FGOB is cyclic.
+
+ by Evan Chen
+2013 ELMO Shortlist G6
+Let ABCDEF be a non-degenerate cyclic hexagon with no two opposite sides parallel, and define X=AB∩DE, Y=BC∩EF, and Z=CD∩FA. Prove that
+XYXZ=BEADsin|∠B−∠E|sin|∠A−∠D|.
+
+by Victor Wang
+2013 ELMO Shortlist G7
+Let ABC be a triangle inscribed in circle ω, and let the medians from B and C intersect ω at D and E respectively. Let O1 be the center of the circle through D tangent to AC at C, and let O2 be the center of the circle through E tangent to AB at B. Prove that O1, O2, and the nine-point center of ABC are collinear.
+
+by Michael Kural
+2013 ELMO Shortlist G8
+Let ABC be a triangle, and let D, A, B, E be points on line AB, in that order, such that AC=AD and BE=BC. Let ω1,ω2 be the circumcircles of △ABC and △CDE, respectively, which meet at a point F≠C.  If the tangent to ω2 at F cuts ω1 again at G, and the foot of the altitude from G to FC is H, prove that ∠AGH=∠BGH.
+
+by David Stoner
+2013 ELMO Shortlist G9
+Let ABCD be a cyclic quadrilateral inscribed in circle ω whose diagonals meet at F.  Lines AB and CD meet at E.  Segment EF intersects ω at X.  Lines BX and CD meet at M, and lines CX and AB meet at N.  Prove that MN and BC concur with the tangent to ω at X.
+
+by Allen Liu
+2013 ELMO Shortlist G10
+Let AB=AC in △ABC, and let D be a point on segment AB. The tangent at D to the circumcircle ω of BCD hits AC at E. The other tangent from E to ω touches it at F, and G=BF∩CD, H=AG∩BC. Prove that BH=2HC.
+
+by David Stoner
+2013 ELMO Shortlist G11
+Let △ABC be a nondegenerate isosceles triangle with AB=AC, and let D,E,F be the midpoints of BC,CA,AB respectively. BE intersects the circumcircle of △ABC again at G, and H is the midpoint of minor arc BC. CF∩DG=I,BI∩AC=J. Prove that ∠BJH=∠ADG if and only if ∠BID=∠GBC.
+
+by David Stoner
+2013 ELMO Shortlist G12
+Let ABC be a nondegenerate acute triangle with circumcircle ω and let its incircle γ touch AB,AC,BC at X,Y,Z respectively. Let XY hit arcs AB,AC of ω at M,N respectively, and let P≠X,Q≠Y be the points on γ such that MP=MX,NQ=NY. If I is the center of γ, prove that P,I,Q are collinear if and only if ∠BAC=90∘.
+
+by David Stoner
+2013 ELMO Shortlist G13
+In △ABC, AB<AC. D and P are the feet of the internal and external angle bisectors of ∠BAC, respectively. M is the midpoint of segment BC, and ω is the circumcircle of △APD. Suppose Q is on the minor arc AD of ω such that MQ is tangent to ω. QB meets ω again at R, and the line through R perpendicular to BC meets PQ at S.  Prove SD is tangent to the circumcircle of △QDM.
+
+by Ray Li
+2013 ELMO Shortlist G14
+Let O be a point (in the plane) and T be an infinite set of points such that |P1P2|≤2012 for every two distinct points P1,P2∈T. Let S(T) be the set of points Q in the plane satisfying |QP|≤2013 for at least one point P∈T.
+Now let L be the set of lines containing exactly one point of S(T). Call a line ℓ0 passing through O bad  if there does not exist a line ℓ∈L parallel to (or coinciding with) ℓ0.
+a) Prove that L is nonempty.
+b)  Prove that one can assign a line ℓ(i) to each positive integer i so that for every bad line ℓ0 passing through O, there exists a positive integer n with ℓ(n)=ℓ0.
+
+ by David Yang
+2014 ELMO Shortlist G1
+Let ABC be a triangle with symmedian point K. Select a point A1 on line BC such that the lines AB, AC, A1K and BC are the sides of a cyclic quadrilateral.  Define B1 and C1 similarly.  Prove that A1, B1, and C1 are collinear.
+
+by Sammy Luo
+2014 ELMO Shortlist G2
+ABCD is a cyclic quadrilateral inscribed in the circle ω. Let AB∩CD=E, AD∩BC=F. Let ω1,ω2 be the circumcircles of AEF,CEF, respectively. Let ω∩ω1=G, ω∩ω2=H. Show that AC,BD,GH are concurrent.
+
+by Yang Liu
+2014 ELMO Shortlist G3
+Let A1A2A3⋯A2013 be a cyclic 2013-gon. Prove that for every point P not the circumcenter of the 2013-gon, there exists a point Q≠P such that AiPAiQ is constant for i∈{1,2,3,⋯,2013}.
+
+by Robin Park
+2014 ELMO Shortlist G4
+Let ABCD be a quadrilateral inscribed in circle ω. Define E=AA∩CD, F=AA∩BC, G=BE∩ω, H=BE∩AD, I=DF∩ω, and J=DF∩AB. Prove that GI, HJ, and the B-symmedian are concurrent.
+
+by Robin Park
+2014 ELMO Shortlist G5 problem 5
+Let P be a point in the interior of an acute triangle ABC, and let Q be its isogonal conjugate.  Denote by ωP and ωQ the circumcircles of triangles BPC and BQC, respectively.  Suppose the circle with diameter AP¯¯¯¯¯¯¯¯ intersects ωP again at M, and line AM intersects ωP again at X.  Similarly, suppose the circle with diameter AQ¯¯¯¯¯¯¯¯ intersects ωQ again at N, and line AN intersects ωQ again at Y. Prove that lines MN and XY are parallel.
+
+(Here, the points P and Q are isogonal conjugates  with respect to △ABC if the internal angle bisectors of ∠BAC, ∠CBA, and ∠ACB also bisect the angles ∠PAQ, ∠PBQ, and ∠PCQ, respectively.  For example, the orthocenter is the isogonal conjugate of the circumcenter.)
+
+by Sammy Luo
+2014 ELMO Shortlist G6
+Let ABCD be a cyclic quadrilateral with center O. Suppose the circumcircles of triangles AOB and COD meet again at G, while the circumcircles of triangles AOD and BOC meet again at H. Let ω1 denote the circle passing through G as well as the feet of the perpendiculars from G to AB and CD. Define ω2 analogously as the circle passing through H and the feet of the perpendiculars from H to BC and DA. Show that the midpoint of GH lies on the radical axis of ω1 and ω2.
+
+by Yang Liu
+2014 ELMO Shortlist G7
+Let ABC be a triangle inscribed in circle ω with center O; let ωA be its A-mixtilinear incircle, ωB be its B-mixtilinear incircle, ωC be its C-mixtilinear incircle, and X be the radical center of ωA,ωB,ωC. Let A′, B′, C′ be the points at which ωA, ωB, ωC are tangent to ω.  Prove that AA′, BB′, CC′ and OX are concurrent.
+
+by Robin Park
+2014 ELMO Shortlist G8
+In triangle ABC with incenter I and circumcenter O, let A′,B′,C′ be the points of tangency of its circumcircle with its A,B,C-mixtilinear circles, respectively.  Let ωA be the circle through A′ that is tangent to AI at I, and define ωB,ωC similarly. Prove that ωA,ωB,ωC have a common point X other than I, and that ∠AXO=∠OXA′.
+
+by Sammy Luo
+2014 ELMO Shortlist G9
+Let P be a point inside a triangle ABC such that ∠PAC=∠PCB. Let the projections of P onto BC, CA, and AB be X,Y,Z respectively. Let O be the circumcenter of △XYZ, H be the foot of the altitude from B to AC, N be the midpoint of AC, and T be the point such that TYPO is a parallelogram.  Show that △THN is similar to △PBC.
+
+by Sammy Luo
+
+2014 ELMO Shortlist G10
+We are given triangles ABC and DEF such that D∈BC,E∈CA,F∈AB, AD⊥EF,BE⊥FD,CF⊥DE.  Let the circumcenter of DEF be O, and let the circumcircle of DEF intersect BC,CA,AB again at R,S,T respectively. Prove that the perpendiculars to BC,CA,AB through D,E,F respectively intersect at a point X, and the lines AR,BS,CT intersect at a point Y, such that O,X,Y are collinear.
+
+by Sammy Luo
+2014 ELMO Shortlist G11
+Let ABC be a triangle with circumcenter O. Let P be a point inside ABC, so let the points D,E,F be on BC,AC,AB respectively so that the Miquel point of DEF with respect to ABC is P. Let the reflections of D,E,F over the midpoints of the sides that they lie on be R,S,T. Let the Miquel point of RST with respect to the triangle ABC be Q. Show that OP=OQ.
+
+by Yang Liu
+2014 ELMO Shortlist G12
+Let AB=AC in △ABC, and let D be a point on segment AB. The tangent at D to the circumcircle ω of BCD hits AC at E. The other tangent from E to ω touches it at F, and G=BF∩CD, H=AG∩BC. Prove that BH=2HC.
+
+by David Stoner
+2014 ELMO Shortlist G13
+Let ABC be a nondegenerate acute triangle with circumcircle ω and let its incircle γ touch AB,AC,BC at X,Y,Z respectively. Let XY hit arcs AB,AC of ω at M,N respectively, and let P≠X,Q≠Y be the points on γ such that MP=MX,NQ=NY. If I is the center of γ, prove that P,I,Q are collinear if and only if ∠BAC=90∘.
+
+by David Stoner
+2015 ELMO Shortlist G3 problem 3
+Let ω be a circle and C a point outside it; distinct points A and B are selected on ω so that CA¯¯¯¯¯¯¯¯ and CB¯¯¯¯¯¯¯¯ are tangent to ω.  Let X be the reflection of A across the point B, and denote by γ the circumcircle of triangle BXC.  Suppose γ and ω meet at D≠B and line CD intersects ω at E≠D.  Prove that line EX is tangent to the circle γ.
+
+by David Stoner
+2016 ELMO problem 2
+Oscar is drawing diagrams with trash can lids and sticks. He draws a triangle ABC and a point D such that DB and DC are tangent to the circumcircle of ABC. Let B′ be the reflection of B over AC and C′ be the reflection of C over AB. If O is the circumcenter of DB′C′, help Oscar prove that AO is perpendicular to BC.
+
+by James Lin
+2016 ELMO problem 6
+Elmo is now learning olympiad geometry. In triangle ABC with AB≠AC, let its incircle be tangent to sides BC, CA, and AB at D, E, and F, respectively. The internal angle bisector of ∠BAC intersects lines DE and DF at X and Y, respectively. Let S and T be distinct points on side BC such that ∠XSY=∠XTY=90∘. Finally, let γ be the circumcircle of △AST.
+a) Help Elmo show that γ is tangent to the circumcircle of △ABC.
+b) Help Elmo show that γ is tangent to the incircle of △ABC.
+
+ by James Lin
+2017 ELMO Shortlist G1 problem 2
+Let ABC be a triangle with orthocenter H, and let M be the midpoint of BC¯¯¯¯¯¯¯¯. Suppose that P and Q are distinct points on the circle with diameter AH¯¯¯¯¯¯¯¯, different from A, such that M lies on line PQ. Prove that the orthocenter of △APQ lies on the circumcircle of △ABC.
+
+by Michael Ren
+2017 ELMO Shortlist G2
+Let ABC be a scalene triangle with ∠A=60∘. Let E and F be the feet of the angle bisectors of ∠ABC and ∠ACB, respectively, and let I be the incenter of △ABC. Let P,Q be distinct points such that △PEF and △QEF are equilateral. If O is the circumcenter of of △APQ, show that OI¯¯¯¯¯¯⊥BC¯¯¯¯¯¯¯¯.
+
+by Vincent Huang
+2017 ELMO Shortlist G3
+Call the ordered pair of distinct circles (ω,γ) scribable if there exists a triangle with circumcircle ω and incircle γ. Prove that among n distinct circles there are at most (n/2)2 scribable pairs.
+
+by Daniel Liu
+2017 ELMO Shortlist G4
+Let ABC be an acute triangle with incenter I and circumcircle ω. Suppose a circle ωB is tangent to BA,BC, and internally tangent to ω at B1, while a circle ωC is tangent to CA,CB, and internally tangent to ω at C1. If B2,C2 are the points opposite to B,C on ω, respectively, and X denotes the intersection of B1C2,B2C1, prove that XA=XI.
+
+ by Vincent Huang & Nathan Weckwerth
+2018 ELMO Shortlist G1
+Let ABC be an acute triangle with orthocenter H, and let P be a point on the nine-point circle of ABC. Lines BH,CH meet the opposite sides AC,AB at E,F, respectively. Suppose that the circumcircles (EHP),(FHP) intersect lines CH,BH a second time at Q,R, respectively. Show that as P varies along the nine-point circle of ABC, the line QR passes through a fixed point.
+
+by Brandon Wang
+2018 ELMO Shortlist G2 problem 4
+Let ABC be a scalene triangle with orthocenter H and circumcenter O. Let P be the midpoint of AH¯¯¯¯¯¯¯¯ and let T be on line BC with ∠TAO=90∘. Let X be the foot of the altitude from O onto line PT. Prove that the midpoint of PX¯¯¯¯¯¯¯¯ lies on the nine-point circle* of △ABC.
+
+*The nine-point circle of △ABC is the unique circle passing through the following nine points: the midpoint of the sides, the feet of the altitudes, and the midpoints of AH¯¯¯¯¯¯¯¯, BH¯¯¯¯¯¯¯¯, and CH¯¯¯¯¯¯¯¯.
+
+by Zack Chroman
+2018 ELMO Shortlist G3 problem 3
+Let A be a point in the plane, and ℓ a line not passing through A. Evan does not have a straightedge, but instead has a special compass which has the ability to draw a circle through three distinct noncollinear points. (The center of the circle is not  marked in this process.) Additionally, Evan can mark the intersections between two objects drawn, and can mark an arbitrary point on a given object or on the plane.
+i) Can Evan construct* the reflection of A over ℓ?
+ii) Can Evan construct the foot of the altitude from A to ℓ?
+
+*To construct a point, Evan must have an algorithm which marks the point in finitely many steps.
+
+ by Zack Chroman
+2018 ELMO Shortlist G4
+Let ABCDEF be a hexagon inscribed in a circle Ω such that triangles ACE and BDF have the same orthocenter. Suppose that segments BD and DF intersect CE at X and Y, respectively. Show that there is a point common to Ω, the circumcircle of DXY, and the line through A perpendicular to CE.
+
+by Michael Ren & Vincent Huang
+2018 ELMO Shortlist G5
+Let scalene triangle ABC have altitudes AD,BE,CF and circumcenter O. The circumcircles of △ABC and △ADO meet at P≠A. The circumcircle of △ABC meets lines PE at X≠P and PF at Y≠P. Prove that XY∥BC.
+
+by Daniel Hu
+
+
+2019 ELMO Shortlist G1
+Let ABC be an acute triangle with orthocenter H and circumcircle Γ. Let BH intersect AC at E, and let CH intersect AB at F. Let AH intersect Γ again at P≠A. Let PE intersect Γ again at Q≠P. Prove that BQ bisects segment EF¯¯¯¯¯¯¯¯.
+
+by Luke Robitaille
+2019 ELMO Shortlist G2 problem 4
+Carl is given three distinct non-parallel lines ℓ1,ℓ2,ℓ3 and a circle ω in the plane. In addition to a normal straightedge, Carl has a special straightedge which, given a line ℓ and a point P, constructs a new line passing through P parallel to ℓ. (Carl does not have a compass.) Show that Carl can construct a triangle with circumcircle ω whose sides are parallel to ℓ1,ℓ2,ℓ3 in some order.
+
+by Vincent Huang
+2019 ELMO Shortlist G3
+Let △ABC be an acute triangle with incenter I and circumcenter O. The incircle touches sides BC,CA, and AB at D,E, and F respectively, and A′ is the reflection of A over O. The circumcircles of ABC and A′EF meet at G, and the circumcircles of AMG and A′EF meet at a point H≠G, where M is the midpoint of EF. Prove that if GH and EF meet at T, then DT⊥EF.
+
+by Ankit Bisain
+2019 ELMO Shortlist G4
+Let triangle ABC have altitudes BE and CF which meet at H. The reflection of A over BC is A′. Let (ABC) meet (AA′E) at P and (AA′F) at Q. Let BC meet PQ at R. Prove that EF∥HR.
+
+by Daniel Hu
+2019 ELMO Shortlist G5
+Given a triangle ABC for which ∠BAC≠90∘, let B1,C1 be variable points on AB,AC, respectively. Let B2,C2 be the points on line BC such that a spiral similarity centered at A maps B1C1 to C2B2. Denote the circumcircle of AB1C1 by ω. Show that if B1B2 and C1C2 concur on ω at a point distinct from B1 and C1, then ω passes through a fixed point other than A.
+
+by Max Jiang
+2019 ELMO Shortlist G6
+Let ABC be an acute scalene triangle and let P be a point in the plane. For any point Q≠A,B,C, define TA to be the unique point such that △TABP∼△TAQC and △TABP,△TAQC are oriented in the same direction (clockwise or counterclockwise). Similarly define TB,TC.
+a) Find all P such that there exists a point Q with TA,TB,TC all lying on the circumcircle of △ABC. Call such a pair (P,Q) a tasty pair with respect to △ABC.
+b) Keeping the notations from a), determine if there exists a tasty pair which is also tasty with respect to △TATBTC.
+
+by Vincent Huang

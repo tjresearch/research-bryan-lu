@@ -1,0 +1,34 @@
+IsPoint 1 bool var
+IsCircle 1 bool var
+IsLine 1 bool var
+IsRay 1 bool var
+IsSegment 1 bool var
+IsArc 1 bool var
+IsTriangle 1 bool var
+IsAngle 1 bool var
+HasRay 1 bool var
+IsQuadrilateral 1 bool var
+LengthOf 1 num var
+IsPolygon 1 bool var
+IsPentagon 1 bool var
+RadiusOf 1 num var
+IsSquare 1 bool var
+IsRectangle 1 bool var
+IsTrapezoid 1 bool var
+IsTangent 1 bool var
+IsCircumcircle 1 bool var
+MidpointOf 1 var var
+FootOf 3 var var var var
+IsPerpendicular 1 bool var
+IsIncircle 1 bool var
+IntersectsAt 2 var var var
+IsMidpoint 2 bool var var
+Equals 2 bool var var
+IsCollinear 1 bool var
+IsParallel 2 bool var var
+IsConcurrent 3 bool var var var
+ConcurrentAt 3 var var var var
+IsCyclic 1 bool var
+NotEquals 2 bool var var
+ABisectorOf 2 bool var var
+PBisectorOf 2 bool var var

@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://artofproblemsolving.com/community/c3964_2013_imo_shortlist -->
+<html class="svg gr__artofproblemsolving_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+				
+<script src="./International Contests_files/bat.js.download" async=""></script><script type="text/javascript" async="" src="./International Contests_files/ec.js.download"></script><script type="text/javascript" async="" src="./International Contests_files/js"></script><script type="text/javascript" async="" src="./International Contests_files/analytics.js.download"></script><script type="text/javascript" async="" src="./International Contests_files/analytics.js.download"></script><script type="text/javascript" async="" src="./International Contests_files/js(1)"></script><script async="" src="./International Contests_files/analytics.js.download"></script><script async="" src="./International Contests_files/gtm.js.download"></script><script>AoPS = {
+  start_time : new Date().getTime()
+};</script>
+
+<script>
+  AoPS.bootstrap_data = {"preload_cmty_data":{"user_id":0,"category_id":0,"rewrite_url":false},"init_time":1567093934,"server_time":"0.77620100 1567093934","datastore_path":"\/var\/data\/aops3\/","cmty_is_testing":false,"cmty_status":"active","is_community_active":true,"community_inactive_message":"Community disabled for routine maintenance.","cmty_toplevel_data":{"3":{"num_topics":37649,"num_posts":460078,"num_users":4,"is_locked":false},"4":{"num_topics":81866,"num_posts":447350,"num_users":11,"is_locked":false},"5":{"num_topics":20370,"num_posts":302440,"num_users":9,"is_locked":false},"6":{"num_topics":234885,"num_posts":1011926,"num_users":36,"is_locked":false},"7":{"num_topics":86424,"num_posts":343762,"num_users":3,"is_locked":false},"10":{"num_topics":11272,"num_posts":77835,"num_users":2,"is_locked":false}},"toplevel_category_permissions":{"2":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"3":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"4":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"5":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"6":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"7":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"8":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"9":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"11":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"10":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"12":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"13":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"30":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"31":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"934345":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"89":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"90":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"91":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false}},"user_global_cmty_permissions":{"can_access_log":false,"can_create_blog":true,"can_create_category":true,"can_delete_long_topic":false,"can_edit_profile":true,"can_edit_other_profiles":false,"can_exceed_cat_limit":false,"can_add_avatar":true,"can_attach_files":true,"can_post_as_halp":true,"can_view_others_pm":false,"can_pm_anyone":false,"can_pm_as_sheriff":false,"can_post_fast":false,"can_request_friend":true,"can_revert_actions":false,"can_edit_tag_term_map":false,"can_edit_tagspace":false,"can_add_user_notes":false,"can_view_user_notes":false,"can_post_links":true},"user_staff_perms":{"user-general":false,"perms-cmty":false,"one-click-ban":false,"see-full-memberlist":false,"ip-lookup":false,"can-access-log":false,"can-delete-long-topic":false,"can-post-fast":false},"global_feed_settings":{"global_feed_type":"custom","global_feed_fora":[3,4,5,6,7,10,50,63,64,65,66,68,70,71,163,164,172,101841]},"cmty_whois":{"num_users":419522,"num_posts":8653801,"num_topics":950141,"user_data":{"num_registered":359,"num_total":"756","num_hidden":52,"shown_users":[{"a":"Aarth","b":406487,"c":0},{"a":"abba77","b":482353,"c":0},{"a":"Aboys3","b":292837,"c":0},{"a":"Achilleas","b":91,"c":0},{"a":"ack58","b":490892,"c":0},{"a":"adityasdutta","b":352366,"c":0},{"a":"adsv7700","b":478270,"c":0},{"a":"aemills","b":408515,"c":1},{"a":"agastya_1729","b":465274,"c":0},{"a":"ahclark11","b":422304,"c":0},{"a":"akl","b":386545,"c":0},{"a":"akshayhca","b":373039,"c":0},{"a":"akshaykumariscool","b":492894,"c":0},{"a":"albert1st","b":475435,"c":0},{"a":"Aldinash","b":487526,"c":0},{"a":"alijassam01","b":404036,"c":0},{"a":"alpha24","b":353041,"c":0},{"a":"Amazedlamp7009","b":458751,"c":0},{"a":"amethystgw","b":246972,"c":0},{"a":"ananthv","b":421245,"c":0},{"a":"AndrewAOPSMath","b":441641,"c":0},{"a":"annehe","b":436441,"c":0},{"a":"anton_ego","b":419658,"c":0},{"a":"AOPS81240813","b":490475,"c":0},{"a":"AoPSO755","b":470527,"c":0},{"a":"applepi2000","b":82357,"c":0},{"a":"apsthin","b":481303,"c":0},{"a":"assumedlearner","b":497032,"c":0},{"a":"AvgAtMath","b":404694,"c":0},{"a":"AwesomeE1","b":489659,"c":0},{"a":"AwesomeMax","b":466535,"c":0},{"a":"ayellamelli","b":494356,"c":0},{"a":"AYJK","b":414511,"c":0},{"a":"bahozkaleez","b":357109,"c":0},{"a":"bananabob","b":460609,"c":0},{"a":"ben179","b":446577,"c":0},{"a":"Bencooper222","b":177197,"c":0},{"a":"BestAOPS","b":343574,"c":0},{"a":"BG71","b":369069,"c":0},{"a":"BigBrain3000","b":496053,"c":0},{"a":"Billybob2016","b":314792,"c":0},{"a":"BillyBobb","b":365329,"c":0},{"a":"binnazatas","b":492100,"c":0},{"a":"bird24","b":414313,"c":0},{"a":"bla0625","b":451202,"c":0},{"a":"blocklm472","b":367260,"c":0},{"a":"bmcadams","b":431369,"c":1},{"a":"BotBuilder","b":407786,"c":0},{"a":"brawler","b":491106,"c":0},{"a":"Broccoliface1234","b":331557,"c":0},{"a":"BS2012","b":475735,"c":0},{"a":"bshmul","b":410890,"c":0},{"a":"btc433","b":309849,"c":0},{"a":"Bunny77","b":415891,"c":0},{"a":"ButterDumplingthe","b":458790,"c":0},{"a":"Buttface5000","b":493079,"c":0},{"a":"cauchyh","b":495549,"c":0},{"a":"cbrotea","b":477646,"c":0},{"a":"cepmath","b":482631,"c":0},{"a":"CH328","b":350811,"c":0},{"a":"challenger1210","b":494773,"c":0},{"a":"ChapmanEFI","b":417687,"c":0},{"a":"CharMan","b":427177,"c":0},{"a":"Chessmaster25","b":303829,"c":0},{"a":"cj13609517288","b":458242,"c":0},{"a":"Cng1","b":483058,"c":0},{"a":"CobaltComet","b":492904,"c":0},{"a":"ConanC","b":249477,"c":0},{"a":"coolmath2017","b":369669,"c":0},{"a":"copeland","b":66362,"c":1},{"a":"Corewala","b":485144,"c":0},{"a":"coyote2K","b":446961,"c":0},{"a":"crewswc472","b":367259,"c":0},{"a":"cw217","b":497005,"c":0},{"a":"CY2020","b":442919,"c":0},{"a":"DA_REGIND_27","b":414252,"c":0},{"a":"dalek14","b":254873,"c":0},{"a":"DanTheMan2015","b":252183,"c":0},{"a":"dao30","b":456315,"c":0},{"a":"DaoMath","b":425569,"c":0},{"a":"DEMO_Yarbrough","b":496809,"c":0},{"a":"DENNISAE","b":455684,"c":0},{"a":"devenware","b":219683,"c":1},{"a":"dionadam","b":336387,"c":0},{"a":"DL248","b":348663,"c":0},{"a":"doggiemint","b":247743,"c":0},{"a":"doglover07","b":357973,"c":0},{"a":"dolphingarlic","b":411821,"c":0},{"a":"dori_vinnie","b":396569,"c":0},{"a":"DottedCaculator","b":350053,"c":0},{"a":"DragonXXX","b":371128,"c":0},{"a":"dukeofdensmore","b":123514,"c":1},{"a":"duongbgbg32","b":423830,"c":0},{"a":"dxs2016","b":291416,"c":0},{"a":"ebarneson","b":257989,"c":0},{"a":"ebkim","b":484235,"c":0},{"a":"ee1203","b":431671,"c":0},{"a":"ejyski","b":427059,"c":0},{"a":"emlinazrk","b":368058,"c":0},{"a":"EnemyOfYou","b":417245,"c":0},{"a":"entity304","b":413406,"c":0},{"a":"EpicMuncher","b":444916,"c":0},{"a":"Ereb15","b":413520,"c":0},{"a":"Ericpotter","b":384340,"c":0},{"a":"EricTsui","b":462775,"c":0},{"a":"ethan.le25","b":481142,"c":0},{"a":"evc","b":455016,"c":0},{"a":"Ewok0902","b":495756,"c":0},{"a":"falantrng","b":376542,"c":0},{"a":"fastlikearabbit","b":344076,"c":0},{"a":"Felix1","b":479287,"c":0},{"a":"Fencer123","b":436032,"c":0},{"a":"fidgetboss_4000","b":377719,"c":0},{"a":"FirstServe","b":351710,"c":0},{"a":"fluffyernieblobby","b":454667,"c":0},{"a":"flyturtle","b":269758,"c":0},{"a":"Frestho","b":257942,"c":0},{"a":"FrostBlaze","b":496020,"c":0},{"a":"Funkyroot","b":461552,"c":0},{"a":"Garbagio","b":482124,"c":0},{"a":"gearss","b":155518,"c":0},{"a":"GeekyCoder101","b":478380,"c":0},{"a":"genius_007","b":476745,"c":0},{"a":"geniusvihaan","b":422932,"c":0},{"a":"geodash2","b":333975,"c":0},{"a":"GESSERJM472","b":453631,"c":0},{"a":"Golfer26","b":474265,"c":0},{"a":"goodball","b":300173,"c":0},{"a":"goofypanda8085","b":445336,"c":0},{"a":"GorgonMathDota","b":406831,"c":0},{"a":"granti","b":408122,"c":0},{"a":"gstaran99","b":378446,"c":0},{"a":"guguly","b":464013,"c":0},{"a":"hankinjg","b":210385,"c":0},{"a":"harrisandlisa","b":493849,"c":0},{"a":"harry1234","b":187223,"c":0},{"a":"heatherfinotti","b":212450,"c":0},{"a":"HeatherMT","b":322493,"c":0},{"a":"Hermia","b":295489,"c":0},{"a":"Hexagrammum16","b":455696,"c":0},{"a":"hockeyfireball","b":95322,"c":0},{"a":"hoops2852","b":477150,"c":0},{"a":"Hunter_Gatherer","b":431272,"c":0},{"a":"hutinahole","b":323516,"c":0},{"a":"huynhmi","b":431821,"c":0},{"a":"Ilikeapos","b":256617,"c":0},{"a":"imarul","b":491057,"c":0},{"a":"Imayormaynotknowcalculus","b":462233,"c":0},{"a":"imungikar","b":455593,"c":0},{"a":"indelibrius","b":480091,"c":0},{"a":"Intigreat","b":478700,"c":0},{"a":"iperez0801","b":455581,"c":1},{"a":"ishmul","b":417956,"c":0},{"a":"ivancrosby","b":492101,"c":0},{"a":"Jam520","b":473303,"c":0},{"a":"jfmath04","b":247831,"c":0},{"a":"jjdong","b":420205,"c":0},{"a":"jjmath2","b":472695,"c":0},{"a":"JONJON_22","b":449152,"c":0},{"a":"jpt1729","b":360425,"c":0},{"a":"Just_Got_Wrecked_Dude","b":439433,"c":0},{"a":"Kabu","b":414920,"c":0},{"a":"kailash_mk","b":492304,"c":0},{"a":"KastavIvan","b":337198,"c":0},{"a":"kbll","b":250290,"c":0},{"a":"khanhnx","b":447719,"c":0},{"a":"KittensRock","b":346074,"c":0},{"a":"kkm6","b":404586,"c":0},{"a":"knight_2007","b":470757,"c":0},{"a":"knosmos","b":432261,"c":0},{"a":"Knyte_Xjn","b":448695,"c":0},{"a":"kokoloko","b":481232,"c":0},{"a":"Korra","b":255490,"c":0},{"a":"kris_001","b":488274,"c":0},{"a":"kylewu0715","b":418537,"c":0},{"a":"L3435","b":330150,"c":0},{"a":"Ladwigjp472","b":370810,"c":0},{"a":"lavoie2","b":478249,"c":0},{"a":"Layla2018","b":461105,"c":0},{"a":"le_nicoleta","b":342185,"c":0},{"a":"Lemony123","b":495575,"c":0},{"a":"LessMiserable","b":478098,"c":0},{"a":"LightMaster427","b":410048,"c":0},{"a":"litwave","b":406292,"c":0},{"a":"llddmmtt1","b":279754,"c":0},{"a":"lolmynameisjeff","b":493753,"c":0},{"a":"Lookout12","b":409564,"c":0},{"a":"Lord_Vader","b":355987,"c":0},{"a":"LorRamos","b":384870,"c":0},{"a":"mabhi","b":438321,"c":0},{"a":"ManFromAfrica","b":440663,"c":0},{"a":"Math2016Center","b":294963,"c":0},{"a":"mathboykl2018","b":417703,"c":0},{"a":"Mathguy49","b":478332,"c":0},{"a":"Mathlete20","b":423450,"c":0},{"a":"mathman2341","b":236612,"c":0},{"a":"mathsign1","b":491581,"c":0},{"a":"Me_5","b":299587,"c":0},{"a":"meet18","b":449861,"c":0},{"a":"MeKnowsNothing","b":27740,"c":0},{"a":"mele","b":472761,"c":0},{"a":"michael009","b":455361,"c":0},{"a":"minikakapo","b":481874,"c":0},{"a":"MLTC","b":408563,"c":0},{"a":"montana_mathlete","b":348032,"c":0},{"a":"MRENTHUSIASM","b":180334,"c":0},{"a":"mrichard","b":354329,"c":1},{"a":"mrmackyman","b":492170,"c":0},{"a":"mtd-123","b":368640,"c":0},{"a":"mtrimouille","b":471685,"c":0},{"a":"mueller.25","b":437175,"c":0},{"a":"mylittlepony12345","b":473999,"c":0},{"a":"Naruto.D.Luffy","b":399017,"c":0},{"a":"nature01","b":487664,"c":0},{"a":"Naukshatro","b":481858,"c":0},{"a":"Neothehero","b":408284,"c":0},{"a":"NMGuy","b":490026,"c":0},{"a":"Nobutsu1117","b":464406,"c":0},{"a":"noname1","b":493076,"c":0},{"a":"nsato","b":9049,"c":1},{"a":"Nugget123","b":496468,"c":0},{"a":"nursesbrown","b":351956,"c":0},{"a":"ochocara","b":446031,"c":0},{"a":"ogljj","b":476368,"c":0},{"a":"osmannal4","b":362631,"c":0},{"a":"othebi","b":274968,"c":0},{"a":"P_Groudon","b":404284,"c":0},{"a":"pandy123","b":226008,"c":0},{"a":"parmenides51","b":167643,"c":0},{"a":"patopato","b":454343,"c":0},{"a":"Penguin_ox7","b":369399,"c":0},{"a":"peregrine7","b":297919,"c":0},{"a":"Perksmath","b":421732,"c":0},{"a":"personwholives","b":465988,"c":0},{"a":"petermath","b":423890,"c":0},{"a":"PetuniaApocolyp","b":459609,"c":0},{"a":"pezzeepenguin69","b":362708,"c":0},{"a":"Pickles12","b":472622,"c":0},{"a":"pizzabite","b":483886,"c":0},{"a":"Pluto1708","b":408882,"c":0},{"a":"porkemon2","b":183571,"c":0},{"a":"Poshchunk","b":472694,"c":0},{"a":"primesandfractals","b":227403,"c":0},{"a":"problemwizard123","b":401259,"c":0},{"a":"proshi","b":302553,"c":0},{"a":"Purple_Planet","b":445636,"c":0},{"a":"Quacker88","b":342856,"c":0},{"a":"quangminh1173","b":293403,"c":0},{"a":"quanta01","b":327215,"c":0},{"a":"Quarkee","b":297202,"c":0},{"a":"ramkumar.js","b":424890,"c":0},{"a":"randomusername77","b":492902,"c":0},{"a":"rcman","b":346121,"c":0},{"a":"rcorreaa","b":409482,"c":0},{"a":"Rdmorgan512","b":421086,"c":0},{"a":"Reiners","b":9076,"c":0},{"a":"RENdaGOAT","b":485088,"c":0},{"a":"renukashi","b":473741,"c":0},{"a":"riadok","b":474646,"c":0},{"a":"Ripsticker321","b":467065,"c":0},{"a":"RJNB","b":413677,"c":0},{"a":"RNAGirl","b":407157,"c":0},{"a":"robotsEMAN","b":428212,"c":0},{"a":"Rohan2008","b":392843,"c":0},{"a":"RowanS","b":480537,"c":0},{"a":"RudraRockstar","b":426959,"c":0},{"a":"Sabrina1018","b":425968,"c":0},{"a":"sah13","b":488493,"c":0},{"a":"SAOPS","b":293687,"c":0},{"a":"sarahtrebatleder","b":365673,"c":1},{"a":"savvi","b":398482,"c":0},{"a":"ScrambledEggs","b":220265,"c":0},{"a":"screaminggoat6","b":483274,"c":0},{"a":"seekdeek","b":461429,"c":0},{"a":"senseitoothless","b":478558,"c":0},{"a":"sfharris81","b":474954,"c":0},{"a":"shadowbunbun","b":299559,"c":0},{"a":"shakuras","b":414751,"c":0},{"a":"Shroud666","b":475287,"c":0},{"a":"sidudaav","b":334124,"c":0},{"a":"SidVicious","b":259279,"c":0},{"a":"simi24","b":426942,"c":0},{"a":"Simonqian","b":497004,"c":0},{"a":"sistring","b":255198,"c":0},{"a":"Sk8ter88","b":484368,"c":0},{"a":"skyblulu","b":488745,"c":0},{"a":"smaharjan","b":470988,"c":0},{"a":"SmeeVena","b":394323,"c":0},{"a":"snakey16","b":476186,"c":0},{"a":"SoccerFun","b":480734,"c":0},{"a":"SophiaAOPS","b":446906,"c":0},{"a":"SoulSlayer615","b":442605,"c":0},{"a":"sparkviewer","b":476149,"c":0},{"a":"speedosnj","b":483619,"c":0},{"a":"ss28112","b":344256,"c":0},{"a":"ssirotininremmel","b":485718,"c":0},{"a":"star2","b":202013,"c":0},{"a":"stardust1004","b":454289,"c":0},{"a":"StickyWashington","b":290694,"c":0},{"a":"StreamerBTW","b":458807,"c":0},{"a":"subaops1","b":490297,"c":0},{"a":"Summer2019","b":480992,"c":0},{"a":"Sunshine168","b":416860,"c":0},{"a":"Supercali","b":337289,"c":0},{"a":"swc625","b":461826,"c":0},{"a":"Sylvester101","b":488795,"c":0},{"a":"taco_pizza1290887","b":460006,"c":0},{"a":"Tambourine5","b":363930,"c":0},{"a":"tchandupatla","b":350526,"c":0},{"a":"TeamBjozan","b":494414,"c":0},{"a":"teerthraj","b":465262,"c":0},{"a":"Teodor_ICT2","b":493322,"c":0},{"a":"TheDressageDragon","b":480661,"c":0},{"a":"thegreatp.d","b":394704,"c":0},{"a":"theminer","b":342521,"c":0},{"a":"TheNumberNinja","b":490090,"c":0},{"a":"thepenguin74","b":411579,"c":0},{"a":"thilee123","b":489377,"c":0},{"a":"timon92","b":86062,"c":0},{"a":"TimothyW553","b":492051,"c":0},{"a":"Tinjeson347","b":393861,"c":0},{"a":"tngkr123","b":427650,"c":0},{"a":"toxic10","b":366785,"c":0},{"a":"trekkie06","b":415814,"c":0},{"a":"trickster","b":495105,"c":0},{"a":"TrickyCo","b":465522,"c":0},{"a":"turquoise83","b":485086,"c":0},{"a":"TuZo","b":391068,"c":0},{"a":"Tycho","b":390748,"c":0},{"a":"tyler1.erb","b":287701,"c":0},{"a":"tzee","b":347639,"c":0},{"a":"ubermensch","b":426104,"c":0},{"a":"Unicorn78","b":361194,"c":0},{"a":"v583aops22","b":422298,"c":0},{"a":"valenvega0329","b":496731,"c":0},{"a":"vickyc","b":439215,"c":0},{"a":"Victoria2016","b":299090,"c":0},{"a":"Vijayata","b":486452,"c":0},{"a":"violinFLUTE","b":428348,"c":0},{"a":"vpanda","b":408772,"c":0},{"a":"wanga2016","b":338920,"c":0},{"a":"Wild_Boy209","b":477378,"c":0},{"a":"Willcat","b":452027,"c":0},{"a":"willwin4sure","b":145506,"c":0},{"a":"wimathstudent","b":469245,"c":0},{"a":"wjwk","b":309148,"c":0},{"a":"Wuhaerun","b":453879,"c":0},{"a":"x313x","b":362094,"c":0},{"a":"Xenocrates","b":403654,"c":0},{"a":"XxHalo711","b":406469,"c":0},{"a":"Yimself","b":380742,"c":0},{"a":"YRNG-BCC168","b":339711,"c":0},{"a":"Z_Math404","b":306876,"c":0},{"a":"ZaBenBen","b":412313,"c":0},{"a":"ZachSteinPerlman","b":365739,"c":0},{"a":"Zaishen","b":487309,"c":0},{"a":"Zhonok","b":490810,"c":0},{"a":"zoelkim","b":364744,"c":0},{"a":"zongbo","b":312819,"c":0}]}},"global_announcements":[],"preload_watchers":{"483565":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1171106":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"sidudaav","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_334124.jpg?t=1565796183"},"1870115":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"P_Groudon","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_404284.png?t=1552558715"},"1876591":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1879521":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1896860":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1899314":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1902918":{"num_named_watchers":1,"num_watchers":2,"watchers_usernames":" BG71","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_369069.png"},"1903564":{"num_named_watchers":1,"num_watchers":2,"watchers_usernames":" Aarth","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_406487.png"},"1904956":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"Ereb15","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_413520.png"},"1905675":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1905930":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"Imayormaynotknowcalculus","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_462233.png"},"1905972":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1906047":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1906066":{"num_named_watchers":1,"num_watchers":2,"watchers_usernames":" XxHalo711","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_406469.png?t=1565386607"},"1906082":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1906092":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"harry1234","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_187223.png?t=1564751221"},"1906094":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1906098":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1906120":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1906137":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"haizz1234","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_484465.png"},"1906152":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1906185":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"1906226":{"num_named_watchers":1,"num_watchers":2,"watchers_usernames":" Funkyroot","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_461552.jpg?t=1558138236"}},"logout_url":"\/community"};
+  AoPS.bd = AoPS.bootstrap_data; // Alias!
+  AoPS.session = {"id":"533754db8c132085aa40406d2bc58b91","user_id":1,"username":"Anonymous","avatar":"","logged_in":false,"role":"unregistered_user","a":false,"n":false,"show_privacy":null,"cmty_collection":""};
+  AoPS.bd.assetVersion = 2335;
+  AoPS.bd.environment = 'production';
+  AoPS.protected_url = 'https://artofproblemsolving.com/';
+</script>
+		
+  <script src="./International Contests_files/aops_errors.js.download"></script>
+
+				<script>
+				(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,'script','dataLayer','GTM-59JWRGZ');
+		</script>
+		<link rel="apple-touch-icon" href="https://artofproblemsolving.com/apple-touch-icon.png">
+
+
+
+				<style>.async-hide { opacity: 0 !important} </style>
+			<script>
+				(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+				h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+				(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+				})(window,document.documentElement,'async-hide','dataLayer',4000,
+				{'GTM-TM77DFL':true});
+			</script>
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-1905305-1', 'auto');
+				ga('require', 'GTM-TM77DFL');
+				ga('send', 'pageview');
+		</script>
+										
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+		<meta name="referrer" content="origin">
+
+		
+		<link rel="apple-touch-icon" href="https://assets.artofproblemsolving.com/images/apple-touch-icon.png">
+
+		<title>International Contests</title>
+
+		
+		<link href="./International Contests_files/all.css" rel="stylesheet">
+
+					<link rel="stylesheet" href="./International Contests_files/main-head.css">
+			<link rel="stylesheet" href="./International Contests_files/sharedsite.css">
+			<link rel="stylesheet" href="./International Contests_files/navheader.css">
+			<link rel="stylesheet" href="./International Contests_files/footer.css">
+		
+					<link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+		
+						<link rel="stylesheet" href="./International Contests_files/codemirrorEdited.css">
+						<link rel="stylesheet" href="./International Contests_files/feed.css">
+						<link rel="stylesheet" href="./International Contests_files/community_common.css">
+						<link rel="stylesheet" href="./International Contests_files/dropzone.css">
+						<link rel="stylesheet" href="./International Contests_files/community.css">
+						<link rel="stylesheet" href="./International Contests_files/community_header.css">
+		
+		
+<script>
+  if (!window.console) console = {log: function() {}, dir: function() {}};
+  $$ = function( selector ) { return document.getElementById( selector ); }
+</script>
+
+						<script src="./International Contests_files/jquery.min.js.download"></script>
+						<meta name="description" content="Talk math and math contests like MATHCOUNTS and AMC with outstanding students from around the world.">
+	</head>
+		<body class="production community small-footer" data-gr-c-s-loaded="true">
+							<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+						
+<div id="epicfail" class="aops-html-modal" style="display: none">
+	<div class="aops-html-modal-inner">
+		<div class="aops-html-modal-main">
+			<p>Something appears to not have loaded correctly.</p>
+		</div>
+		<div class="aops-html-modal-bottom">
+			<p><a onclick="location.reload(true);return false">Click to refresh</a>.</p>
+		</div>
+	</div>
+</div>
+<script src="./International Contests_files/epic_fail.js.download"></script>
+		<div id="page-wrapper">
+
+			<!-- search:off -->
+			
+			<div id="header-wrapper" class="no-select">
+				<div class="header-underlay">
+					<div id="header">
+
+						<!-- The gray bar at top -->
+						<!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com/" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																			<a class="site main" href="https://artofproblemsolving.com/company">
+											Art of Problem Solving
+										</a>
+																												<a class="site selected" href="https://artofproblemsolving.com/" title="aops-online">
+											<img src="./International Contests_files/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+																		<a class="site" href="https://beastacademy.com/" title="beast-academy">
+										<img src="./International Contests_files/icon-ba.svg" class="site-icon">
+										<span class="site-name">Beast Academy</span>
+									</a>
+									<a class="site" href="https://aopsacademy.org/" title="aops-academy">
+										<img src="./International Contests_files/icon-academy.svg" class="site-icon">
+										<span class="site-name">AoPS Academy</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- The white area where main menu options appear -->
+
+						<!-- The menu links -->
+													<div id="main-menubar">
+								<div class="menubar-content">
+									<div class="menubar-logo online">
+										<img class="menubar-hamburger" src="./International Contests_files/hamburger.svg">
+										<a class="logo-img-link" href="https://artofproblemsolving.com/online">
+											<img class="logo-img" src="./International Contests_files/aops-online.svg">
+											<img class="logo-img-mobile" src="./International Contests_files/aops-online-mobile.svg">
+											<img class="logo-img-small" src="./International Contests_files/aops-online-mobile.svg">
+										</a>
+									</div>
+									<div class="menubar-links-outer">
+										<!-- The login links -->
+										<div class="menu-login-wrapper online">
+																						<div class="menu-login-item">
+																									<div id="header-login" class="login-button online-login-button no-select not-signed-in">
+														Sign In/<br class="sign-in-break">Register
+													</div>
+																							</div>
+
+											
+										</div>
+										<div class="menubar-labels online">
+											                      <div class="menubar-label school">
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="https://artofproblemsolving.com/school">
+                            online school
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                                                        <a href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+                            <a href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+                            <a href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+                            <a href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+                            <a href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+                            <a href="https://artofproblemsolving.com/school/handbook/prospective">
+                              School Handbook </a>
+                            <a href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+                                                                                  </div>
+                        </div>
+                      </div>
+                      <div class="menubar-label store">
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="https://artofproblemsolving.com/store">
+                            books<span class="menubar-link-ext">tore </span>
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                                                        <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                            <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                            <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                            <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                            <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                            <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                            <a href="https://artofproblemsolving.com/store/gift-certificates?gtmlist=Bookstore_Nav">Gift Certificates</a>
+                                                      </div>
+                        </div>
+                      </div>
+                      <div class="menubar-label community">
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link selected" href="https://artofproblemsolving.com/community">
+                            community
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                                                        <a data-cmty="" href="https://artofproblemsolving.com/community">Forums</a>
+                            <a data-cmty="" href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                            <a data-cmty="" href="https://artofproblemsolving.com/community/search">Search</a>
+                            <a data-cmty="" href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                                                              </div>
+                        </div>
+                      </div>
+                      <div class="menubar-label resources">
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="https://artofproblemsolving.com/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+														<div class="dropdown-columns">
+															<div class="dropdown-category">
+																<span class="dropdown-category-label">math training &amp; tools</span>
+																<a href="https://artofproblemsolving.com/alcumus">Alcumus</a>
+																<a href="https://artofproblemsolving.com/videos">Videos</a>
+																<a href="https://artofproblemsolving.com/ftw">For the Win!</a>
+																<a href="https://artofproblemsolving.com/mathcounts_trainer">MATHCOUNTS Trainer</a>
+																<a href="https://artofproblemsolving.com/texer">LaTeX TeXeR</a>
+																<a href="https://artofproblemsolving.com/polymath">MIT PRIMES/CrowdMath</a>
+																															</div>
+															<div class="dropdown-column">
+																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">news &amp; information</span>
+																	<a href="https://artofproblemsolving.com/news">AoPS News</a>
+																	<a href="https://artofproblemsolving.com/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+																																	</div>
+																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">just for fun</span>
+																	<a href="https://artofproblemsolving.com/reaper">Reaper</a>
+																	<a href="https://artofproblemsolving.com/greedcontrol">Greed Control</a>
+																</div>
+															</div>
+														</div>
+														<div class="dropdown-view-more-link-container">
+															<a href="https://artofproblemsolving.com/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+														</div>                       
+                          </div>
+                        </div>
+                      </div>
+                                            <div class="menubar-label menu-login-item">
+                                                  <div id="header-login" class="login-button online-login-button no-select">
+                            Sign In/Register
+                          </div>
+                                              </div>
+                                          </div>
+                  </div>
+                </div>
+              </div>
+                      </div><div id="subheader" style="width: 100%; text-align: center;"></div>
+        </div>
+
+								<noscript>
+					<div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div>
+				</noscript>
+
+
+									<div id="breadcrumbs-wrapper" style="display: block;">
+						
+						<div id="breadcrumbs">
+														<div class="crumb-wrapper"><span class="crumb crumb-1"><a href="https://artofproblemsolving.com/community/" data-cmty="">Community</a></span> <i class="aops-font aops-angle-double-right"></i> <span class="crumb crumb-2"><a href="https://artofproblemsolving.com/community/c14_international_contests" data-cmty="">International Contests</a></span> <i class="aops-font aops-angle-double-right"></i> <span class="crumb crumb-3">2013 IMO Shortlist</span></div>
+						</div>
+					</div>
+							</div>
+
+			<!-- search icon script lives in footer.phtml-->
+
+			<!-- /search:off -->
+
+<div id="main-content" style="min-height: 707px; height: 100%;">
+	<div id="main-column-standard" style="height: 100%;"><div id="community-all" class="cmty-page-view-posts"><div class="cmty-folder-top"><div class="cmty-folder-top-placeholder"></div>
+		<div class="cmty-small-category-heading cmty-category-cell-heading" style="color: rgb(53, 108, 181);">
+			<a data-cmty="" class="cmty-full-cell-link" title="" href="https://artofproblemsolving.com/community/c3964_2013_imo_shortlist">
+			</a>
+			<div class="cmty-category-cell-left">
+				<div class="cmty-category-cell-title" style="color: rgb(53, 108, 181);">
+					2013 IMO Shortlist
+				</div>
+				<div class="cmty-category-cell-desc">
+					
+				</div>
+			</div>
+				<div class="cmty-category-cell-mid cmty-view-pdf">
+					<a class="aops-font" title="View as PDF" href="https://artofproblemsolving.com/downloads/printable_post_collections/3964" target="_blank"></a>
+				</div>
+				<div class="cmty-category-cell-mid cmty-no-tablet">
+					<span title="Information" class="cmty-cat-cell-cat-info aops-font">3</span>
+				</div>
+			<!--<div class="cmty-category-cell-right">
+					<span title="Information" class="cmty-cat-cell-cat-info aops-font">I</span>
+			</div> REMOVE IF STILL HERE ON 8/1/14-->
+		</div>
+		<div class="cmty-small-category-subheader">
+			IMO Shortlist 2013
+		</div>
+	<div class="cmty-folder-grid">
+		<div class="cmty-folder-grid-container"><div class="cmty-view-posts-item"><div class="cmty-view-post-item-text">Algebra</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">A1</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> be a positive integer and let <img src="./International Contests_files/56f6497ec7391b9868f679d2e818af0bc62af114.png" class="latex" alt="$a_1, \ldots, a_{n-1} $" style="vertical-align: -3px" width="91" height="11"> be arbitrary real numbers. Define the sequences <img src="./International Contests_files/820bb193b2070e8c69ec48f7324c94a750173ff7.png" class="latex" alt="$u_0, \ldots, u_n $" style="vertical-align: -3px" width="77" height="11"> and <img src="./International Contests_files/f2e80e69d0ec9276720a67164fbdeb0409b3175e.png" class="latex" alt="$v_0, \ldots, v_n $" style="vertical-align: -3px" width="73" height="11"> inductively by <span style="white-space:nowrap;"><img src="./International Contests_files/2962579c884f3edd15102c5607e0328665682c2e.png" class="latex" alt="$u_0 = u_1  = v_0 = v_1 = 1$" style="vertical-align: -2px" width="173" height="14">,</span> and <span style="white-space:nowrap;"><img src="./International Contests_files/382a301fd8d7fdaf0b1e16d79c6b40fe5784deee.png" class="latex" alt="$u_{k+1} = u_k + a_k u_{k-1}$" style="vertical-align: -4px" width="152" height="14">,</span>  <img src="./International Contests_files/cf8b998e57647584439fac71bc555ca97939a475.png" class="latex" alt="$v_{k+1} = v_k + a_{n-k} v_{k-1}$" style="vertical-align: -4px" width="166" height="14"> for <img src="./International Contests_files/4d27a0705fe74d0682dd7f8cbdff26b862c2aa12.png" class="latex" alt="$k=1, \ldots, n-1.$" style="vertical-align: -3px" width="129" height="16"><br>
+<br>
+Prove that <img src="./International Contests_files/dad5507d8e66002244aaea34bdd3b38f6f2b1c1c.png" class="latex" alt="$u_n = v_n.$" style="vertical-align: -2px" width="65" height="10"></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597118p3543340">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">A2</div>
+	<div class="cmty-view-post-item-text">Prove that in any set of <img src="./International Contests_files/05f1ffc8a6829f25b0b0366087a70dfd4e06fef6.png" class="latex" alt="$2000$" width="35" height="12"> distinct real numbers there exist two pairs <img src="./International Contests_files/082852571ecc48ed136ba13dcffa8f6e40064bbd.png" class="latex" alt="$a&gt;b$" style="vertical-align: 0px" width="42" height="13"> and <img src="./International Contests_files/9610f673df65a6ad936ecda11d4aa3444437f286.png" class="latex" alt="$c&gt;d$" style="vertical-align: 0px" width="41" height="13"> with <img src="./International Contests_files/72e83f34256cb7ea48304c1a2354f30973256e3e.png" class="latex" alt="$a \neq c$" style="vertical-align: -4px" width="42" height="17"> or <span style="white-space:nowrap;"><img src="./International Contests_files/a4e011e53b300f7d3b26082b855643ca89243036.png" class="latex" alt="$b \neq d $" style="vertical-align: -4px" width="41" height="17">,</span> such that  <img src="./International Contests_files/3b03250ffbd03fd657fa00bc2b63a2c17ee75061.png" class="latexcenter" alt="\[ \left| \frac{a-b}{c-d} - 1 \right|&lt; \frac{1}{100000}. \]" width="170" height="43"></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597119p3543341">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">A3</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/7ba10ee42f907faca7c14fa6bd9ebeb16f2012ef.png" class="latex" alt="$\mathbb Q_{&gt;0}$" style="vertical-align: -3px" width="30" height="16"> be the set of all positive rational numbers. Let <img src="./International Contests_files/52cf4828177313a5d64af569cc0790eae5f16e54.png" class="latex" alt="$f:\mathbb Q_{&gt;0}\to\mathbb R$" style="vertical-align: -3px" width="98" height="16"> be a function satisfying the following three conditions:<br>
+<br>
+(i) for all <span style="white-space:nowrap;"><img src="./International Contests_files/5c188f7a5acf4fecbcea883502b5282146590283.png" class="latex" alt="$x,y\in\mathbb Q_{&gt;0}$" style="vertical-align: -3px" width="81" height="16">,</span> we have <span style="white-space:nowrap;"><img src="./International Contests_files/ad229fd4cdf2e7f7d5b3d6ac963b5a727f2a7fdb.png" class="latex" alt="$f(x)f(y)\geq f(xy)$" style="vertical-align: -4px" width="137" height="18">;</span><br>
+(ii) for all <span style="white-space:nowrap;"><img src="./International Contests_files/5c188f7a5acf4fecbcea883502b5282146590283.png" class="latex" alt="$x,y\in\mathbb Q_{&gt;0}$" style="vertical-align: -3px" width="81" height="16">,</span> we have <span style="white-space:nowrap;"><img src="./International Contests_files/16db273dd729b159f651bc1c6ddfca8ba084b3f7.png" class="latex" alt="$f(x+y)\geq f(x)+f(y)$" style="vertical-align: -4px" width="182" height="18">;</span><br>
+(iii) there exists a rational number <img src="./International Contests_files/eb8726d98aced2f3140dd77a2d8614c2e7674700.png" class="latex" alt="$a&gt;1$" style="vertical-align: 0px" width="42" height="12"> such that <span style="white-space:nowrap;"><img src="./International Contests_files/65ca28262d1839811dfac35a4384e450abe507c9.png" class="latex" alt="$f(a)=a$" style="vertical-align: -4px" width="68" height="18">.</span><br>
+<br>
+Prove that <img src="./International Contests_files/4874544e2638f3712dbb70e5ccf37558a5fc0acb.png" class="latex" alt="$f(x)=x$" style="vertical-align: -4px" width="69" height="18"> for all <span style="white-space:nowrap;"><img src="./International Contests_files/7923846db711108e80bdcb87a97d4ba1e61c1445.png" class="latex" alt="$x\in\mathbb Q_{&gt;0}$" style="vertical-align: -3px" width="63" height="16">.</span><br>
+<br>
+<i>Proposed by Bulgaria</i></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_201923.jpg" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				jlammy
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h1181547p5720286">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">A4</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> be a positive integer, and consider a sequence <img src="./International Contests_files/95b13126f85f40749da9352d27c421a6734059fe.png" class="latex" alt="$a_1 , a_2 , \cdots , a_n $" style="vertical-align: -3px" width="103" height="11"> of positive integers. Extend it periodically to an infinite sequence <img src="./International Contests_files/8e60fb33ac25bb556e7a3b29c92490c23366341c.png" class="latex" alt="$a_1 , a_2 , \cdots $" style="vertical-align: -3px" width="70" height="11"> by defining <img src="./International Contests_files/5e9a9dd8bb1a8b476e454859e4a1d2f91ac52dcb.png" class="latex" alt="$a_{n+i} = a_i $" style="vertical-align: -4px" width="72" height="12"> for all <span style="white-space:nowrap;"><img src="./International Contests_files/77f4c05d0eb759cf6cb1c3ef6e665b85e0d56713.png" class="latex" alt="$i \ge 1$" style="vertical-align: -2px" width="38" height="15">.</span> If <img src="./International Contests_files/f37253904627f06a6963c920f17748dea8b3e7ad.png" class="latexcenter" alt="\[a_1 \le a_2 \le \cdots \le a_n \le a_1 +n  \]" width="220" height="15"> and <img src="./International Contests_files/6576ddd4e48cf069b388527c99e3890dba256eb2.png" class="latexcenter" alt="\[a_{a_i } \le n+i-1 \quad\text{for}\quad i=1,2,\cdots, n, \]" width="285" height="17"> prove that <img src="./International Contests_files/cdacb41fbbeca8911df1b47086109cc258d42a73.png" class="latexcenter" alt="\[a_1 + \cdots +a_n \le n^2. \]" width="147" height="18"></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597122p3543362">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">A5</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/7743e4fd8a5b47157ff6cc9fab88d094a8f40f85.png" class="latex" alt="$\mathbb{Z}_{\ge 0}$" style="vertical-align: -5px" width="28" height="17"> be the set of all nonnegative integers. Find all the functions <img src="./International Contests_files/63c0ae7e45bdb1f0ab14fc7dfe5be09a06f1a5d8.png" class="latex" alt="$f: \mathbb{Z}_{\ge 0} \rightarrow \mathbb{Z}_{\ge 0} $" style="vertical-align: -5px" width="112" height="17"> satisfying the relation<br>
+<img src="./International Contests_files/8b953428105df2c2344963cbaf3eb81d8201e0df.png" class="latexcenter" alt="\[ f(f(f(n))) = f(n+1 ) +1 \]" width="207" height="18"><br>
+for all <span style="white-space:nowrap;"><img src="./International Contests_files/aed694b5c92422dfff553ae75fa68b8e3a37387c.png" class="latex" alt="$ n\in \mathbb{Z}_{\ge 0}$" style="vertical-align: -5px" width="61" height="17">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597123p3543371">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">A6</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/7f6491acc0ccb2824e2634cbe2f2a78a855beab3.png" class="latex" alt="$m \neq 0 $" style="vertical-align: -4px" width="48" height="17"> be an integer. Find all polynomials <img src="./International Contests_files/a47fe17912544327dcf4887e8ba20b79e73df19b.png" class="latex" alt="$P(x) $" style="vertical-align: -4px" width="37" height="18"> with real coefficients such that<br>
+<img src="./International Contests_files/fade4284c915b410dadfda2673ef3ef7063c0473.png" class="latexcenter" alt="\[ (x^3 - mx^2 +1 ) P(x+1)  + (x^3+mx^2+1) P(x-1) =2(x^3 - mx +1 ) P(x) \]" width="509" height="19"><br>
+for all real number <span style="white-space:nowrap;"><img src="./International Contests_files/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597124p3543375">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item"><div class="cmty-view-post-item-text">Combinatorics</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">C1</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> be an positive integer. Find the smallest integer <img src="./International Contests_files/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> with the following property; Given any real numbers <img src="./International Contests_files/ddf65e16a9471669c55529907ee00db2bd04bb17.png" class="latex" alt="$a_1 , \cdots , a_d $" style="vertical-align: -3px" width="77" height="11"> such that <img src="./International Contests_files/d8ce8bae954de150a39d25aea75ab9665ac59483.png" class="latex" alt="$a_1 + a_2 + \cdots + a_d = n$" style="vertical-align: -2px" width="174" height="13"> and <img src="./International Contests_files/080d9dca1aa59a90d35aeee7246c4ddf3c5d3685.png" class="latex" alt="$0 \le a_i \le 1$" style="vertical-align: -2px" width="80" height="15"> for <span style="white-space:nowrap;"><img src="./International Contests_files/792ca31be55e9b59a1c5b4f9ee32fece823e8397.png" class="latex" alt="$i=1,2,\cdots ,d$" style="vertical-align: -3px" width="109" height="16">,</span> it is possible to partition these numbers into <img src="./International Contests_files/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> groups (some of which may be empty) such that the sum of the numbers in each group is at most <span style="white-space:nowrap;"><img src="./International Contests_files/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597127p3543383">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">C2</div>
+	<div class="cmty-view-post-item-text">A configuration of <img src="./International Contests_files/2df72fb2e74a40fa7aeee53352db24ce51f0774e.png" class="latex" alt="$4027$" style="vertical-align: 0px" width="36" height="13"> points in the plane is called Colombian if it consists of <img src="./International Contests_files/2fa725c98dfe19f98809033755b801810bc298aa.png" class="latex" alt="$2013$" style="vertical-align: 0px" width="35" height="13"> red points and <img src="./International Contests_files/16794ed8d576bcdfc1b48ac2155ce53ff11aff25.png" class="latex" alt="$2014$" style="vertical-align: 0px" width="36" height="13"> blue points, and no three of the points of the configuration are collinear. By drawing some lines, the plane is divided into several regions. An arrangement of lines is good for a Colombian configuration if the following two conditions are satisfied:<br>
+<br>
+i) No line passes through any point of the configuration.<br>
+<br>
+ii) No region contains points of both colors.<br>
+<br>
+Find the least value of <img src="./International Contests_files/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> such that for any Colombian configuration of <img src="./International Contests_files/2df72fb2e74a40fa7aeee53352db24ce51f0774e.png" class="latex" alt="$4027$" style="vertical-align: 0px" width="36" height="13"> points, there is a good arrangement of <img src="./International Contests_files/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> lines.<br>
+<br>
+Proposed by <i>Ivan Guo</i> from <i>Australia.</i></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_235252.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				PersonPsychopath
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h1181527p5720110">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">C3</div>
+	<div class="cmty-view-post-item-text">A crazy physicist discovered a new kind of particle wich he called an imon, after some of them mysteriously appeared in his lab. Some pairs of imons in the lab can be entangled, and each imon can participate in many entanglement relations. The physicist has found a way to perform the following two kinds of operations with these particles, one operation at a time.<br>
+(i) If some imon is entangled with an odd number of other imons in the lab, then the physicist can destroy it.<br>
+(ii) At any moment, he may double the whole family of imons in the lab by creating a copy <img src="./International Contests_files/ff16a7e92720b003fe5e507efb28cec1a1783b71.png" class="latex" alt="$I&#39;$" width="13" height="14"> of each imon <span style="white-space:nowrap;"><img src="./International Contests_files/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12">.</span> During this procedure, the two copies <img src="./International Contests_files/ff16a7e92720b003fe5e507efb28cec1a1783b71.png" class="latex" alt="$I&#39;$" width="13" height="14"> and <img src="./International Contests_files/20ccae1c14c24c581b4d01c2253c3143b4c5be85.png" class="latex" alt="$J&#39;$" width="15" height="14"> become entangled if and only if the original imons <img src="./International Contests_files/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12"> and <img src="./International Contests_files/abb5588023cfa1ac14643e9778699f03eecc57a3.png" class="latex" alt="$J$" width="12" height="12"> are entangled, and each copy <img src="./International Contests_files/ff16a7e92720b003fe5e507efb28cec1a1783b71.png" class="latex" alt="$I&#39;$" width="13" height="14"> becomes entangled with its original imon <span style="white-space:nowrap;"><img src="./International Contests_files/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12">;</span> no other entanglements occur or disappear at this moment.<br>
+<br>
+Prove that the physicist may apply a sequence of much operations resulting in a family of imons, no two of which are entangled.</div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597130p3543398">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">C4</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> be a positive integer, and let <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> be a subset of <span style="white-space:nowrap;"><img src="./International Contests_files/dbe1a5e082571b38a03fb0631b29edf58a04be5c.png" class="latex" alt="$\{ 1,\cdots ,n\}$" style="vertical-align: -4px" width="80" height="18">.</span> An <span style="white-space:nowrap;"><img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13">-</span>partition of <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> into <img src="./International Contests_files/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> parts is a representation of n as a sum <span style="white-space:nowrap;"><img src="./International Contests_files/cb59025ee81b19619b756d700e7d7019ab21b451.png" class="latex" alt="$n = a_1 + \cdots + a_k$" style="vertical-align: -2px" width="134" height="13">,</span> where the parts <img src="./International Contests_files/7bc6983cf159a9b9dd47377437797661babb6752.png" class="latex" alt="$a_1 , \cdots , a_k $" style="vertical-align: -3px" width="77" height="11"> belong to <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> and are not necessarily distinct. The number of different parts in such a partition is the number of (distinct) elements in the set <span style="white-space:nowrap;"><img src="./International Contests_files/3019f81636f94195f155edfe962a5103e405b86c.png" class="latex" alt="$\{ a_1 , a_2 , \cdots , a_k \} $" style="vertical-align: -4px" width="120" height="18">.</span><br>
+We say that an <span style="white-space:nowrap;"><img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13">-</span>partition of <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> into <img src="./International Contests_files/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> parts is optimal if there is no <span style="white-space:nowrap;"><img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13">-</span>partition of <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> into <img src="./International Contests_files/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8"> parts with <span style="white-space:nowrap;"><img src="./International Contests_files/65f79d6f69933168f9b86dadb28d47661fcc3dc7.png" class="latex" alt="$r&lt;k$" style="vertical-align: 0px" width="42" height="13">.</span> Prove that any optimal <span style="white-space:nowrap;"><img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13">-</span>partition of <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> contains at most <img src="./International Contests_files/201489b1f95ad200036698a606f712da7bb465b9.png" class="latex" alt="$\sqrt[3]{6n}$" style="vertical-align: -1px" width="36" height="18"> different parts.</div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597131p3543403">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">C5</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8"> be a positive integer, and let <img src="./International Contests_files/7e685241280546e54856ef78ec49b38a2324d7f8.png" class="latex" alt="$a_0 , a_1 , \cdots $" style="vertical-align: -3px" width="70" height="11"> be an infinite sequence of real numbers. Assume that for all nonnegative integers <img src="./International Contests_files/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8"> and <img src="./International Contests_files/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8"> there exists a positive integer <img src="./International Contests_files/93890a42573044a3697a9529b6610eb75f5eecc0.png" class="latex" alt="$n \in [m+1, m+r]$" style="vertical-align: -5px" width="143" height="18"> such that<br>
+<img src="./International Contests_files/ac808a27e2436225db6d01ee5bfb536d09b7ff69.png" class="latexcenter" alt="\[ a_m + a_{m+1} +\cdots +a_{m+s} = a_n + a_{n+1} +\cdots +a_{n+s} \]" width="386" height="15"><br>
+Prove that the sequence is periodic, i.e. there exists some <img src="./International Contests_files/cf2ff4fb23231a74d2f85a16c39719f110a5683a.png" class="latex" alt="$p \ge 1 $" style="vertical-align: -3px" width="42" height="15"> such that <img src="./International Contests_files/4a51132c0b9c8de06c95c865f1ff3cd3d5e5bc23.png" class="latex" alt="$a_{n+p} =a_n $" style="vertical-align: -4px" width="77" height="12"> for all <span style="white-space:nowrap;"><img src="./International Contests_files/e2c7d62172af0e738dd12f47f3f8ad8ef70cd65f.png" class="latex" alt="$n \ge 0$" style="vertical-align: -2px" width="43" height="15">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597133p3543427">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">C6</div>
+	<div class="cmty-view-post-item-text">In some country several pairs of cities are connected by direct two-way flights. It is possible to go from any city to any other by a sequence of flights. The distance between two cities is defined to be the least possible numbers of flights required to go from one of them to the other. It is known that for any city there are at most <img src="./International Contests_files/e59e2c6e83eb78cca610a5fd4070ae01c8d4ae60.png" class="latex" alt="$100$" style="vertical-align: 0px" width="26" height="13"> cities at distance exactly three from it. Prove that  there is no city such that more than <img src="./International Contests_files/5385d36647a13302a2feb08c185a0114873dabc8.png" class="latex" alt="$2550$" width="35" height="12"> other cities have distance exactly four from it.</div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597136p3543443">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">C7</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/8f1e2533d6abdb11a9a1626c0240fab1a9200fc6.png" class="latex" alt="$n \ge 3$" style="vertical-align: -2px" width="43" height="15"> be an integer, and consider a circle with <img src="./International Contests_files/ac5429dc4aa7ba1f3b20be4599a34c4220cc79db.png" class="latex" alt="$n + 1$" style="vertical-align: -1px" width="41" height="13"> equally spaced points marked on it. Consider all labellings of these points with the numbers <img src="./International Contests_files/611d2aeec0d82dcfefaec28099aeed290bf52eb5.png" class="latex" alt="$0, 1, ... , n$" style="vertical-align: -3px" width="68" height="16"> such that each label is used exactly once; two such labellings are considered to be the same if one can be obtained from the other by a rotation of the circle. A labelling is called <i>beautiful</i> if, for any four labels <img src="./International Contests_files/79aaead4a185db1b2c9c7ccf238bd329165edfc4.png" class="latex" alt="$a &lt; b &lt; c &lt; d$" style="vertical-align: 0px" width="107" height="13"> with <span style="white-space:nowrap;"><img src="./International Contests_files/818091c444ab6197a968e0b76308f59b18927229.png" class="latex" alt="$a + d = b + c$" style="vertical-align: -1px" width="103" height="14">,</span> the chord joining the points labelled <img src="./International Contests_files/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8"> and <img src="./International Contests_files/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12"> does not intersect the chord joining the points labelled <img src="./International Contests_files/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12"> and <span style="white-space:nowrap;"><img src="./International Contests_files/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8">.</span><br>
+<br>
+Let <img src="./International Contests_files/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12"> be the number of beautiful labelings, and let N be the number of ordered pairs <img src="./International Contests_files/adfd9ae8a3fac031d3b8b470a52a709a23d4d6d2.png" class="latex" alt="$(x, y)$" style="vertical-align: -4px" width="40" height="18"> of positive integers such that <img src="./International Contests_files/1da659214bd3a4e758702acefdd7bb4a8fca5d64.png" class="latex" alt="$x + y \le n$" style="vertical-align: -3px" width="77" height="15"> and <span style="white-space:nowrap;"><img src="./International Contests_files/c0321f7ee4a767381d7a5e571c765f535516d7a7.png" class="latex" alt="$\gcd(x, y) = 1$" style="vertical-align: -4px" width="101" height="18">.</span> Prove that <img src="./International Contests_files/2238d8c3545b4bae7e6108c20de6958c03378d6c.png" class="latexcenter" alt="$$M = N + 1.$$" width="94" height="14"></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_235252.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				PersonPsychopath
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h1181543p5720264">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">C8</div>
+	<div class="cmty-view-post-item-text">Players <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> and <img src="./International Contests_files/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12"> play a "paintful" game on the real line. Player <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> has a pot of paint with four units of black ink. A quantity <img src="./International Contests_files/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11"> of this ink suffices to blacken a (closed) real interval of length <span style="white-space:nowrap;"><img src="./International Contests_files/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11">.</span> In every round, player <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> picks some positive integer <img src="./International Contests_files/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8"> and provides <img src="./International Contests_files/4716ae4472a443bf71f4a251b08290c55e31ba39.png" class="latex" alt="$1/2^m $" style="vertical-align: -4px" width="38" height="18"> units of ink from the pot. Player <img src="./International Contests_files/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12"> then picks an integer <img src="./International Contests_files/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> and blackens the interval from <img src="./International Contests_files/faf25999d0f63b720b0dc693f217bd884e00064b.png" class="latex" alt="$k/2^m$" style="vertical-align: -4px" width="39" height="18"> to <img src="./International Contests_files/1bf11a273bd9138550e081320bd034158dd20dbb.png" class="latex" alt="$(k+1)/2^m$" style="vertical-align: -4px" width="85" height="18"> (some parts of this interval may have been blackened before). The goal of player <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> is to reach a situation where the pot is empty and the interval <img src="./International Contests_files/e861e10e1c19918756b9c8b7717684593c63aeb8.png" class="latex" alt="$[0,1]$" style="vertical-align: -5px" width="34" height="18"> is not completely blackened.<br>
+Decide whether there exists a strategy for player <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> to win in a finite number of moves.</div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597140p3543469">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item"><div class="cmty-view-post-item-text">Geometry</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">G1</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13"> be an acute triangle with orthocenter <span style="white-space:nowrap;"><img src="./International Contests_files/b1902d279ba37d60bdce4e0e987b7cd19d48974e.png" class="latex" alt="$H$" width="16" height="12">,</span> and let <img src="./International Contests_files/10cb764f88509fb1c8012366993fdbee98f31bc5.png" class="latex" alt="$W$" width="19" height="12"> be a point on the side <span style="white-space:nowrap;"><img src="./International Contests_files/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12">,</span> lying strictly between <img src="./International Contests_files/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12"> and <span style="white-space:nowrap;"><img src="./International Contests_files/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12">.</span> The points <img src="./International Contests_files/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12"> and <img src="./International Contests_files/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12"> are the feet of the altitudes from <img src="./International Contests_files/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12"> and <span style="white-space:nowrap;"><img src="./International Contests_files/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12">,</span> respectively. Denote by <img src="./International Contests_files/cddbccf89c00e019e9878f87f8d6325697e3f2fa.png" class="latex" alt="$\omega_1$" style="vertical-align: -2px" width="17" height="10"> is the circumcircle of <span style="white-space:nowrap;"><img src="./International Contests_files/d6bf4a59896828f6fb82c7da7752ebaf6f99456a.png" class="latex" alt="$BWN$" width="51" height="12">,</span> and let <img src="./International Contests_files/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12"> be the point on <img src="./International Contests_files/cddbccf89c00e019e9878f87f8d6325697e3f2fa.png" class="latex" alt="$\omega_1$" style="vertical-align: -2px" width="17" height="10"> such that <img src="./International Contests_files/434b43c3ed50dfcfe55a5a68619bfe75826a1aee.png" class="latex" alt="$WX$" width="35" height="12"> is a diameter of <span style="white-space:nowrap;"><img src="./International Contests_files/cddbccf89c00e019e9878f87f8d6325697e3f2fa.png" class="latex" alt="$\omega_1$" style="vertical-align: -2px" width="17" height="10">.</span> Analogously, denote by <img src="./International Contests_files/7cef5fa7ec053472a6e471aaacb0c5927ce36b36.png" class="latex" alt="$\omega_2$" style="vertical-align: -2px" width="17" height="10"> the circumcircle of triangle <span style="white-space:nowrap;"><img src="./International Contests_files/3cd05ddd46938e88995db3b2eea35c84ceb7c18a.png" class="latex" alt="$CWM$" width="53" height="12">,</span> and let <img src="./International Contests_files/ce58e4af225c93d08606c26554caaa5ae32edeba.png" class="latex" alt="$Y$" width="14" height="12"> be the point such that <img src="./International Contests_files/854bf4459317b2ed4a2d3ff5a6a243ff01d50274.png" class="latex" alt="$WY$" width="33" height="12"> is a diameter of <span style="white-space:nowrap;"><img src="./International Contests_files/7cef5fa7ec053472a6e471aaacb0c5927ce36b36.png" class="latex" alt="$\omega_2$" style="vertical-align: -2px" width="17" height="10">.</span> Prove that <img src="./International Contests_files/81cee936d2982eea5fb6e68b6167da70a1c690fb.png" class="latex" alt="$X,Y$" style="vertical-align: -3px" width="37" height="16"> and <img src="./International Contests_files/b1902d279ba37d60bdce4e0e987b7cd19d48974e.png" class="latex" alt="$H$" width="16" height="12"> are collinear.<br>
+<br>
+<i>Proposed by Warut Suksompong and Potcharapol Suteparuk, Thailand</i></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_214539.jpg" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				liberator
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h1181533p5720174">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">G2</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8"> be the circumcircle of a triangle <span style="white-space:nowrap;"><img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13">.</span> Denote by <img src="./International Contests_files/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12"> and <img src="./International Contests_files/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12"> the midpoints of the sides <img src="./International Contests_files/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13"> and <span style="white-space:nowrap;"><img src="./International Contests_files/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13">,</span> respectively, and denote by <img src="./International Contests_files/2554b6496c3b678897e9b060ef00aa9f0a7d7ece.png" class="latex" alt="$T$" width="13" height="12"> the midpoint of the arc <img src="./International Contests_files/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12"> of <img src="./International Contests_files/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8"> not containing <span style="white-space:nowrap;"><img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13">.</span> The circumcircles of the triangles <img src="./International Contests_files/acba442c049c07e6a212bb66dc342b581bb748cf.png" class="latex" alt="$AMT$" width="46" height="13"> and <img src="./International Contests_files/508cf93cfece317e4176be1b100d4524f71621df.png" class="latex" alt="$ANT$" width="43" height="13"> intersect the perpendicular bisectors of <img src="./International Contests_files/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13"> and <img src="./International Contests_files/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13"> at points <img src="./International Contests_files/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12"> and <span style="white-space:nowrap;"><img src="./International Contests_files/ce58e4af225c93d08606c26554caaa5ae32edeba.png" class="latex" alt="$Y$" width="14" height="12">,</span> respectively; assume that <img src="./International Contests_files/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12"> and <img src="./International Contests_files/ce58e4af225c93d08606c26554caaa5ae32edeba.png" class="latex" alt="$Y$" width="14" height="12"> lie inside the triangle <span style="white-space:nowrap;"><img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13">.</span> The lines <img src="./International Contests_files/bbcfabd65745f2b759dea1840f9a0753b2f992e8.png" class="latex" alt="$MN$" width="36" height="12"> and <img src="./International Contests_files/2c7774174993ffa29a38cf577ae34d8e0a3a63cb.png" class="latex" alt="$XY$" width="30" height="12"> intersect at <span style="white-space:nowrap;"><img src="./International Contests_files/dfb064112b6c94470339f6571f69d07afc1c024c.png" class="latex" alt="$K$" width="16" height="12">.</span> Prove that <span style="white-space:nowrap;"><img src="./International Contests_files/7ce2313fa63bb06aa4067a47524ad2975d69d515.png" class="latex" alt="$KA=KT$" width="84" height="13">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597143p3543487">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">G3</div>
+	<div class="cmty-view-post-item-text">In a triangle <span style="white-space:nowrap;"><img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13">,</span> let <img src="./International Contests_files/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12"> and <img src="./International Contests_files/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12"> be the feet of the angle bisectors of angles <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> and <span style="white-space:nowrap;"><img src="./International Contests_files/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12">,</span> respectively. A rhombus is inscribed into the quadrilateral <img src="./International Contests_files/fdca553380f976f6ebffd5640768b23122497f91.png" class="latex" alt="$AEDB$" width="57" height="13"> (all vertices of the rhombus lie on different sides of <span style="white-space:nowrap;"><img src="./International Contests_files/fdca553380f976f6ebffd5640768b23122497f91.png" class="latex" alt="$AEDB$" width="57" height="13">)</span>. Let <img src="./International Contests_files/921aade3100afbc11d0d13f71cdd7e68d83ad52e.png" class="latex" alt="$\varphi$" style="vertical-align: -3px" width="11" height="11"> be the non-obtuse angle of the rhombus. Prove that <span style="white-space:nowrap;"><img src="./International Contests_files/dbc296525774565deeff02dac5ebcd43780892fc.png" class="latex" alt="$\varphi \le \max \{  \angle BAC, \angle ABC  \}$" style="vertical-align: -4px" width="205" height="18">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597239p3544090">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">G4</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13"> be a triangle with <span style="white-space:nowrap;"><img src="./International Contests_files/e11f0b429fbe56681b4ee5a8e5f6a70031843112.png" class="latex" alt="$\angle B &gt; \angle C$" style="vertical-align: 0px" width="79" height="13">.</span> Let <img src="./International Contests_files/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12"> and <img src="./International Contests_files/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -3px" width="13" height="16"> be two different points on line <img src="./International Contests_files/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13"> such that <img src="./International Contests_files/875ba9e8343cad102d025d1eeaf9026caabd5995.png" class="latex" alt="$\angle PBA = \angle QBA = \angle ACB $" style="vertical-align: -3px" width="214" height="16"> and <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> is located between <img src="./International Contests_files/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12"> and <span style="white-space:nowrap;"><img src="./International Contests_files/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12">.</span> Suppose that there exists an interior point <img src="./International Contests_files/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12"> of segment <img src="./International Contests_files/6bf1515283dbd146b76682d75b2ebb84d8a0214f.png" class="latex" alt="$BQ$" style="vertical-align: -3px" width="28" height="16"> for which <span style="white-space:nowrap;"><img src="./International Contests_files/827e295cbd7fdb891f880ecaebcda105a714a0db.png" class="latex" alt="$PD=PB$" width="82" height="12">.</span> Let the ray <img src="./International Contests_files/bc56862b1fdb71204894da278e42ef75de73a40b.png" class="latex" alt="$AD$" width="28" height="13"> intersect the circle <img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13"> at <span style="white-space:nowrap;"><img src="./International Contests_files/ec88d4e80f140e6371b36fe98e4e0d57bbfa86c9.png" class="latex" alt="$R \neq A$" style="vertical-align: -4px" width="51" height="17">.</span> Prove that <span style="white-space:nowrap;"><img src="./International Contests_files/efb1a899542f93b8dccf429c499f01837b4a5216.png" class="latex" alt="$QB = QR$" style="vertical-align: -3px" width="82" height="16">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597240p3544091">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">G5</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/8029902caf855d940e465d04ff40101d8850c3e0.png" class="latex" alt="$ABCDEF$" width="86" height="13"> be a convex hexagon with <span style="white-space:nowrap;"><img src="./International Contests_files/12b2a5604a6553e1a25244f157f78aa4d3a209ed.png" class="latex" alt="$AB=DE$" width="82" height="13">,</span> <span style="white-space:nowrap;"><img src="./International Contests_files/c8ee0c0b62904c13483b97c31f024069624214b4.png" class="latex" alt="$BC=EF$" width="81" height="12">,</span> <span style="white-space:nowrap;"><img src="./International Contests_files/238ade9e1cf392fb43ffdf15156e22246030ad59.png" class="latex" alt="$CD=FA$" width="82" height="13">,</span> and <span style="white-space:nowrap;"><img src="./International Contests_files/5947555b4669317b4de4d1fd034d9f60c0fc781b.png" class="latex" alt="$\angle A-\angle D = \angle C -\angle F = \angle E -\angle B$" width="278" height="13">.</span> Prove that the diagonals <span style="white-space:nowrap;"><img src="./International Contests_files/bc56862b1fdb71204894da278e42ef75de73a40b.png" class="latex" alt="$AD$" width="28" height="13">,</span> <span style="white-space:nowrap;"><img src="./International Contests_files/a7baf95ecafc2d7791788ec79aeeae390d60b119.png" class="latex" alt="$BE$" width="28" height="12">,</span> and <img src="./International Contests_files/07d29465728e92952374a857beaee91665d8dbd9.png" class="latex" alt="$CF$" width="28" height="12"> are concurrent.</div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597241p3544093">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">G6</div>
+	<div class="cmty-view-post-item-text">Let the excircle of triangle <img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13"> opposite the vertex <img src="./International Contests_files/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13"> be tangent to the side <img src="./International Contests_files/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12"> at the point <span style="white-space:nowrap;"><img src="./International Contests_files/36c7f3f828cf12ab9cafeffad282468a95219600.png" class="latex" alt="$A_1$" style="vertical-align: -2px" width="19" height="15">.</span> Define the points <img src="./International Contests_files/243af6fad28c15abb3e11996374ba60e745bf543.png" class="latex" alt="$B_1$" style="vertical-align: -2px" width="19" height="15"> on <img src="./International Contests_files/e657259c0995d2c36d46744bb4aa81471e6575ec.png" class="latex" alt="$CA$" width="28" height="13"> and <img src="./International Contests_files/70b97eb4ad6e4e7a5a97e2547d9ed6e965960d0c.png" class="latex" alt="$C_1$" style="vertical-align: -2px" width="18" height="15"> on <img src="./International Contests_files/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13"> analogously, using the excircles opposite <img src="./International Contests_files/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12"> and <span style="white-space:nowrap;"><img src="./International Contests_files/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12">,</span> respectively. Suppose that the circumcentre of triangle <img src="./International Contests_files/9b1815ca31a0a4b18b725b690862a84de67aed84.png" class="latex" alt="$A_1B_1C_1$" style="vertical-align: -2px" width="61" height="15"> lies on the circumcircle of triangle <span style="white-space:nowrap;"><img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13">.</span> Prove that triangle <img src="./International Contests_files/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13"> is right-angled.<br>
+<br>
+<i>Proposed by Alexander A. Polyansky, Russia</i></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_214539.jpg" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				liberator
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h1181536p5720184">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item"><div class="cmty-view-post-item-text">Number Theory</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">N1</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/95880424afe0b93cee471591baa93ee7ec8e04ff.png" class="latex" alt="$\mathbb{Z} _{&gt;0}$" style="vertical-align: -3px" width="28" height="15"> be the set of positive integers. Find all functions  <img src="./International Contests_files/decaa9509a7b48035f4e833cf8e023afe9c00b13.png" class="latex" alt="$f: \mathbb{Z} _{&gt;0}\rightarrow \mathbb{Z} _{&gt;0}$" style="vertical-align: -3px" width="112" height="16"> such that<br>
+<img src="./International Contests_files/2f409d1de993f1af8fd839bb8e9f87a57e1b8608.png" class="latexcenter" alt="\[ m^2 + f(n) \mid mf(m) +n \]" width="186" height="19"><br>
+for all positive integers <img src="./International Contests_files/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8"> and <span style="white-space:nowrap;"><img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597243p3544096">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">N2</div>
+	<div class="cmty-view-post-item-text">Assume that <img src="./International Contests_files/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> and <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> are two positive integers. Prove that there exist positive integers <img src="./International Contests_files/1fa7861093580d201c7b16555b4574eedb6373d0.png" class="latex" alt="$m_1 , \dots , m_k$" style="vertical-align: -3px" width="87" height="11"> such that <img src="./International Contests_files/f63fbfcc697a4ac8251d67e00b4b12ca47dda0c6.png" class="latexcenter" alt="\[1+\frac{2^k-1}{n}=\left(1+\frac1{m_1}\right)\cdots \left(1+\frac1{m_k}\right).\]" width="311" height="44"><i>Proposed by Japan</i></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_214539.jpg" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				liberator
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h1181540p5720240">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">N3</div>
+	<div class="cmty-view-post-item-text">Prove that there exist infinitely many positive integers <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> such that the largest prime divisor of <img src="./International Contests_files/cfbd6bfca617fe4948c70c5df5a0865c08f05950.png" class="latex" alt="$n^4 + n^2 + 1$" style="vertical-align: -1px" width="89" height="16"> is equal to the largest prime divisor of <span style="white-space:nowrap;"><img src="./International Contests_files/bead13eb059a5aade267be2ad57305a17bd27f05.png" class="latex" alt="$(n+1)^4 + (n+1)^2 +1$" style="vertical-align: -4px" width="180" height="19">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597245p3544101">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">N4</div>
+	<div class="cmty-view-post-item-text">Determine whether there exists an infinite sequence of nonzero digits <img src="./International Contests_files/d2715b19a48891d1e055feaa55c4aa773676f5a7.png" class="latex" alt="$a_1 , a_2 , a_3 , \cdots $" style="vertical-align: -3px" width="95" height="11"> and a positive integer <img src="./International Contests_files/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12"> such that for every integer <span style="white-space:nowrap;"><img src="./International Contests_files/038008fb83bbb21fdb2aa33a19e967f9c18543c4.png" class="latex" alt="$k &gt; N$" style="vertical-align: 0px" width="51" height="13">,</span> the number <img src="./International Contests_files/9361c2ad5a032a924ccd3a9184021c587c335324.png" class="latex" alt="$\overline{a_k a_{k-1}\cdots a_1 }$" style="vertical-align: -2px" width="97" height="13"> is a perfect square.</div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597246p3544103">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">N5</div>
+	<div class="cmty-view-post-item-text">Fix an integer <span style="white-space:nowrap;"><img src="./International Contests_files/c877cdefa36f90cdf80f93dadc93cc77d19961a4.png" class="latex" alt="$k&gt;2$" style="vertical-align: 0px" width="43" height="13">.</span> Two players, called Ana and Banana, play the following game of numbers. Initially, some integer <img src="./International Contests_files/bd614aab3401d541b41d996669ed8ab088c7fc77.png" class="latex" alt="$n \ge k$" style="vertical-align: -2px" width="44" height="15"> gets written on the blackboard. Then they take moves in turn, with Ana beginning. A player making a move erases the number <img src="./International Contests_files/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8"> just written on the blackboard and replaces it by some number <img src="./International Contests_files/644b1d79ecab35999ad2f46649f0676cd91d1af5.png" class="latex" alt="$m&#39;$" width="19" height="14"> with <img src="./International Contests_files/149c26397b09434a1c774e44b5bd9c1b16a85f1b.png" class="latex" alt="$k \le m&#39; &lt; m$" style="vertical-align: -2px" width="94" height="16"> that is coprime to <span style="white-space:nowrap;"><img src="./International Contests_files/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8">.</span> The first player who cannot move anymore loses.<br>
+<br>
+An integer <img src="./International Contests_files/8171d343f955f591d8f538534f5fd6855e4bcd74.png" class="latex" alt="$n \ge k $" style="vertical-align: -2px" width="44" height="15"> is called good if Banana has a winning strategy when the initial number is <span style="white-space:nowrap;"><img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8">,</span> and bad otherwise.<br>
+<br>
+Consider two integers <img src="./International Contests_files/7337088e593a11dfb2f9f173e86b107ab733832b.png" class="latex" alt="$n,n&#39; \ge k$" style="vertical-align: -3px" width="68" height="17"> with the property that each prime number <img src="./International Contests_files/25d8bd8b61a5ec5c9956a45d3693b1403d9c6109.png" class="latex" alt="$p \le k$" style="vertical-align: -3px" width="44" height="16"> divides <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> if and only if it divides <span style="white-space:nowrap;"><img src="./International Contests_files/c6bed33114d0579936e00565024dad5a983cbac1.png" class="latex" alt="$n&#39;$" width="14" height="14">.</span> Prove that either both <img src="./International Contests_files/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8"> and <img src="./International Contests_files/c6bed33114d0579936e00565024dad5a983cbac1.png" class="latex" alt="$n&#39;$" width="14" height="14"> are good or both are bad.</div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597247p3544105">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">N6</div>
+	<div class="cmty-view-post-item-text">Determine all functions <img src="./International Contests_files/06656cc497f0fae8942e9157ae084fb6f6d0e1cd.png" class="latex" alt="$f: \mathbb{Q} \rightarrow \mathbb{Z} $" style="vertical-align: -3px" width="79" height="16"> satisfying<br>
+<img src="./International Contests_files/56e107777bac6e93cc20a1732035748ef4a7fc60.png" class="latexcenter" alt="\[ f \left( \frac{f(x)+a} {b}\right) = f \left( \frac{x+a}{b} \right) \]" width="217" height="43"><br>
+for all  <span style="white-space:nowrap;"><img src="./International Contests_files/5135b02ecaeb92b9ee39a859ab76b3febb206ac4.png" class="latex" alt="$x \in \mathbb{Q}$" style="vertical-align: -3px" width="46" height="16">,</span> <span style="white-space:nowrap;"><img src="./International Contests_files/b3e19fc369897680bb49c1f0f21336ce3667141e.png" class="latex" alt="$a \in \mathbb{Z}$" style="vertical-align: -1px" width="43" height="13">,</span> and <span style="white-space:nowrap;"><img src="./International Contests_files/abd9065a4729718457668b1b8da5173b9be93115.png" class="latex" alt="$b \in \mathbb{Z}_{&gt;0}$" style="vertical-align: -3px" width="58" height="16">.</span> (Here, <img src="./International Contests_files/16172fdaef5fff0016ff1656660f8d7f6ba21d98.png" class="latex" alt="$\mathbb{Z}_{&gt;0}$" style="vertical-align: -3px" width="28" height="15"> denotes the set of positive integers.)</div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597248p3544109">view topic</a>
+			</div>
+		</div></div><div class="cmty-view-posts-item cmty-view-post-item-w-label cmty-vp-both"><div class="cmty-view-post-item-label">N7</div>
+	<div class="cmty-view-post-item-text">Let <img src="./International Contests_files/d6a7ccf879c4a4fe694033606332cb83806db296.png" class="latex" alt="$\nu$" width="10" height="8"> be an irrational positive number, and let <img src="./International Contests_files/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8"> be a positive integer. A pair of <img src="./International Contests_files/8e8da0aef2d19017da7471378386d61620f288f5.png" class="latex" alt="$(a,b)$" style="vertical-align: -4px" width="38" height="18"> of positive integers is called <i>good</i> if<br>
+<img src="./International Contests_files/1ba4fdaa32503ddb925389e5b39d1153b060a19f.png" class="latexcenter" alt="\[a \left \lceil b\nu \right \rceil - b \left \lfloor a \nu \right \rfloor = m.\]" width="159" height="19"> A good pair <img src="./International Contests_files/8e8da0aef2d19017da7471378386d61620f288f5.png" class="latex" alt="$(a,b)$" style="vertical-align: -4px" width="38" height="18"> is called <i>excellent</i> if neither of the pair <img src="./International Contests_files/1a43fadcab60d63c498974cefd56eb880ebb4a7f.png" class="latex" alt="$(a-b,b)$" style="vertical-align: -4px" width="68" height="18"> and <img src="./International Contests_files/fdf544bbcaf241d17016449805d257b8faa27506.png" class="latex" alt="$(a,b-a)$" style="vertical-align: -4px" width="70" height="18"> is good.<br>
+<br>
+Prove that the number of excellent pairs is equal to the sum of the positive divisors of <span style="white-space:nowrap;"><img src="./International Contests_files/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8">.</span></div>
+		<div class="cmty-view-post-poster">
+			<div class="cmty-view-post-poster-avatar">
+				<img class="cmty-avatar" src="./International Contests_files/avatar_153333.png" width="30" height="30">
+			</div>
+			<div class="cmty-view-post-poster-username">
+				lyukhson
+			</div>
+			<div class="cmty-view-post-topic-link">
+				<a data-cmty="" href="https://artofproblemsolving.com/community/c6h597250p3544112">view topic</a>
+			</div>
+		</div></div></div>
+	</div></div></div>
+		
+	</div>
+</div>
+
+<!-- search:off -->
+	<div class="clearfix"></div>
+
+	
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+											<a href="https://artofproblemsolving.com/online">
+							<img class="footer-mainLogo" src="./International Contests_files/aops-online-footer.svg">
+						</a>
+										<div class="footer-wasc">
+						<span>
+							Art of Problem Solving is an
+							<br class="wasc-break">
+							<span class="footer-accredited">ACS WASC Accredited School</span>
+						</span>
+						<img class="footer-wascLogo" src="./International Contests_files/wasc.png">
+					</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<div><a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a></div>
+					<div><a class="link" href="https://beastacademy.com/">Beast Academy</a></div>
+					<div><a class="link" href="https://aopsacademy.org/">AoPS Academy</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/history">Our History</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a></div>
+											<div><a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a></div>
+									</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="./International Contests_files/facebook.svg" class="sm-icon">
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="./International Contests_files/twitter.svg" class="sm-icon">
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="./International Contests_files/pinterest.svg" class="sm-icon">
+							</a>
+											</div>
+				</div>
+									<div class="footer-col subscribe">
+						<div class="footer-colHeader">
+							Subscribe for news and updates
+						</div>
+						<form method="post" action="https://artofproblemsolving.com/mailinglist">
+							<input data-hj-suppress="" data-hj-masked="" type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+							<input type="hidden" name="new-books" value="on">
+							<input type="hidden" name="classes" value="on">
+							<input type="hidden" name="mathjams" value="on">
+							<input type="submit" class="footer-submit" value="">
+							<div class="footer-submit-arrow">
+								<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+									<g>
+										<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"></path>
+									</g>
+								</svg>
+							</div>
+						</form>
+					</div>
+							</div>
+			<div class="copyright">
+				<span>© 2019 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper" style="display: block;">
+		<div class="footer-container">
+							<a href="https://artofproblemsolving.com/online">
+					<img class="footer-mainLogo" src="./International Contests_files/aops-online-footer.svg">
+				</a>
+						<div class="copyright">
+				© 2019 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company">About Us</a>
+					&nbsp;•&nbsp;
+											<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+										&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<form id="registration-form" method="post" action="https://artofproblemsolving.com/user/register.php">
+	<input type="hidden" name="username" value="">
+	<input type="hidden" name="password" value="">
+	<input type="hidden" name="from-login" value="true">
+	</form>
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info" style="text-align:center">
+		<img width="200" src="./International Contests_files/aops-online.svg">
+		<span style="position:relative;color:#1A355D;font-size:30px;left:3px;top:7px;display:inline-block">Sign In</span>
+		</div>
+		<form>
+			<div class="form-group username">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input data-hj-suppress="" data-hj-masked="" name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group password">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input data-hj-suppress="" data-hj-masked="" name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div class="login-buttons">
+				<button class="btn btn-primary" id="login-button" href="#">Sign In</button>
+				<button class="btn" id="register-button" href="#">Create Account</button>
+				<div style="margin-top:5px;box-sizing: border-box;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay signed in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright © 2019 Art of Problem Solving</div>
+
+
+<script src="./International Contests_files/common-combined-2.js.download"></script>
+
+	<script src="./International Contests_files/aops_core.js.download"></script>
+
+
+
+	<script src="./International Contests_files/jquery-ui.min.js.download"></script>
+	<script src="./International Contests_files/jquery.editable.js.download"></script>
+	<script src="./International Contests_files/codemirror-compressed.js.download"></script>
+	<script src="./International Contests_files/skulpt.min.js.download"></script>
+	<script src="./International Contests_files/skulpt-stdlib.js.download"></script>
+	<script src="./International Contests_files/aopsmods.js.download"></script>
+	<script src="./International Contests_files/community_data.js.download"></script>
+	<script src="./International Contests_files/cmty_core.js.download"></script>
+	<script src="./International Contests_files/precomp_community_common.js.download"></script>
+	<script src="./International Contests_files/dropzone.js.download"></script>
+	<script src="./International Contests_files/precomp_in_community.js.download"></script>
+	<script src="./International Contests_files/community_topics.js.download"></script>
+	<script src="./International Contests_files/CommunityBase.js.download"></script>
+
+
+<!-- /search:off -->
+
+
+<!-- copied from contact page index, with edits -->
+<script id="footer-tpl-email-dialog" type="text/x-handlebars-template">
+	<div id="mail-dialog">
+		<h1>Email Art of Problem Solving</h1>
+		<p>
+			<input data-hj-suppress="" data-hj-masked="" type="text" id="email" name="email" placeholder="Your email address">
+			<input data-hj-suppress="" data-hj-masked="" type="text" id="subject" name="subject" placeholder="Subject of message">
+			<textarea data-hj-suppress="" data-hj-masked="" id="message" name="message" placeholder="Enter your message"></textarea>
+			<div style="padding:5px 30px">
+				<input type="checkbox" id="email-copy" name="email_copy">
+				<label for="email-copy" id="email-copy-label">Send a copy to my email address.</label>
+			</div>
+			<div style="padding:5px 30px 20px">
+				<input id="footer-submit-btn" type="submit" class="btn btn-primary" value="Send">
+				<input id="footer-cancel-btn" type="submit" class="btn btn-default" value="Cancel">
+			</div>
+		</p>
+		<p id="email-error"></p>
+	</div>
+</script>
+
+
+<script id="footer-tpl-email-confirm" type="text/x-handlebars-template">
+	<div id="mail-dialog-confirm">
+		<h2>Email Sent</h2>
+		<p>Thank you for your email. We will respond to it soon.</p>
+	</div>
+</script>
+
+
+<script>
+	// Try to prevent sending email multiple times
+	var last_email = '';
+
+	$( document ).ready( function() {
+		$( ".aops-contact" ).on( "click", displayFooterEmailDialog );
+
+		$( "body" ).on( "click", "#footer-submit-btn", submitFooterEmail );
+		$( "body" ).on( "click", "#footer-cancel-btn",  cancelFooterEmail );
+	} );
+
+	function displayFooterEmailDialog() {
+		AoPS.Ui.Modal.show( {
+			body : document.getElementById( "footer-tpl-email-dialog" ).innerHTML,
+			max_width : '600px',
+			max_height : '100%',
+			scrollable : true
+		} );
+	}
+
+
+	/**
+	 * Submit email
+	 *
+	 * Note: Copy does not work in non-production mode because Mailer::quick() is
+	 * used which does not do force send.
+	 */
+	function submitFooterEmail() {
+		var obj = {
+			action : "email",
+			email : $( "#email" ).val(),
+			subject : $( "#subject" ).val(),
+			message : $( "#message" ).val(),
+			copy : $( "#email-copy" ).is( ":checked" )
+		};
+
+		if ( obj.email === last_email ) {
+			return;
+		}
+		last_email = obj.email;
+
+		// If this still happens multiple times, we have
+		// something wrong with the internal ajax call.
+		AoPS.Ui.Modal.closeAllModals();
+		$.post( "/m/contact/ajax.php", obj, function( data ) {
+			if ( data.error_code ) {
+				$( "#email-error" ).html( data.error_msg ? data.error_msg : data.error_code ).show();
+			} else {
+				AoPS.Ui.Modal.show( {
+					body : document.getElementById( "footer-tpl-email-confirm" ).innerHTML,
+					max_width : '600px',
+					max_height : '100%',
+					scrollable : true
+				} );
+			}
+		}, "json" );
+	}
+	function cancelFooterEmail() {
+		AoPS.Ui.Modal.closeAllModals();
+	}
+</script>
+
+
+<!-- bing -->
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5105596"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5105596&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+	UserLoggedIn: 'false'
+});
+</script>
+
+	
+
+
+</div><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.7242597574382448"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.4261511546352932" width="0" height="0" alt="" src="./International Contests_files/0"></div><div id="feed-wrapper"><div id="feed-left"><div data-hj-suppress="" data-hj-masked="" id="feed-tabs">
+	<div id="feed-global-tab" class="feed-tab aops-font feed-subfeed-new-topic" title="Global feed
+Recent topics in select forums
+See Community Help to customize">a</div></div><div data-hj-suppress="" data-hj-masked="" id="feed-topic">
+	</div></div><div data-hj-suppress="" data-hj-masked="" id="feed-topic-list">
+	</div></div></body></html>

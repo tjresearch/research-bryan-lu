@@ -1,0 +1,651 @@
+A parallelogram is inscribed into a regular hexagon so that the centers of symmetry of both figures coincide. Prove that the area of the parallelogram is at most 2/3 the area of the hexagon.
+On sides AB and BC of a square ABCD the respective points E and F have been chosen so that BE = BF. Let BN be the altitude in triangle BCE. Prove that ÐDNF = 90ο.
+The circumcenter and incenter of a given tetrahedron coincide. Prove that all its faces are congruent.
+Let A,B,C,D be four points in space, and M and N be the midpoints of AC and BD, respectively. Show that AB2+BC2+CD2+DA2 = AC2+BD2+4MN2 .
+Let B1,B2,B3 be points on sides A2A3,A3A1,A1A2 respectively of a triangle A1A2A3 (not coinciding with any vertices). Prove that the perpendicular bisectors of the three segments AiBi never concur.
+Through the endpoints A and B of a diameter AB of a given circle, the tangents l and m have been drawn. Let C≠A be a point on l and let q1,q2 be two rays from C. Ray qi cuts the circle in Di and Ei with Di between C and Ei, i = 1,2. Rays AD1,AD2,AE1,AE2 meet m in the respective points M1,M2,N1,N2. Prove that M1M2 = N1N2.
+Let P be a point inside a regular tetrahedron ABCD with edge length 1. Show that d(P,AB)+d(P,AC)+d(P,AD)+d(P,BC)+d(P,BD)+d(P,CD) ≥ 3/2 √2 , with equality only when P is the centroid of ABCD. Here d(P,XY) denotes the distance from point P to line XY.
+A regular heptagon A1A2 … A7 is inscribed in circle C. Point P is taken on the shorter arc A7A1. Prove that PA1+PA3+PA5+PA7 = PA2+PA4+PA6.
+
+Prove that in a convex quadrilateral of area 1 the sum of the lengths of all sides and diagonals is not less than 4+√8.
+
+A non-right triangle A1A2A3 is given. Circles Γ1 and Γ2 are tangent at A3, Γ2 and Γ3 are tangent at A1, and Γ3 and Γ1 are tangent at A2. Points O1,O2,O3 are the centers of Γ1, Γ2, Γ3, respectively. Supposing that the triangles A1A2A3 and O1O2O3 are similar, determine their angles.
+
+Let ABCD be a convex quadrilateral with no two parallel sides. Consider the two angles made by two pairs of opposite sides. Their angle bisectors intersect the sides of ABCD in P,Q,R,S, where PQRS is a convex quadrilateral. Prove that the quadrilateral ABCD is cyclic if and only if PQRS is a rhombus.
+Three rays h1,h2,h3 emanating from a point O are given, not all in the same plane. Show that if for any three points A1,A2,A3 on h1,h2,h3 respectively, distinct from O, the triangle A1A2A3 is acute-angled, then the rays h1,h2,h3 are pairwise orthogonal.
+
+Let A be a vertex of a cube ω circumscribed about a sphere κ of radius 1. We consider lines g through A containing at least one point of κ. Let P be the intersection point of g and κ closer to A, and Q be the second intersection point of g and ω. Determine the maximum value of AP·AQ and characterize the lines g yielding the maximum.
+
+
+An acute triangle ABC is given. For each point P of the interior or boundary of △ABC, Pa,Pb,Pc denote the orthogonal projections of P to BC,CA,AB respectively. Consider f (P) =(APc+BPa+CPb )/ (PPa+PPb+PPc ). Show that f (P) is constant if and only if ABC is an equilateral triangle.
+
+
+The distinct points X1, X2, X3, X4, X5, X6 all lie on the same side of the line AB. The six triangles ABXi are all similar. Show that the Xi lie on a circle.
+Suppose that there is a point P inside a convex quadrilateral ABCD such that the triangles PAB,PBC,PCD,PDA have equal areas. Prove that one of the diagonals bisects the area of ABCD.
+
+Given a circle k with center M and radius r, let AB be a fixed diameter of k and let K be a fixed point on the segment AM. Denote by t the tangent of k at A. For any chord CD through K other than AB, denote by P and Q the intersection points of BC and BD with t, respectively. Prove that AP·AQ does not depend on CD.
+
+Consider triangles ABC in space. (a) What condition must the angles α,β,γ of △ABC fulfill in order that there is a point P in space such that ÐAPB, ÐBPC, ÐCPA are right angles? (b) Let d be the longest of the edges PA,PB,PC and let h be the longest altitude of △ABC. Show that 1/3√6 h ≤ d ≤ h.
+
+Point P is taken on the extension of side AB of an equilateral triangle ABC so that A is between B and P. Denote by a the side length of triangle ABC, by r1 the inradius of triangle PAC, and by r2 the exradius of triangle PBC opposite P. Find the sum r1+r2 as a function in a.
+
+On the plane are given four distinct points A,B,C,D on a line g in this order, at the mutual distances AB = a, BC = b, CD = c. (a) Construct (if possible) a point P outside line g such that ÐAPB =ÐBPC =ÐCPD. (b) Prove that such a point P exists if and only if  (a+b)(b+c) < 4ac.
+
+In an equilateral triangle ABC, A1,B1,C1 are the midpoints of the sides BC,CA,AB, respectively. Three parallel lines p,q and r pass through A1,B1 and C1 and intersect  the lines B1C1,C1A1 and A1B1 at points A2,B2,C2, respectively. Prove that the lines AA2,BB2,CC2 have a common point D which lies on the circumcircle of the triangle ABC.
+
+A convex hexagon ABCDEF satisfies the following conditions: (i) opposite sides are parallel, i.e. AB // DE, BC // EF, CD  //FA, (ii) the distances between opposite sides are equal, (iii) ÐFAB = ÐCDE = 90ο. Prove that the angle between the diagonals BE and CF is equal to 45ο.
+
+Lines l1 and l2 intersect at point P. Circles S1 and S2 are tangent to l1 at P, and circles T1 and T2 are tangent to l2 at P. Circle S1 meets T1 at points A,P and T2 at B,P, while circle S2 meets T2 at C,P and T1 at D,P. Show that the points A,B,C and D are concyclic if and only if the lines l1 and l2 are perpendicular.
+
+In a trapezoid ABCD with AB // CD, the diagonals AC and BD intersect at point E. Let F and G be the orthocenters of the triangles EBC and EAD. Prove that the midpoint of GF lies on the perpendicular from E to AB.
+
+Different points A,B,C,D,E,F lie on circle k in this order. The tangents to k in the points A and D and the lines BF and CE have a common point P. Prove that the lines AD,BC and EF also have a common point or are parallel.
+
+Given a triangle ABC, points K,L,M are the midpoints of the sides BC,CA,AB, and points X,Y,Z are the midpoints of the arcs BC,CA,AB of the circumcircle not containing A,B,C respectively. If R denotes the circumradius and r the inradius of the triangle, show that r+KX+LY+MZ=2R.
+
+Three lines k, l, m are drawn through a point P inside a triangle ABC such that k meets AB at A1 and AC at A2 ≠A1 and PA1 = PA2, l meets BC at B1 and BA at B2 ≠ B1 and PB1 = PB2, m meets CA at C1 and CB at C2≠C1 and PC1=PC2. Prove that the lines k,l,m are uniquely determined by these conditions. Find point P for which the triangles AA1A2, BB1B2, CC1C2 have the same area and show that this point is unique.
+
+Let P,Q,R be points on the same side of a line g in the plane. Let M and N be the feet of the perpendiculars from P and Q to g respectively. Point S lies between the lines PM and QN and satisfies and satisfies PM = PS and QN = QS. The perpendicular bisectors of SM and SN meet in a point R. If the line RS intersects the circumcircle of triangle PQR again at T, prove that S is the midpoint of RT.
+
+Triangle A0B0C0 is given in the plane. Consider all triangles ABC such that: (i) The lines AB,BC,CA pass through C0,A0,B0, respectvely, (ii) The triangles ABC and A0B0C0 are similar. Find the possible positions of the circumcenter of triangle ABC.
+
+Prove that if a,b,c,d are lengths of the successive sides of a quadrilateral (not necessarily convex) and S its area, then S ≤ 1/2(ac+bd). When does equality hold?
+
+Prove that in any convex polygon P1P2 … P2n with an even number of vertices there exists a diagonal PiPj  which is not parallel to any of its sides.
+
+
+The diagonals of a convex quadrilateral ABCD meet at E. Let U and H be the circumcenter and orthocenter of triangle ABE, respectively. Similarly, let V and K be the circumcenter and orthocenter of triangle CDE, respectively. Prove that E lies on line UK if and only if it lies on line VH.
+
+
+ABC is a triangle. Take a = BC etc as usual. Take points T1, T2 on the side AB so that AT1 = T1T2 = T2B. Similarly, take points T3, T4 on the side BC so that BT3 = T3T4 = T4C, and points T5, T6 on the side CA so that CT5 = T5T6 = T6A. Show that if a' = BT5, b' = CT1, c' = AT3, then there is a triangle A'B'C' with sides a', b', c' (a' = B'C' etc). In the same way we take points Ti' on the sides of A'B'C' and put a" = B'T6', b" = C'T2', c" = A'T4'. Show that there is a triangle A"B"C" with sides a", b", c" and that it is similar to ABC. Find a"/a.
+
+
+A triangle with sides a, b, c has area F. The distances of its centroid from the vertices are x, y, z. Show that if (x + y + z)2 ≤ (a2 + b2 + c2)/2 + 2F√3, then the triangle is equilateral.
+
+
+In a triangle ABC let D be the intersection of the angle bisector of , angle at C, with the side AB. And let F be the area of the triangle ABC. Prove the following inequality:
+2F(1AD-1BD)≤AB  .
+
+Given is a convex quadrilateral ABCD with AB = CD. Draw the triangles ABE and CDF outside ABCD so that ÐABE = ÐDCF and ÐBAE =ÐFDC. Prove that the midpoints of AD, BC and EF are collinear.
+
+Let D be an interior point of the triangle ABC. CD and AB intersect at Dc, BD and AC intersect at Db, AD and BC intersect at Da. Prove that there exists a triangle KLM with orthocenter H and the feet of altitudes Hk ∈ LM, Hl ∈ KM, Hm ∈ KL, so that  (ADcD) = (KHmH), (BDcD) = (LHmH), (BDaD) = (LHkH), (CDaD) = (MHkH), (CDbD) = (MHlH) , (ADbD) = (KHlH) where (PQR) denotes the area of the triangle PQR.
+
+1986 China TST P1
+If ABCD is a cyclic quadrilateral, then prove that the incenters of the triangles ABC, BCD, CDA, DAB are the vertices of a rectangle.
+
+1986 China TST P5
+Given a square ABCD whose side length is 1, P and Q are points on the sides AB and AD. If the perimeter of APQ is 2 find the angle PCQ.
+
+1986 China TST P6
+Given a tetrahedron ABCD, E, F, G, are on the respectively on the segments AB, AC and AD. Let SXYZ denote the area and PXYZ the perimeter of triangle XYZ. Prove that:
+a) SEFG≤max{SABC,SABD,SACD,SBCD}
+(b) SEFG≤max{PABC,PABD,PACD,PBCD}.
+
+1988 China TST P3
+In triangle ABC, ∠C=30∘, O and I are the circumcenter and incenter respectively, Points D∈AC and E∈BC, such that AD=BE=AB. Prove that OI=DE and OI⊥DE.
+
+1988 China TST P6
+Let ABCD be a trapezium AB//CD, M and N are fixed points on AB,  P is a variable point on CD. E=DN∩AP, F=DN∩MC, G=MC∩PB, DP=λ⋅CD. Find the value of λ for which the area of quadrilateral PEFG is maximum.
+
+1989 China TST P4
+Given triangle ABC, squares ABEF,BCGH,CAIJ are constructed externally on side AB,BC,CA, respectively. Let AH∩BJ=P1, BJ∩CF=Q1, CF∩AH=R1, AG∩CE=P2, BI∩AG=Q2, CE∩BI=R2. Prove that triangle P1Q1R1 is congruent to triangle P2Q2R2.
+
+1989 China TST P6
+AD is the altitude on side BC of triangle ABC. If BC+AD−AB−AC=0, find the range of ∠BAC.
+
+Alternative formulation.
+Let AD be the altitude of triangle ABC to the side BC. If BC+AD=AB+AC, then find the range of ∠A.
+
+1991 China TST P4
+We choose 5 points A1,A2,…,A5 on a circumference of radius 1 and centre O. P is a point inside the circle. Denote Qi as the intersection of AiAi+2 and Ai+1P, where A7=A2 and A6=A1. Let OQi=di,i=1,2,…,5. Find the product ∏5i=1AiQi in terms of di.
+
+1992 China TST P4
+A triangle ABC is given in the plane with AB=7–√, BC=13−−√ and CA=19−−√, circles are drawn with centers at A,B and C and radii 13, 23 and 1, respectively. Prove that there are points A′,B′,C′ on these three circles respectively such that triangle ABC is congruent to triangle A′B′C′.
+
+1993 China TST P6
+Let ABC be a triangle and its bisector at A cuts its circumcircle at D. Let I be the incenter of triangle ABC, M be the midpoint of BC, P is the symmetric to I with respect to M (Assuming P is in the circumcircle). Extend DP until it cuts the circumcircle again at N. Prove that among segments AN,BN,CN, there is a segment that is the sum of the other two.
+
+1995 China TST P2
+Given a fixed acute angle θ and a pair of internally tangent circles, let the line l which passes through the point of tangency, A, cut the larger circle again at B (l does not pass through the centers of the circles). Let M be a point on the major arc AB of the larger circle, N the point where AM intersects the smaller circle, and P the point on ray MB such that ∠MPN=θ. Find the locus of P as M moves on major arc AB of the larger circle.
+
+1996 China TST P1
+Let side BC of △ABC be the diameter of a semicircle which cuts AB and AC at D and E respectively. F and G are the feet of the perpendiculars from D and E to BC respectively.  DG and EF intersect at M. Prove that AM⊥BC.
+
+1997 China TST P1
+Given a real number λ>1, let P be a point on the arc BAC of the circumcircle of △ABC. Extend BP and CP to U and V respectively such that BU=λBA, CV=λCA. Then extend UV to Q such that UQ=λUV. Find the locus of point Q.
+
+1998 China TST P4
+In acute-angled △ABC, H is the orthocenter, O is the circumcenter and I is the incenter. Given that ∠C>∠B>∠A, prove that I lies within △BOH
+
+1999 China TST P4
+A circle is tangential to sides AB and AD of convex quadrilateral ABCD at G and H respectively, and cuts diagonal AC at E and F. What are the necessary and sufficient conditions such that there exists another circle which passes through E and F, and is tangential to DA and DC extended?
+
+2000 China TST P1
+Let ABC be a triangle such that AB=AC. Let D,E be points on AB,AC respectively such that DE=AC. Let DE meet the circumcircle of triangle ABC at point T. Let P be a point on AT. Prove that PD+PE=AT if and only if P lies on the circumcircle of triangle ADE.
+
+2001 China TST P1
+E and F are interior points of convex quadrilateral ABCD such that AE=BE, CE=DE, ∠AEB=∠CED, AF=DF, BF=CF, ∠AFD=∠BFC. Prove that ∠AFD+∠AEB=π.
+
+2001 China TST P5
+In the equilateral △ABC, D is a point on side BC.  O1 and I1 are the circumcenter and incenter of △ABD respectively, and O2 and I2 are the circumcenter and incenter of △ADC respectively.  O1I1 intersects O2I2 at P. Find the locus of point P as D moves along BC.
+
+2002 China TST P1
+Let E and F be the intersections of opposite sides of a convex quadrilateral ABCD. The two diagonals meet at P. Let O be the foot of the perpendicular from P to EF. Show that ∠BOC=∠AOD.
+
+2002 China TST Quiz3 P1
+Given triangle ABC and AB=c, AC=b and BC=a satisfying a≥b≥c, BE and CF are two interior angle bisectors. P is a point inside triangle AEF. R and Q are the projections of P on sides AB and AC. Prove that PR+PQ+RQ<b.
+
+2002 China TST Quiz4 P2
+Circles ω1 and ω2 intersect at points A and B. Points C and D are on circles ω1 and ω2, respectively, such that lines AC and AD are tangent to circles ω2 and ω1, respectively. Let I1 and I2 be the incenters of triangles ABC and ABD, respectively. Segments I1I2 and AB intersect at E. Prove that: 1AE=1AC+1AD
+
+2002 China TST Quiz6 P2
+⊙O1 and ⊙O2 meet at points P and Q. The circle through P, O1 and O2 meets ⊙O1 and ⊙O2 at points A and B. Prove that the distance from Q to the lines PA, PB and AB are equal.
+
+
+(Prove the following three cases: O1 and O2 are in the common space of ⊙O1 and ⊙O2; O1 and O2 are out of the common space of ⊙O1 and ⊙O2; O1 is in the common space of ⊙O1 and ⊙O2, O2 is out of the common space of ⊙O1 and ⊙O2.
+
+
+2002 China TST Quiz7 P1
+Circle O is inscribed in a trapzoid ABCD, ∠A and ∠B are all acute angles. A line through O intersects AD at E and BC at F, and satisfies the following conditions:
+(1) ∠DEF and ∠CFE are acute angles.
+(2) AE+BF=DE+CF.
+Let AB=a, BC=b, CD=c, then use a,b,c to express AE
+
+
+2003 China TST P1
+ABC is an acute-angled triangle. Let D be the point on BC such that AD is the bisector of ∠A. Let E,F be the feet of perpendiculars from D to AC,AB respectively. Suppose the lines BE and CF meet at H. The circumcircle of triangle AFH meets BE at G (apart from H). Prove that the triangle constructed from BG, GE and BF is right-angled.
+
+2003 China TST Quiz2 P1
+Let ABCD be a quadrilateral which has an incircle centered at O. Prove that
+OA⋅OC+OB⋅OD=AB⋅BC⋅CD⋅DA−−−−−−−−−−−−−−−√
+
+2003 China TST Quiz4 P1
+In triangle ABC, AB>BC>CA, AB=6, ∠B−∠C=90o. The incircle touches BC at E and EF is a diameter of the incircle. Radical AF intersect BC at D. DE equals to the circumradius of △ABC. Find BC and AC.
+
+2003 China TST Quiz5 P2
+Denote by (ABC) the circumcircle of a triangle ABC. Let ABC be an isosceles right-angled triangle with AB=AC=1 and ∡CAB=90∘. Let D be the midpoint of the side BC, and let E and F be two points on the side BC. Let M be the point of intersection of the circles (ADE) and (ABF) (apart from A). Let N be the point of intersection of the line AF and the circle (ACE) (apart from A). Let P be the point of intersection of the line AD and the circle (AMN). Find the length of AP.
+
+2003 China TST Quiz8 P1
+Triangle ABC is inscribed in circle O. Tangent PD is drawn from A, D is on ray BC, P is on ray DA. Line PU (U∈BD) intersects circle O at Q, T, and intersect AB and AC at R and S respectively. Prove that if QR=ST, then PQ=UT.
+
+2004 China TST P1
+Let ∠XOY=π2; P is a point inside ∠XOY and we have OP=1;∠XOP=π6. A line passes P intersects the Rays OX and OY at M and N. Find the maximum value of OM+ON−MN.
+
+2004 China TST P4
+Points D, E, F are on the sides BC, CA, AB of an acute-angled △ABC respectively, which satisfy EF∥BC. D1 is a point on side BC(different from B, D, C), through D1 draw D1E1∥DE,D1F1∥DF, which intersect AC and AB at points E1, F1 respectively. Join E1F1. Construct,on the same side of A, triangle PBC, such that △PBC∼△DEF. Join PD1. Prove that EF,E1F1,PD1 are concurrent.
+
+2004 China TST Quiz1 P1
+Using AB and AC as diameters, two semi-circles are constructed respectively outside the acute triangle ABC. AH⊥BC at H, D is any point on side BC (D is not coinside with B or C ), through D, construct DE∥AC and DF∥AB with E and F on the two semi-circles respectively. Show that D, E, F and H are concyclic.
+
+
+2004 China TST Quiz2 P2
+Convex quadrilateral ABCD is inscribed in a circle, ∠A=60o, BC=CD=1, rays AB and DC intersect at point E, rays BC and AD intersect each other at point F. It is given that the perimeters of triangle BCE and triangle CDF are both integers. Find the perimeter of quadrilateral ABCD.
+
+2004 China TST Quiz3 P2
+Two equal-radii circles with centres O1 and O2 intersect each other at P and Q, O is the midpoint of the common chord PQ. Two lines AB and CD are drawn through P ( AB and CD are not coincide with PQ ) such that A and C lie on circle O1 and B and D lie on circle O2. M and N are the mipoints of segments AD and BC respectively. Knowing that O1 and O2 are not in the common part of the two circles, and M, N are not coincide with O. Prove that M, N, O are collinear.
+
+
+2004 China TST Quiz5 P3
+In convex quadrilateral ABCD, AB=a, BC=b, CD=c, DA=d, AC=e, BD=f. If max{a,b,c,d,e,f}=1, then find the maximum value of abcd.
+
+2005 China TST P1
+Convex quadrilateral ABCD is cyclic in circle (O), P is the intersection of the diagonals AC and BD. Circle (O1) passes through P and B, circle (O2) passes through P and A, Circles (O1) and (O2) intersect at P and Q. (O1), (O2) intersect (O) at another points E, F (besides B, A), respectively. Prove that PQ, CE, DF are concurrent or parallel.
+
+
+2005 China TST Quiz1 P1
+Triangle ABC is inscribed in circle ω. Circle γ is tangent to AB and AC at points P and Q respectively. Also circle γ is tangent to circle ω at point S. Let the intesection of AS and PQ be T. Prove that ∠BTP=∠CTQ.
+
+2005 China TST Quiz2 P2
+Cyclic quadrilateral ABCD has positive integer side lengths AB, BC, CA, AD. It is known that AD=2005, ∠ABC=∠ADC=90o, and max{AB,BC,CD}<2005. Determine the maximum and minimum possible values for the perimeter of ABCD.
+
+2005 China TST Quiz3 P1
+Triangle ABC is inscribed in circle ω. Circle γ is tangent to AB and AC at points P and Q respectively. Also circle γ is tangent to circle ω at point S. Let the intesection of AS and PQ be T. Prove that ∠BTP=∠CTQ.
+
+2005 China TST Quiz4 P2
+Let ω be the circumcircle of acute triangle ABC. Two tangents of ω from B and C intersect at P, AP and BC intersect at D. Point E, F are on AC and AB such that DE∥BA and DF∥CA.
+(1) Prove that F,B,C,E are concyclic.
+(2) Denote A1 the centre of the circle passing through F,B,C,E. B1, C1 are difined similarly. Prove that AA1, BB1, CC1 are concurrent
+
+2005 China TST Quiz6 P2
+In acute angled triangle ABC, BC=a,CA=b,AB=c, and a>b>c. I,O,H are the incentre, circumcentre and orthocentre of △ABC respectively. Point D∈BC, E∈CA and AE=BD, CD+CE=AB. Let the intersectionf of BE and AD be K. Prove that KH∥IO and KH=2IO.
+
+2006 China TST P1
+H is the orthocentre of △ABC. D, E, F are on the circumcircle of △ABC such that AD∥BE∥CF. S, T, U are the semetrical points of D, E, F with respect to BC, CA, AB. Show that S,T,U,H lie on the same circle.
+
+2006 China TST Quiz1 P1
+ABCD is a trapezoid with AB||CD. There are two circles ω1 and ω2 is the trapezoid such that ω1 is tangent to DA, AB, BC and ω2 is tangent to BC, CD, DA. Let l1 be a line passing through A and tangent to ω2(other than AD), Let l2 be a line passing through C and tangent to ω1 (other than CB). Prove that l1||l2.
+
+2006 China TST Quiz2 P2
+Let ω be the circumcircle of △ABC. P is an interior point of △ABC. A1,B1,C1 are the intersections of AP,BP,CP respectively and A2,B2,C2 are the symmetrical points of A1,B1,C1 with respect to the midpoints of side BC,CA,AB. Show that the circumcircle of △A2B2C2 passes through the orthocentre of △ABC.
+
+
+2006 China TST Quiz3 P1
+The centre of the circumcircle of quadrilateral ABCD is O and O is not on any of the sides of ABCD. P=AC∩BD. The circumecentres of △OAB, △OBC, △OCD and △ODA are O1, O2, O3 and O4 respectively. Prove that O1O3, O2O4 and OP are concurrent.
+
+2006 China TST Quiz4 P1
+Let K and M be points on the side AB of a triangle △ABC, and let L and N be points on the side AC. The point K is between M and B, and the point L is between N and C. If BKKM=CLLN, then prove that the orthocentres of the triangles △ABC, △AKL and △AMN lie on one line.
+
+2006 China TST Quiz6 P1
+Let the intersections of ⊙O1 and ⊙O2 be A and B. Point R is on arc AB of ⊙O1 and T is on arc AB on ⊙O2. AR and BR meet ⊙O2 at C and D; AT and BT meet ⊙O1 at Q and P. If PR and TD meet at E and QR and TC meet at F, then prove: AE⋅BT⋅BR=BF⋅AT⋅AR.
+
+2007 China TST P1
+Points A and B lie on the circle with center O. Let point C lies outside the circle; let CS and CT be tangents to the circle. M be the midpoint of minor arc AB of (O). MS,MT intersect AB at points E,F respectively. The lines passing through E,F perpendicular to AB cut OS,OT at X and Y respectively. A line passed through C intersect the circle (O) at P,Q (P lies on segment CQ). Let R be the intersection of MP and AB, and let Z be the circumcentre of triangle PQR. Prove that: X,Y,Z are collinear.
+
+2007 China TST Quiz1 P2
+Let I be the incenter of triangle ABC. Let M,N be the midpoints of AB,AC, respectively. Points D,E lie on AB,AC respectively such that BD=CE=BC. The line perpendicular to IM through D intersects the line perpendicular to IN through E at P. Prove that AP⊥BC.
+
+2007 China TST Quiz3 P1
+Let ABC be a triangle. Circle ω­ passes through points B and C. Circle ω1 is tangent internally to ω­ and also to sides AB and AC at T,P, and Q, respectively. Let M be midpoint of arc BC(containing T) of ­ω. Prove that lines PQ,BC, and MT are concurrent.
+
+2007 China TST Quiz5 P1
+Let convex quadrilateral ABCD be inscribed in a circle centers at O. The opposite sides BA,CD meet at H, the diagonals AC,BD meet at G. Let O1,O2 be the circumcenters of triangles AGD,BGC. O1O2 intersects OG at N. The line HG cuts the circumcircles of triangles AGD,BGC at P,Q, respectively. Denote by M the midpoint of PQ. Prove that NO=NM.
+
+2007 China TST Quiz6 P2
+Let ABCD be the inscribed quadrilateral with the circumcircle ω.Let ζ be another circle that internally tangent to ω and to the lines BC and AD at points M,N respectively.Let I1,I2 be the incenters of the △ABC and △ABD.Prove that M,I1,I2,N are collinear.
+
+2008 China TST P1
+Let ABC be a triangle, let AB>AC. Its incircle touches side BC at point E. Point D is the second intersection of the incircle with segment AE (different from E). Point F (different from E) is taken on segment AE such that CE=CF. The ray CF meets BD at point G. Show that CF=FG.
+
+2008 China TST Quiz2 P1
+Let ABC be a triangle, line l cuts its sides BC,CA,AB at D,E,F, respectively. Denote by O1,O2,O3 the circumcenters of triangle AEF,BFD,CDE, respectively. Prove that the orthocenter of triangle O1O2O3 lies on line l.
+
+2008 China TST Quiz3 P1
+Let P be the the isogonal conjugate of Q with respect to triangle ABC, and P,Q are in the interior of triangle ABC. Denote by O1,O2,O3 the circumcenters of triangle PBC,PCA,PAB, O′1,O′2,O′3 the circumcenters of triangle QBC,QCA,QAB, O the circumcenter of triangle O1O2O3, O′ the circumcenter of triangle O′1O′2O′3. Prove that OO′ is parallel to PQ.
+
+
+2008 China TST Quiz5 P1
+Let ABC be an acute triangle, let M,N be the midpoints of minor arcs CAˆ,ABˆ of the circumcircle of triangle ABC, point D is the midpoint of segment MN, point G lies on minor arc BCˆ. Denote by I,I1,I2 the incenters of triangle ABC,ABG,ACG respectively.Let P be the second intersection of the circumcircle of triangle GI1I2 with the circumcircle of triangle ABC. Prove that three points D,I,P are collinear
+
+2009 China TST P1
+Let ABC be a triangle. Point D lies on its sideline BC such that ∠CAD=∠CBA. Circle (O) passing through B,D intersects AB,AD at E,F, respectively. BF meets DE at G.Denote byM the midpoint of AG. Show that CM⊥AO.
+
+2009 China TST Quiz1 P1
+Given that circle ω is tangent internally to circle Γ at S.  ω touches the chord AB of Γ at T. Let O be the center of ω. Point P lies on the line AO. Show that PB⊥AB if and only if PS⊥TS.
+
+2009 China TST Quiz2 P1
+In convex pentagon ABCDE, denote by AD∩BE=F,BE∩CA=G,CA∩DB=H,DB∩EC=I,EC∩AD=J, $AI\cap BE = A',BJ \cap CA= B',CF \cap DB = C',DG\cap EC = D',EH\cap AD = E'.Provethat \frac {AB'}{B'C}\cdot\frac {CD'}{D'E}\cdot\frac {EA'}{A'B}\cdot\frac {BC'}{C'D}\cdot\frac {DE'}{E'A} = 1$.
+
+
+2009 China TST Quiz3 P2
+In convex quadrilateral ABCD, CB,DA are external angle bisectors of ∠DCA,∠CDB, respectively. Points E,F lie on the rays AC,BD respectively such that CEFD is cyclic quadrilateral. Point P lie in the plane of quadrilateral ABCD such that DA,CB are external angle bisectors of ∠PDE,∠PCF respectively. AD intersects BC at Q. Prove that P lies on AB if and only if Q lies on segment EF.
+
+2009 China TST Quiz4 P1
+Given that points D,E lie on the sidelines AB,BC of triangle ABC, respectively, point P is in interior of triangle ABC such that PE=PC and △DEP∼△PCA. Prove that BP is tangent of the circumcircle of triangle PAD.
+
+2009 China TST Quiz5 P2
+In acute triangle ABC, points P,Q lie on its sidelines AB,AC, respectively. The circumcircle of triangle ABC intersects of triangle APQ at X (different from A). Let Y be the reflection of X in line PQ. Given PX>PB. Prove that S△XPQ>S△YBC. Where S△XYZ denotes the area of triangle XYZ.
+
+
+2010 China TST P1
+Given acute triangle ABC with AB>AC, let M be the midpoint of BC. P is a point in triangle AMC such that ∠MAB=∠PAC. Let O,O1,O2 be the circumcenters of △ABC,△ABP,△ACP respectively. Prove that line AO passes through the midpoint of O1O2.
+
+2010 China TST Quiz1 P2
+Let ABCD be a convex quadrilateral. Assume line AB and CD intersect at E, and B lies between A and E. Assume line AD and BC intersect at F, and D lies between A and F. Assume the circumcircles of △BEC and △CFD intersect at C and P. Prove that ∠BAP=∠CAD if and only if BD∥EF.
+
+2010 China TST Quiz1 P4
+Let △ABC be an acute triangle with AB>AC, let I be the center of the incircle. Let M,N be the midpoint of AC and AB respectively. D,E are on AC and AB respectively such that BD∥IM and CE∥IN. A line through I parallel to DE intersects BC in P. Let Q be the projection of P on line AI. Prove that Q is on the circumcircle of △ABC.
+
+2010 China TST Quiz2 P1
+Let  ABCD be a convex quadrilateral with A,B,C,D concyclic. Assume ∠ADC is acute and ABBC=DACD. Let Γ be a circle through A and D, tangent to AB, and let E be a point on Γ and inside ABCD. Prove that AE⊥EC if and only if AEAB−EDAD=1.
+
+2010 China TST Quiz2 P4
+Let △ABC be an acute triangle, and let D be the projection of A on BC. Let M,N be the midpoints of AB and AC respectively. Let Γ1 and Γ2 be the circumcircles of △BDM and △CDN respectively, and let K be the other intersection point of Γ1 and Γ2. Let P be an arbitrary point on BC and E,F are on AC and AB respectively such that PEAF is a parallelogram. Prove that if MN is a common tangent line of Γ1 and Γ2, then K,E,A,F are concyclic.
+
+2010 China TST Quiz3 P4
+Let ω be a semicircle and AB its diameter. ω1 and ω2 are two different circles, both tangent to ω and to AB, and ω1 is also tangent to ω2. Let P,Q be the tangent points of ω1 and ω2 to AB respectively, and P is between A and Q. Let C be the tangent point of ω1 and ω. Find tan∠ACQ.
+
+
+2011 China TST Quiz1 P1
+In △ABC we have BC>CA>AB. The nine point circle is tangent to the incircle, A-excircle, B-excircle and C-excircle at the points T,TA,TB,TC respectively. Prove that the segments TTB and lines TATC intersect each other.
+
+2011 China TST Quiz1 P4
+Let one of the intersection points of two circles with centres O1,O2 be P. A common tangent touches the circles at A,B respectively. Let the perpendicular from A to the line BP meet O1O2 at C. Prove that AP⊥PC.
+
+2011 China TST Quiz2 P4
+Let AA′,BB′,CC′ be three diameters of the circumcircle of an acute triangle ABC. Let P be an arbitrary point in the interior of △ABC, and let D,E,F be the orthogonal projection of P on BC,CA,AB, respectively. Let X be the point such that D is the midpoint of A′X, let Y be the point such that E is the midpoint of B′Y, and similarly let Z be the point such that F is the midpoint of C′Z. Prove that triangle XYZ is similar to triangle ABC.
+
+2011 China TST Quiz3 P4
+Let H be the orthocenter of an acute trangle ABC with circumcircle Γ. Let P be a point on the arc BC (not containing A) of Γ, and let M be a point on the arc CA (not containing B) of Γ such that H lies on the segment PM. Let K be another point on Γ such that KM is parallel to the Simson line of P with respect to triangle ABC. Let Q be another point on Γ such that PQ∥BC. Segments BC and KQ intersect at a point J. Prove that △KJM is an isosceles triangle.
+
+2012 China TST1 P2
+Given a scalene triangle ABC. Its incircle touches BC,AC,AB at D,E,F respectvely. Let L,M,N be the symmetric points of D with EF,of E with FD,of F with DE,respectively. Line AL intersects BC at P,line BM intersects CA at Q,line CN intersects AB at R. Prove that P,Q,R are collinear.
+
+2012 China TST1 P4
+Given two circles ω1,ω2, S denotes all ΔABC satisfies that ω1 is the circumcircle of ΔABC,  ω2 is the A- excircle of ΔABC , ω2 touches BC,CA,AB at D,E,F. S is not empty, prove that the centroid of ΔDEF is a fixed point.
+
+2012 China TST3 P1
+In an acute-angled ABC, ∠A>60∘, H is its orthocenter. M,N are two points on AB,AC respectively, such that ∠HMB=∠HNC=60∘. Let O be the circumcenter of triangle HMN. D is a point on the same side with A of BC such that △DBC is an equilateral triangle. Prove that H,O,D are collinear.
+
+2013 China TST1 P1
+The quadrilateral ABCD is inscribed in circle ω. F is the intersection point of AC and BD. BA and CD meet at E. Let the projection of F on AB and CD be G and H, respectively. Let M and N be the midpoints of BC and EF, respectively. If the circumcircle of △MNG only meets segment BF at P, and the circumcircle of △MNH only meets segment CF at Q, prove that PQ is parallel to BC.
+
+2013 China TST1 P5
+Let P be a given point inside the triangle ABC. Suppose L,M,N are the midpoints of BC,CA,AB respectively and PL:PM:PN=BC:CA:AB. The extensions of AP,BP,CP meet the circumcircle of ABC at D,E,F respectively. Prove that the circumcentres of APF,APE,BPF,BPD,CPD,CPE are concyclic.
+
+2013 China TST3 P2
+The circumcircle of triangle ABC has centre O. P is the midpoint of BACˆ and QP is the diameter. Let I be the incentre of △ABC and let D be the intersection of PI and BC. The circumcircle of △AID and the extension of PA meet at F. The point E lies on the line segment PD such that DE=DQ. Let r,R be the radius of the inscribed circle and circumcircle of △ABC, respectively. Show that if ∠AEF=∠APE, then sin2∠BAC=2rR
+
+
+2014 China TST1 P1
+ABCD is a cyclic quadrilateral, with diagonals AC,BD perpendicular to each other. Let point F be on side BC, the parallel line EF to AC intersect AB at point E, line FG parallel to BD intersect CD at G. Let the projection of E onto CD be P, projection of F onto DA be Q, projection of G onto AB be R. Prove that QF bisects ∠PQR.
+
+2014 China TST2 P4
+Given circle O with radius R, the inscribed triangle ABC is an acute scalene triangle, where AB is the largest side. AHA,BHB,CHC are heights on BC,CA,AB. Let D be the symmetric point of HA with respect to HBHC, E be the symmetric point of HB with respect to HAHC. P is the intersection of AD,BE, H is the orthocentre of △ABC. Prove: OP⋅OH is fixed, and find this value in terms of R.
+
+2014 China TST3 P1
+Let the circumcenter of triangle ABC be O. HA is the projection of A onto BC. The extension of AO intersects the circumcircle of BOC at A′. The projections of A′ onto AB,AC are D,E, and OA is the circumcentre of triangle DHAE. Define HB,OB,HC,OC similarly. Prove: HAOA,HBOB,HCOC are concurrent.
+
+
+2015 China TST1 P1
+The circle Γ through A of triangle ABC meets sides AB,AC at E,F respectively, and circumcircle of ABC at P. Prove: Reflection of P across EF is on BC if and only if Γ passes through O (the circumcentre of ABC).
+
+2015 China TST2 P3
+Let D be the midpoint of BC and E∈⊙(BC) be a point inside △ABC such that AE⊥BC. Let F=EG∩OD and K,L be the point lie on BC such that FK∥OB,FL∥OC. Let M∈AB be a point such that MK⊥BC and N∈AC be a point such that NL⊥BC. Let ω be a circle tangent to OB,OC at B,C, respectively . Prove that ⊙(AMN) is tangent to ω
+
+
+2015 China TST3 P1
+△ABC is isosceles with AB=AC>BC. Let D be a point in its interior such that DA=DB+DC. Suppose that the perpendicular bisector of AB meets the external angle bisector of ∠ADB at P, and let Q be the intersection of the perpendicular bisector of AC and the external angle bisector of ∠ADC. Prove that B,C,P,Q are concyclic.
+
+2016 China TST1 P1
+ABCDEF is a cyclic hexagon with AB=BC=CD=DE. K is a point on segment AE satisfying ∠BKC=∠KFE,∠CKD=∠KFA. Prove that KC=KF.
+
+2016 China TST1 P5
+Refer to the diagram below. Let ABCD be a cyclic quadrilateral with center O. Let the internal angle bisectors of ∠A and ∠C intersect at I and let those of ∠B and ∠D intersect at J. Now extend AB and CD to intersect IJ and P and R respectively and let IJ intersect BC and DA at Q and S respectively. Let the midpoints of PR and QS be M and N respectively. Given that O does not lie on the line IJ, show that OM and ON are perpendicular.
+
+2016 China TST2 P1
+P is a point in the interior of acute triangle ABC. D,E,F are the reflections of P across BC,CA,AB respectively. Rays AP,BP,CP meet the circumcircle of △ABC at L,M,N respectively. Prove that the circumcircles of △PDL,△PEM,△PFN meet at a point T different from P.
+
+2016 China TST2 P6
+The diagonals of a cyclic quadrilateral ABCD intersect at P, and there exist a circle Γ tangent to the extensions of AB,BC,AD,DC at X,Y,Z,T respectively. Circle Ω passes through points A,B, and is externally tangent to circle Γ at S. Prove that SP⊥ST.
+2016 China TST3 P3
+In cyclic quadrilateral ABCD, AB>BC, AD>DC, I,J are the incenters of △ABC,△ADC respectively. The circle with diameter AC meets segment IB at X, and the extension of JD at Y. Prove that if the four points B,I,J,D are concyclic, then X,Y are the reflections of each other across AC.
+
+2017 China TST1 P1
+Find out the maximum value of the numbers of edges of a solid regular octahedron that we can see from a point out of the regular octahedron.
+
+(We define we can see an edge AB of the regular octahedron from point P outside if and only if the intersection of non degenerate triangle PAB and the solid regular octahedron is exactly edge AB.
+
+2017 China TST1 P5
+In the non-isosceles triangle ABC,D is the midpoint of side BC,E is the midpoint of side CA,F is the midpoint of side AB.The line(different from line BC) that is tangent to the inscribed circle of triangle ABC and passing through point D intersect line EF at X.Define Y,Z similarly.Prove that X,Y,Z are collinear.
+
+2017 China TST2 P3
+Let ABCD be a quadrilateral and let l be a line. Let l intersect the lines AB,CD,BC,DA,AC,BD at points X,X′,Y,Y′,Z,Z′ respectively. Given that these six points on l are in the order X,Y,Z,X′,Y′,Z′, show that the circles with diameter XX′,YY′,ZZ′ are coaxal.
+
+2017 China TST3 P2
+Let ABCD be a non-cyclic convex quadrilateral. The feet of perpendiculars from A to BC,BD,CD are P,Q,R respectively, where P,Q lie on segments BC,BD and R lies on CD extended. The feet of perpendiculars from D to AC,BC,AB are X,Y,Z respectively, where X,Y lie on segments AC,BC and Z lies on BA extended. Let the orthocenter of △ABD be H. Prove that the common chord of circumcircles of △PQR and △XYZ bisects BH.
+
+2017 China TST4 P2
+In ΔABC,the excircle of A is tangent to segment BC,line AB and AC at E,D,F respectively.EZ is the diameter of the circle.B1 and C1 are on DF, and BB1⊥BC,CC1⊥BC.Line ZB1,ZC1 intersect BC at X,Y respectively.Line EZ and line DF intersect at H,ZK is perpendicular to FD at K.If  H is the orthocenter of ΔXYZ,prove that:H,K,X,Y are concyclic.
+
+2017 China TST5 P4
+Given a circle with radius 1 and 2 points C,D given on it. Given a constant l with 0<l≤2. Moving chord of the circle AB=l and ABCD is a non-degenerated convex quadrilateral. AC and BD intersects at P. Find the loci of the circumcenters of triangles ABP and BCP.
+2018 China TST1 P3
+Circle ω is tangent to sides AB,AC of triangle ABC at D,E respectively, such that D≠B, E≠C and BD+CE<BC. F,G lies on BC such that BF=BD, CG=CE. Let DG and EF meet at K. L lies on minor arc DE of ω, such that the tangent of L to ω is parallel to BC. Prove that the incenter of △ABC lies on KL.
+
+2018 China TST2 P1
+Given a triangle ABC. D is a moving point on the edge BC. Point E and Point F are on the edge AB and AC, respectively, such that BE=CD and CF=BD. The circumcircle of △BDE and △CDF intersects at another point P other than D. Prove that there exists a fixed point Q, such that the length of QP is constant.
+
+2018 China TS3 P1
+Let ω1,ω2 be two non-intersecting circles, with circumcenters O1,O2 respectively, and radii r1,r2 respectively where r1<r2. Let AB,XY be the two internal common tangents of ω1,ω2, where A,X lie on ω1, B,Y lie on ω2. The circle with diameter AB meets ω1,ω2 at P and Q respectively. If
+∠AO1P+∠BO2Q=180∘,
+find the value of PXQY (in terms of r1,r2).
+
+2018 China TST3 P5
+Let ABC be a triangle with ∠BAC>90∘, and let O be its circumcenter and ω be its circumcircle. The tangent line of ω at A intersects the tangent line of ω at B and C respectively at point P and Q. Let D,E be the feet of the altitudes from P,Q onto BC, respectively. F,G are two points on PQ¯¯¯¯¯¯¯¯ different from A, so that A,F,B,E and A,G,C,D are both concyclic. Let M be the midpoint of DE¯¯¯¯¯¯¯¯. Prove that DF,OM,EG are concurrent.
+
+2018 China TST4 P3
+In isosceles △ABC, AB=AC, points D,E,F lie on segments BC,AC,AB such that DE∥AB, DF∥AC. The circumcircle of △ABC ω1 and the circumcircle of △AEF ω2 intersect at A,G. Let DE meet ω2 at K≠E. Points L,M lie on ω1,ω2 respectively such that LG⊥KG,MG⊥CG. Let P,Q be the circumcenters of △DGL and △DGM respectively. Prove that A,G,P,Q are concyclic.
+
+
+2019 China TST1 P1
+ABCDE is a cyclic pentagon, with circumcentre O. AB=AE=CD. I midpoint of BC.
+J midpoint of DE. F is the orthocentre of △ABE, and G the centroid of △AIJ.
+CE intersects BD at H, OG intersects FH at M. Show that AM⊥CD.
+
+
+2019 China TST2 P1
+AB and AC are tangents to a circle ω with center O at B,C respectively. Point P is a variable point on minor arc BC. The tangent at P to ω meets AB,AC at D,E respectively. AO meets BP,CP at U,V respectively. The line through P perpendicular to AB intersects DV at M, and the line through P perpendicular to AC intersects EU at N. Prove that as P varies, MN passes through a fixed point.
+
+2019 China TST2 P5
+Let M be the midpoint of BC of triangle ABC. The circle with diameter BC, ω, meets AB,AC at D,E respectively. P lies inside △ABC such that ∠PBA=∠PAC,∠PCA=∠PAB, and 2PM⋅DE=BC2. Point X lies outside ω such that XM∥AP, and XBXC=ABAC. Prove that ∠BXC+∠BAC=90∘.
+
+2019 China TST3 P5
+In ΔABC, AD⊥BC at D. E,F lie on line AB, such that BD=BE=BF. Let I,J be the incenter and A-excenter. Prove that there exist two points P,Q on the circumcircle of ΔABC , such that PB=QC, and ΔPEI∼ΔQFJ .
+
+2019 China TST4 P1
+Cyclic quadrilateral ABCD has circumcircle (O). Points M and N are the midpoints of BC and CD, and  E and F lie on AB and AD respectively such that EF passes through O and EO=OF. Let EN meet FM at P. Denote S as the circumcenter of △PEF. Line PO intersects AD and BA at Q and R respectively. Suppose OSPC is a parallelogram. Prove that AQ=AR.
+
+
+1989 Turkey TST P3
+Let C1 and C2 be given circles. Let A1 on C1 and A2 on C2 be fixed points. If chord A1P1 of C1 is parallel to chord A2P2 of C2, find the locus of the midpoint of P1P2.
+
+1989 Turkey TST P6
+The circle, which is tangent to the circumcircle of isosceles triangle ABC (AB=AC), is tangent AB and AC at P and Q, respectively. Prove that the midpoint I of the segment PQ is the center of the excircle (which is tangent to BC) of the triangle.
+
+1990 Turkey TST P1
+The circles k1,k2,k3 with radii (a>c>b) a,b,c are tangent to line d at A,B,C, respectively. k1 is tangent to k2, and k2 is tangent to k3. The tangent line to k3 at E is parallel to d, and it meets k1 at D. The line perpendicular to d at A meets line EB at F. Prove that AD=AF.
+
+1990 Turkey TST P4
+Let ABCD be a convex quadrilateral such that  E,F∈[AB],AE=EF=FB
+G,H∈[BC],BG=GH=HC,K,L∈[CD],CK=KL=LD
+M,N∈[DA],DM=MN=NA. Let [NG]∩[LE]={P},
+[NG]∩[KF]={Q},[MH]∩[KF]={R},[MH]∩[LE]={S}.
+Prove that:
+Area(ABCD)=9⋅Area(PQRS)
+NP=PQ=QG
+
+1991 Turkey TST P1
+Let C′,B′,A′ be points respectively on sides AB,AC,BC of △ABC satisfying AB′B′C=BC′C′A=CA′A′B=k. Prove that the ratio of the area of the triangle formed by the lines AA′,BB′,CC′ over the area of △ABC is (k−1)2(k2+k+1).
+
+1991 Turkey TST P6
+Let U be the sum of lengths of sides of a tetrahedron (triangular pyramid) with vertices O,A,B,C. Let V be the volume of the convex shape whose vertices are the midpoints of the sides of the tetrahedron. Show that V≤(U−|OA|−|BC|)(U−|OB|−|AC|)(U−|OC|−|AB|)(27⋅3).
+
+1992 Turkey TST P2
+The line passing through B is perpendicular to the side AC at E. This line meets the circumcircle of △ABC at D. The foot of the perpendicular from D to the side BC is F. If O is the center of the circumcircle of △ABC, prove that BO is perpendicular to EF.
+
+1992 Turkey TST P4
+The feet of perpendiculars from the intersection point of the diagonals of cyclic quadrilateral ABCD to the sides AB,BC,CD,DA are P,Q,R,S, respectively. Prove PQ+RS=QR+SP.
+
+1993 Turkey TST P2
+Let M be the circumcenter of an acute-angled triangle ABC. The circumcircle of triangle BMA intersects BC at P and AC at Q. Show that CM⊥PQ.
+
+1993 Turkey TST P5
+Points E and C are chosen on a semicircle with diameter AB and center O such that OE⊥AB and the intersection point D of AC and OE is inside the semicircle. Find all values of ∠CAB for which the quadrilateral OBCD is tangent.
+
+1994 Turkey TST P2
+Let O be the center and [AB] be the diameter of a semicircle. E is a point between O and B. The perpendicular to [AB] at E meets the semicircle at D. A circle which is internally tangent to the arc BD is also tangent to [DE] and [EB] at K and C, respectively. Prove that EDCˆ=BDCˆ.
+
+1994 Turkey TST P4
+Let P,Q,R be points on the sides of  △ABC such that P∈[AB],Q∈[BC],R∈[CA] and |AP||AB|=|BQ||BC|=|CR||CA|=k<12 . If G is the centroid of △ABC, find the ratio Area(△PQG)Area(△PQR) .
+
+1995 Turkey TST P3
+Let D be a point on the small arc AC of the circumcircle of an equilateral triangle ABC, different from A and C. Let E and F be the projections of D onto BC and AC respectively. Find the locus of the intersection point of EF and OD, where O is the center of ABC.
+
+1995 Turkey TST P4
+In a convex quadrilateral ABCD it is given that ∠CAB=40∘,∠CAD=30∘,∠DBA=75∘, and ∠DBC=25∘. Find ∠BDC.
+
+1996 Turkey TST P2
+In a parallelogram ABCD with ∠A<90, the circle with diameter AC intersects the lines CB and CD again at E and F , and the tangent to this circle at A meets the line BD at P . Prove that the points P, E, F are collinear.
+
+1996 Turkey TST P4
+The diagonals AC and BD of a convex quadrilateral ABCD with SABC=SADC intersect at E. The lines through E parallel to AD, DC, CB, BA meet AB, BC, CD, DA at K, L, M, N, respectively. Compute the ratio SKLMNSABC
+
+1997 Turkey TST P1
+In a triangle ABC with a right angle at A, H is the foot of the altitude from A. Prove that the sum of the inradii of the triangles ABC, ABH, and AHC is equal to AH.
+
+1997 Turkey TST P4
+A convex ABCDE is inscribed in a unit circle, AE being its diameter. If AB=a, BC=b, CD=c, DE=d and ab=cd=14, compute AC+CE in terms of a,b,c,d.
+
+1998 Turkey TST P1
+Squares BAXX′ and CAYY′ are drawn in the exterior of a triangle ABC with AB=AC. Let D be the midpoint of BC, and E and F be the feet of the perpendiculars from an arbitrary point K on the segment BC to BY and CX, respectively.
+(a) Prove that DE=DF .
+(b) Find the locus of the midpoint of EF .
+
+1998 Turkey TST P5
+In a triangle ABC, the circle through C touching AB at A and the circle through B touching AC at A have diﬀerent radii and meet again at D. Let E be the point on the ray AB such that AB=BE. The circle through A, D, E intersect the ray CA again at F . Prove that AF=AC.
+
+1999 Turkey TST P2
+Let L and N be the mid-points of the diagonals [AC] and [BD] of the cyclic quadrilateral ABCD, respectively. If BD is the bisector of the angle ANC, then prove that AC is the bisector of the angle BLD.
+
+1999 Turkey TST P4
+Let the area and the perimeter of a cyclic quadrilateral C be AC and PC, respectively. If the area and the perimeter of the quadrilateral which is tangent to the circumcircle of C at the vertices of C are AT and PT , respectively, prove that ACAT≥(PCPT)2.
+
+2000 Turkey TST P2
+In a triangle ABC, the internal and external bisectors of the angle A intersect the line BC at D and E respectively. The line AC meets the circle with diameter DE again at F. The tangent line to the circle ABF at A meets the circle with diameter DE again at G. Show that AF=AG.
+
+2000 Turkey TST P5
+Points M, N, K, L are taken on the sides AB, BC, CD, DA of a rhombus ABCD, respectively, in such a way that MN∥LK and the distance between MN and KL is equal to the height of ABCD. Show that the circumcircles of the triangles ALM and NCK intersect each other, while those of LDK and MBN do not.
+
+2000 Turkey TST P2
+A circle touches to diameter AB of a unit circle with center O at T where OT>1. These circles intersect at two different points C and D. The circle through O, D, and C meet the line AB at P different from O. Show that |PA|⋅|PB|=|PT|2|OT|2.
+
+2001 Turkey TST P5
+Let H be the intersection of the altitudes of an acute triangle ABC and D be the midpoint of [AC]. Show that DH passes through one of the intersection point of the circumcircle of ABC and the circle with diameter [BH].
+
+2002 Turkey TST P2
+In a triangle ABC, the angle bisector of ABCˆ meets [AC] at D, and the angle bisector of BCAˆ meets [AB] at E. Let X be the intersection of the lines BD and CE where |BX|=3–√|XD| ve |XE|=(3–√−1)|XC|. Find the angles of triangle ABC.
+
+2002 Turkey TST P5
+Two circles are internally tangent at a point A. Let C be a point on the smaller circle other than A. The tangent line to the smaller circle at C meets the bigger circle at D and E; and the line AC meets the bigger circle at A and P. Show that the line PE is tangent to the circle through A, C, and E.
+
+2003 Turkey TST P2
+Let K be the intersection of the diagonals of a convex quadrilateral ABCD. Let L∈[AD], M∈[AC], N∈[BC] such that KL∥AB, LM∥DC, MN∥AB. Show that Area(KLMN)Area(ABCD)<827.
+
+2003 Turkey TST P5
+Let A be a point on a circle with center O and B be the midpoint of [OA]. Let C and D be points on the circle such that they lie on the same side of the line OA and CBOˆ=DBAˆ. Show that the reflection of the midpoint of [CD] over B lies on the circle.
+
+2004 Turkey TST P5
+Let △ABC be an acute triangle, O be its circumcenter, and D be a point different that A and C on the smaller AC arc of its circumcircle. Let P be a point on [AB] satisfying ADPˆ=OBCˆ and Q be a point on [BC] satisfying CDQˆ=OBAˆ. Show that DPQˆ=DOCˆ.
+
+2005 Turkey TST P2
+Let N be midpoint of the side AB of a triangle ABC with ∠A greater than ∠B. Let D be a point on the ray AC such that CD=BC and P be a point on the ray DN which lies on the same side of BC as A and satisfies the condition ∠PBC=∠A. The lines PC and AB intersect at E, and the lines BC and DP intersect at T. Determine the value of  BCTC−EAEB.
+
+2006 Turkey TST P1
+Find the maximum value for the area of a heptagon with all vertices on a circle and two diagonals perpendicular.
+
+2006 Turkey TST P5
+From a point Q on a circle with diameter AB different from A and B, we draw a perpendicular to AB, QH, where H lies on AB. The intersection points of the circle of diameter AB and the circle of center Q and radius QH are C and D. Prove that CD bisects QH.
+
+2007 Turkey TST P2
+Two different points A and B and a circle ω that passes through A and B are given. P is a variable point on ω (different from A and B). M is a point such that MP is the bisector of the angle ∠APB (M lies outside of ω) and MP=AP+BP. Find the geometrical locus of M.
+
+2007 Turkey TST P4
+Let ABC is an acute angled triangle and let A1,B1,C1 are points respectively on BC,CA,AB such that △ABC is similar to △A1B1C1.
+Prove that orthocenter of A1B1C1 coincides with circumcenter of ABC.
+
+2008 Turkey TST P1
+In an ABC triangle such that m(∠B)>m(∠C), the internal and external bisectors of vertice A intersects BC respectively at points D and E. P is a variable point on EA such that A is on [EP]. DP intersects AC at M and ME intersects AD at Q. Prove that all PQ lines have a common point as P varies.
+
+2008 Turkey TST P5
+D is a point on the edge BC of triangle ABC such that AD=BD2AB+AD=CD2AC+AD. E is a point such that D is on [AE] and CD=DE2CD+CE. Prove that AE=AB+AC.
+
+2009 Turkey TST P2
+Quadrilateral ABCD has an inscribed circle which centered at O with radius r. AB intersects CD at P; AD intersects BC at Q and the diagonals AC and  BD intersects each other at K. If the distance from O to the line PQ is k, prove that OK⋅ k=r2.
+
+2010 Turkey TST P1
+D,E,F are points on the sides AB,BC,CA, respectively, of a triangle ABC such that AD=AF,BD=BE, and DE=DF. Let I be the incenter of the triangle ABC, and let K be the point of intersection of the line BI and the tangent line through A to the circumcircle of the triangle ABI. Show that AK=EK if AK=AD.
+
+2010 Turkey TST P5
+For an interior point D of a triangle ABC, let ΓD denote the circle passing through the points A,E,D,F if these points are concyclic where BD∩AC={E} and CD∩AB={F}. Show that all circles ΓD pass through a second common point different from A as D varies.
+
+2011 Turkey TST P2
+Let I be the incenter and AD be a diameter of the circumcircle of a triangle ABC. If the point E on the ray BA and the point F on the ray CA satisfy the condition BE=CF=AB+BC+CA2 show that the lines EF and DI are perpendicular.
+
+2011 Turkey TST P4
+Let D be a point different from the vertices on the side BC of a triangle ABC. Let I,I1 and I2 be the incenters of the triangles ABC,ABD and ADC, respectively. Let E be the second intersection point of the circumcircles of the triangles AI1I and ADI2, and F be the second intersection point of the circumcircles of the triangles AII2 and AI1D. Prove that if AI1=AI2, then EIFI⋅EDFD=EI12FI12.
+
+2011 Turkey TST P7
+Let K be a point in the interior of an acute triangle ABC and ARBPCQ be a convex hexagon whose vertices lie on the circumcircle Γ of the triangle ABC. Let A1 be the second point where the circle passing through K and tangent to Γ at A intersects the line AP. The points B1 and C1 are defined similarly. Prove that
+min{PA1AA1,QB1BB1,RC1CC1}≤1.
+
+2012 Turkey TST P2
+In an acute triangle ABC, let D be a point on the side BC. Let M1,M2,M3,M4,M5 be the midpoints of the line segments AD,AB,AC,BD,CD, respectively and O1,O2,O3,O4 be the circumcenters of triangles ABD,ACD,M1M2M4,M1M3M5, respectively. If S and T are midpoints of the line segments AO1 and AO2, respectively, prove that SO3O4T is an isosceles trapezoid.
+
+2012 Turkey TST P4
+In a triangle ABC, incircle touches the sides BC,CA,AB at D,E,F, respectively. A circle ω passing through A and tangent to line BC at D intersects the line segments BF and CE at K and L, respectively. The line passing through E and parallel to DL intersects the line passing through F and parallel to DK at P. If R1,R2,R3,R4 denotes the circumradius of the triangles AFD,AED,FPD,EPD, respectively, prove that R1R4=R2R3.
+
+2012 Turkey TST P8
+In a plane, the six different points A,B,C,A′,B′,C′ are given such that triangles ABC and A′B′C′ are congruent, i.e. AB=A′B′,BC=B′C′,CA=C′A′. Let G be the centroid of ABC and A1 be an intersection point of the circle with diameter AA′ and the circle with center A′ and passing through G. Define B1 and C1 similarly. Prove that AA21+BB21+CC21≤AB2+BC2+CA2
+
+2013 Turkey TST P3
+Let O be the circumcenter and I be the incenter of an acute triangle ABC with m(Bˆ)≠m(Cˆ). Let D, E, F be the midpoints of the sides [BC], [CA], [AB], respectively. Let T be the foot of perpendicular from I to [AB]. Let P be the circumcenter of the triangle DEF and Q be the midpoint of [OI]. If A, P, Q are collinear, prove that |AO||OD|−|BC||AT|=4.
+
+2013 Turkey TST P5
+Let the incircle of the triangle ABC touch [BC] at D and I be the incenter of the triangle. Let T be midpoint of [ID]. Let the perpendicular from I to AD meet AB and AC at K and L, respectively. Let the perpendicular from T to AD meet AB and AC at M and N, respectively. Show that |KM|⋅|LN|=|BM|⋅|CN|.
+
+2013 Turkey TST P7
+Let E be intersection of the diagonals of convex quadrilateral ABCD. It is given that  m(EDCˆ)=m(DECˆ)=m(BADˆ). If F is a point on [BC] such that m(BAFˆ)+m(EBFˆ)=m(BFEˆ), show that A, B, F, D are concyclic.
+
+2014 Turkey TST P3
+Let r,R and ra be the radii of the incircle, circumcircle and A-excircle of the triangle ABC with AC>AB, respectively. I,O and JA are the centers of these circles, respectively. Let incircle touches the BC at D, for a point E∈(BD) the condition A(IEJA)=2A(IEO) holds. Prove that ED=AC−AB⟺R=2r+ra.
+
+2014 Turkey TST P5
+A circle ω cuts the sides BC,CA,AB of the triangle ABC at A1 and A2; B1 and B2; C1 and C2, respectively. Let P be the center of ω. A′ is the circumcenter of the triangle A1A2P, B′ is the circumcenter of the triangle B1B2P, C′ is the circumcenter of the triangle C1C2P. Prove that AA′,BB′ and CC′ concur.
+
+2014 Turkey TST P7
+Let P be a point inside the acute triangle ABC with m(PACˆ)=m(PCBˆ). D is the midpoint of the segment PC. AP and BC intersect at E, and BP and DE intersect at Q. Prove that sinBCQˆ=sinBAPˆ.
+
+2015 Turkey TST P4
+Let ABC be a triangle such that |AB|=|AC| and let D,E be points on the minor arcs AB and AC respectively. The lines AD and BC intersect at F and the line AE intersects the circumcircle of △FDE a second time at G. Prove that the line AC is tangent to the circumcircle of △ECG.
+
+2015 Turkey TST P8
+Let ABC be a triangle with incenter I and circumcenter O such that |AC|>|BC|>|AB| and the incircle touches the sides BC,CA,AB at D,E,F respectively. Let the reflection of A with respect to F and E be F1 and E1 respectively. The circle tangent to BC at D and passing through F1 intersects AB a second time at F2 and the circle tangent to BC at D and passing through E1 intersects AC a second time at E2. The midpoints of the segments |OE| and |IF| are P and Q respectively. Prove that |AB|+|AC|=2|BC|⟺PQ⊥E2F2
+
+2016 Turkey TST P1
+In an acute triangle ABC, a point P is taken on the A-altitude. Lines BP and CP intersect the sides AC and AB at points D and E, respectively. Tangents drawn from points D and E to the circumcircle of triangle BPC are tangent to it at points K and L, respectively, which are in the interior of triangle ABC. Line KD intersects the circumcircle of triangle AKC at point M for the second time, and line LE intersects the circumcircle of triangle ALB at point  N for the second time. Prove that KDMD=LENE⟺Point P is the orthocenter of triangle ABC
+
+2016 Turkey TST P6
+In a triangle ABC with AB=AC, let D be the midpoint of [BC]. A line passing through D intersects AB at K, AC at L. A point E on [BC] different from D, and a point P on AE is taken such that ∠KPL=90∘−12∠KAL and E lies between A and P. The circumcircle of triangle PDE intersects PK at point X, PL at point Y for the second time. Lines DX and AB intersect at M, and lines DY and AC intersect at N. Prove that the points P,M,A,N are concyclic.
+
+2017 Turkey TST P3
+At the ABC triangle the midpoints of BC,AC,AB are respectively D,E,F and the triangle tangent to the incircle at G, H and I in the same order.The midpoint of AD is J. BJ and AG intersect at point K. The C−centered circle passing through A cuts the [CB ray at point X. The line passing through K and parallel to the BC and AX meet at U. IU and BC intersect at the P point. There is Y point chosen at incircle. PY is tangent to incircle at point Y. Prove that D,E,F,Y are cyclic.
+
+2017 Turkey TST P8
+In a triangle ABC the bisectors through vertices B and C meet the sides [AC] and [AB] at D and E respectively. Let Ic be the center of the excircle which is tangent to the side [AB] and F the midpoint of [BIc]. If |CF|2=|CE|2+|DF|2, show that ABC is an equilateral triangle.
+
+2018 Turkey TST P4
+In a non-isosceles acute triangle ABC, D is the midpoint of the edge [BC]. The points E and F lie on [AC] and [AB], respectively, and the circumcircles of CDE and AEF intersect in P on [AD]. The angle bisector from P in triangle EFP intersects EF in Q. Prove that the tangent line to the circumcirle of AQP at A is perpendicular to BC.
+
+2018 Turkey TST P9
+For a triangle T and a line d, if the feet of perpendicular lines from a point in the plane to the edges of T all lie on d, say d focuses T. If the set of lines focusing T1 and the set of lines focusing T2 are the same, say T1 and T2 are equivalent. Prove that, for any triangle in the plane, there exists exactly one equilateral triangle which is equivalent to it.
+
+2019 Turkey TST P3
+In a triangle ABC, AB>AC. The foot of the altitude from A to BC is D, the intersection of bisector of B and AD is K, the foot of the altitude from B to CK is M and let BM and AK intersect at point N. The line through N parallel to DM intersects AC at T. Prove that BM is the bisector of angle TBCˆ.
+
+2019 Turkey TST P7
+In a triangle ABC with ∠ACB=90∘ D is the foot of the altitude of C. Let E and F be the reflections of D with respect to AC and BC. Let O1 and O2 be the circumcenters of △ECB and △FCA. Show that: 2O1O2=AB
+
+EGMO TST 2013-19
+
+2013 Turkey EGMO TST P3
+Altitudes AD and CE of an acute angled triangle ABC intersect at point H  . Let K be the midpoint of  side AC and P be the  midpoint of segment DE  . Let Q be the symmetrical point of K wrt line AD.  Prove that ∠QPH=90o
+
+2013 Turkey EGMO TST P5
+In a triangle ABC, AB=AC. A circle passing through A and C intersects AB at D. Angle bisector from A intersects the circle at E. (different from A) Prove that orthocenter of AEB is on this circle.
+
+2014 Turkey EGMO TST P1
+Let D be the midpoint of the side BC of a triangle ABC and AD intersect the circumcircle of ABC for the second time at E. Let P be the point symmetric to the point E with respect to the point D and Q be the point of intersection of the lines CP and AB. Prove that if A,C,D,Q are concyclic, then the lines BP and AC are perpendicular.
+
+2014 Turkey EGMO TST P5
+Let ABC be a triangle with circumcircle ω and let ωA be a circle drawn outside ABC and tangent to side BC at A1 and tangent to ω at A2. Let the circles ωB and ωC and the points B1,B2,C1,C2 are defined similarly. Prove that if the lines AA1,BB1,CC1 are concurrent, then the lines AA2,BB2,CC2 are also concurrent.
+
+2015 Turkey EGMO TST P2
+Let D be the midpoint of the side BC of a triangle ABC and P be a point inside the ABD satisfying ∠PAD=90∘−∠PBD=∠CAD. Prove that ∠PQB=∠BAC, where Q is the intersection point of the lines PC and AD.
+
+2016 Turkey EGMO TST P3
+Let X be a variable point on the side BC of a triangle ABC. Let B′ and C′ be points on the rays [XB and [XC, respectively, satisfying B′X=BC=C′X. The line passing through X and parallel to AB′ cuts the line AC at Y and the line passing through X and parallel to AC′ cuts the line AB at Z. Prove that all lines YZ pass through a fixed point as X varies on the line segment BC.
+
+2016 Turkey EGMO TST P4
+In a convex pentagon, let the perpendicular line from a vertex to the opposite side be called an altitude. Prove that if four of the altitudes are concurrent at a point then the fifth altitude also passes through this point.
+
+2017 Turkey EGMO TST P4
+On the inside of the triangle ABC a point P is chosen with ∠BAP=∠CAP. If |AB|⋅|CP|=|AC|⋅|BP|=|BC|⋅|AP| , find all possible values of the angle ∠ABP.
+
+2018 Turkey EGMO TST P1
+Let ABCD be a cyclic quadrilateral and w be its circumcircle.  For a given point E inside w, DE intersects AB at F inside w. Let l be a line passes through E and tangent to circle AEF. Let G be any point on l and inside the quadrilateral ABCD. Show that if ∠GAD=∠BAE and ∠GCB+∠GAB=∠EAD+∠AGD+∠ABE then BC, AD and EG are concurrent.
+
+2019 Turkey EGMO TST P3
+Let ω be the circumcircle of ΔABC, where |AB|=|AC|. Let D be any point on the minor arc AC. Let E be the reflection of point B in line AD. Let F be the intersection of ω and line BE and Let K be the intersection of line AC and the tangent at F. If line AB intersects line FD at L, Show that K,L,E are collinear points.
+
+2019 Turkey EGMO TST P5
+Let D be the midpoint of BC¯¯¯¯¯¯¯¯ in ΔABC. Let P be any point on AD¯¯¯¯¯¯¯¯. If the internal angle bisector of ∠ABP and ∠ACP intersect at Q. Prove that, if BQ⊥QC, then Q lies on AD

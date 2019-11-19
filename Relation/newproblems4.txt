@@ -1,0 +1,370 @@
+
+1996 Iran MO 3rd Round geometry 1 of 3
+Let ABCD be a parallelogram. Construct the equilateral triangle DCE on the side DC and outside of parallelogram. Let P be an arbitrary point in plane of ABCD. Show that PA+PB+AD≥PE.
+
+1996 Iran MO 3rd Round geometry 2 of 3
+Let ABCD be a convex quadrilateral. Construct the points P,Q,R, and S on continue of AB,BC,CD, and DA, respectively, such that BP=CQ=DR=AS. Show that if PQRS is a square, then ABCD is also a square.
+
+1996 Iran MO 3rd Round geometry 3 of 3
+Consider a semicircle of center O and diameter AB. A line intersects AB at M and the semicircle at C and D s.t. MC>MD and MB<MA. The circumcircles od the AOC and BOD intersect again at K. Prove that MK⊥KO.
+
+1997 Iran MO 3rd Round geometry  1 of 2
+Let ABC and XYZ be two triangles. Define A1=BC∩ZX,A2=BC∩XY,B1=CA∩XY,B2=CA∩YZ,C1=AB∩YZ,C2=AB∩ZX. Hereby, the abbreviation g∩h means the point of intersection of two lines g and h.
+Prove that C1C2AB=A1A2BC=B1B2CA holds if and only if A1C2XZ=C1B2ZY=B1A2YX.
+
+1997 Iran MO 3rd Round geometry 2 of 2
+In an acute triangle ABC, points D,E,F are the feet of the altitudes from A,B,C, respectively. A line through D parallel to EF meets AC at Q and AB at R. Lines BC and EF intersect at P. Prove that the circumcircle of triangle PQR passes through the midpoint of BC.
+
+1998 Iran MO 3rd Round geometry 1 of 3
+Let ABCD be a convex pentagon such that ∠DCB=∠DEA=90∘, and DC=DE. Let F be a point on AB such that AF:BF=AE:BC. Show that ∠FEC=∠BDC, and ∠FCE=∠ADE.
+
+
+1998 Iran MO 3rd Round geometry 2 of 3
+Let ABCDEF be a convex hexagon such that AB=BC,CD=DE and EF=FA. Prove that
+ABBE+CDAD+EFCF≥32.
+
+1998 Iran MO 3rd Round geometry 3 of 3
+In a triangle ABC, the bisector of angle BAC intersects BC at D. The circle Γ through A which is tangent to BC at D meets AC again at M. Line BM meets Γ again at P. Prove that line AP is a median of △ABD.
+
+1999 problems are missing from aops
+
+2000 Iran MO 3rd Round geometry 1 of 6
+Call two circles in three-dimensional space pairwise tangent at a point P if they both pass through P and lines tangent to each circle at P coincide. Three circles not all lying in a plane are pairwise tangent at three distinct points. Prove that there exists a sphere which passes through the three circles.
+
+
+2000 Iran MO 3rd Round geometry 2 of 6
+Circles C1 and C2 with centers at O1 and O2 respectively meet at points A and B. The radii O1B and O2B meet C1 and C2 at F andE. The line through B parallel to EF intersects C1 again at M and C2 again at N.  Prove that MN=AE+AF.
+
+
+2000 Iran MO 3rd Round geometry 3 of 6
+Two triangles ABCand A′B′C′ are positioned in the space such that the length of every side of △ABC is not less than a, and the length of every side of △A′B′C′ is not less than a′. Prove that one can select a vertex of △ABC and a vertex of △A′B′C′ so that the distance between the two selected vertices is not less than a2+a′23−−−−−√.
+
+2000 Iran MO 3rd Round geometry 4 of 6
+Two circles intersect at two points A and B. A line ℓ which passes through the point A meets the two circles again at the points C and D, respectively. Let M and N be the midpoints of the arcs BC and BD (which do not contain the point A) on the respective circles. Let K be the midpoint of the segment CD. Prove that ∡MKN=90∘.
+
+2000 Iran MO 3rd Round geometry 5 of 6
+Isosceles triangles A3A1O2 and A1A2O3 are constructed on the sides of a triangle A1A2A3 as the bases, outside the triangle. Let O1 be a point outside ΔA1A2A3 such that ∠O1A3A2=12∠A1O3A2 and ∠O1A2A3=12∠A1O2A3. Prove that A1O1⊥O2O3, and if T is the projection of O1 onto A2A3, then A1O1O2O3=2O1TA2A3.
+
+2000 Iran MO 3rd Round geometry 6 of 6
+A circleΓ with radius R and center ω, and a line d are drawn on a plane, such that the distance of ω from d is greater than R. Two points M and N vary on d so that the circle with diameter MN is tangent to Γ. Prove that there is a point P in the plane from which all the segments MN are visible at a constant angle.
+
+2001 problems are missing from aops
+
+2002 Iran MO 3rd Round geometry 1 of  10
+ω is circumcirlce of triangle ABC. We draw a line parallel to BC that intersects AB,AC at E,F and intersects ω at U,V. Assume that M is midpoint of BC. Let ω′ be circumcircle of UMV. We know that R(ABC)=R(UMV). ME and ω′ intersect at T, and FT intersects ω′ at S. Prove that EF is tangent to circumcircle of MCS.
+
+2002 Iran MO 3rd Round geometry 2 of  10
+M is midpoint of BC.P is an arbitary point on BC. C1 is tangent to big circle.Suppose radius of C1 is r1. Radius of C4 is equal to radius of C1 and C4 is tangent to BC at P. C2 and C3 are tangent to big circle and line BC and circle C4. Prove : 4r_{1}+r_{2}+r_{3}=R(R$ radius of big circle)
+
+2002 Iran MO 3rd Round geometry 3 of  10
+In triangle ABC, AD is angle bisector (D is on BC) if AB+AD=CD and AC+AD=BC, what are the angles of ABC?
+
+2002 Iran MO 3rd Round geometry 4 of  10
+Circles C1 and C2 are tangent to each other at K and are tangent to circle C at M and N. External tangent of C1 and C2 intersect C at A and B. AK and BK  intersect with circle C at E and F respectively. If AB is diameter of C, prove that EF and MN and OK are concurrent. (O is center of circle C.)
+
+2002 Iran MO 3rd Round geometry 5 of  10
+Let M and N be points on the side BC of triangle ABC, with the point M lying on the segment BN, such that BM=CN. Let P and Q be points on the segments AN and AM, respectively, such that ∠PMC=∠MAB and ∠QNB=∠NAC. Prove that ∠QBC=∠PCB.
+
+2002 Iran MO 3rd Round geometry 6 of  10
+H,I,O,N are orthogonal center, incenter, circumcenter, and Nagelian point of triangle ABC. Ia,Ib,Ic are excenters of ABC corresponding vertices A,B,C. S is point that O is midpoint of HS. Prove that centroid of triangles IaIbIc and SIN concide.
+
+2002 Iran MO 3rd Round geometry 7 of  10
+Let A be be a point outside the circle C, and AB and AC be the two tangents from A to this circle C. Let L be an arbitrary tangent to C that cuts AB and AC in P and Q. A line through P parallel to AC cuts BC in R. Prove that while L varies, QR passes through a fixed point.
+
+2002 Iran MO 3rd Round geometry 8 of  10
+I is incenter of triangle ABC. Incircle of ABC touches AB,AC at X,Y. XI intersects incircle at M. Let CM∩AB=X′. L is a point on the segment X′C that X′L=CM. Prove that A,L,I are collinear iff AB=AC.
+
+2002 Iran MO 3rd Round geometry 9 of  10
+Excircle of triangle ABC corresponding vertex A, is tangent to BC at P. AP intersects circumcircle of ABC at D. Prove r(PCD)=r(PBD),  where r(PCD) and r(PBD) are inradii of triangles PCD and PBD.
+
+2002 Iran MO 3rd Round geometry 10 of  10
+A,B,C are on circle C. I is incenter of ABC , D is midpoint of arc BAC. W is a circle that is tangent to AB and AC and tangent to C at P. (W is in C) . Prove that P and I and D are on a line.
+
+2003 Iran MO 3rd Round geometry 1 of  9
+In tetrahedron ABCD, radius four circumcircles of four faces are equal. Prove that AB=CD, AC=BD and AD=BC.
+
+2003 Iran MO 3rd Round geometry 2 of 9
+Suppose that M is an arbitrary point on side BC of triangle ABC. B1,C1 are points on AB,AC such that MB=MB1 and MC=MC1.  Suppose that H,I are orthocenter of triangle ABC and incenter of triangle MB1C1. Prove that A,B1,H,I,C1 lie on a circle.
+
+
+2003 Iran MO 3rd Round geometry 3 of 9
+Let ABC be a triangle. Wa is a circle with center on BC passing through A and perpendicular to circumcircle of ABC. Wb,Wc are defined similarly. Prove that center of Wa,Wb,Wc are collinear.
+
+2003 Iran MO 3rd Round geometry 4 of 9
+A,B are fixed points. Variable line l passes through the fixed point C. There are two circles passing through A,B and tangent to l at M,N. Prove that circumcircle of AMN passes through a fixed point.
+
+2003 Iran MO 3rd Round geometry 5 of 9
+Let A,B,C,Q be fixed points on plane. M,N,P are intersection points of AQ,BQ,CQ with BC,CA,AB. D′,E′,F′ are tangency points of incircle of ABC with BC,CA,AB. Tangents drawn from M,N,P (not triangle sides) to incircle of ABC make triangle DEF. Prove that DD′,EE′,FF′ intersect at Q.
+
+2003 Iran MO 3rd Round geometry 6 of 9
+Circles C1,C2 intersect at P. A line Δ is drawn arbitrarily from P and intersects with C1,C2 at B,C. What is locus of A such that the median of AM of triangle ABC has fixed length k.
+
+2003 Iran MO 3rd Round geometry 7 of  9
+Assume ABCD a convex quadrilatral. P and Q are on BC and DC respectively such that ∠BAP=∠DAQ .prove that [ADQ]=[ABP]   ([ABC] means its area ) iff the line which crosses through the orthocenters of these triangles , is perpendicular to AC.
+
+2003 Iran MO 3rd Round geometry 8 of 9
+∠XOY is angle in the plane. A,B are variable points on OX,OY such that 1/OA+1/OB=1/k (k is constant). Draw two circles with diameters  OA and OB. Prove that common external tangent to these circles is tangent to a constant circle. (Determine the  radius and the locus of its center)..
+
+2003 Iran MO 3rd Round geometry 9 of  9
+Let the incircle of a triangle ABC touch BC,AC,AB at A1,B1,C1 respectively. M and N are the midpoints of AB1 and AC1 respectively. MN meets A1C1 at T . draw two tangents TP and TQ through T to incircle. PQ meets MN at L and B1C1 meets PQ at K . Assume I is the center of the incircle . Prove IK is parallel to AL
+
+2004 Iran MO 3rd Round geometry 1 of  5
+Let ABC be a triangle, and O the center of its circumcircle. Let a line through the point O intersect the lines AB and AC at the points M and N, respectively. Denote by S and R the midpoints of the segments BN and CM, respectively. Prove that ∠ROS=∠BAC.
+
+2004 Iran MO 3rd Round geometry 2 of  5
+Assume that ABC is acute traingle and AA' is median we extend it until it meets circumcircle at A". let APa be a diameter of the circumcircle. the pependicular from A' to APa meets the tangent to circumcircle  at A"  in the point Xa; we define Xb,Xc similary . prove that Xa,Xb,Xc are one a line.
+
+2004 Iran MO 3rd Round geometry 3 of  5
+Let ABC be a triangle . Let point X be in the triangle and AX intersects BC in Y . Draw the perpendiculars YP,YQ,YR,YS to lines CA,CX,BX,BA respectively. Find the necessary and sufficient condition for X such that PQRS be cyclic .
+
+2004 Iran MO 3rd Round geometry 4 of  5
+In triangle ABC, points M,N lie on line AC such that MA=AB and NB=NC. Also K,L lie on line BC such that KA=KB and LA=LC. It is know that KL=12BC and MN=AC. Find angles of triangle ABC. [might have a typo]
+
+2004 Iran MO 3rd Round geometry 5 of  5
+Incircle of triangle ABC touches AB,AC at P,Q. BI,CI intersect with PQ at K,L. Prove that circumcircle of ILK is tangent to incircle of ABC if and only if AB+AC=3BC.
+
+2005 Iran MO 3rd Round geometry P1
+From each vertex of triangle ABC we draw 3 arbitary parrallell lines, and from each vertex we draw a perpendicular to these lines. There are 3 rectangles that one of their diagnals is triangle's side. We draw their other diagnals and call them ℓ1, ℓ2 and ℓ3. a) Prove that ℓ1, ℓ2 and ℓ3 are concurrent at a point P. b) Find the locus of P as we move the 3 arbitary lines.
+
+2005 Iran MO 3rd Round geometry P2
+Suppose O is circumcenter of triangle ABC. Suppose S(OAB)+S(OAC)2=S(OBC). Prove that the distance of O (circumcenter) from the radical axis of the circumcircle and the 9-point circle is a29R2−(a2+b2+c2)√
+
+
+2005 Iran MO 3rd Round geometry P3
+Prove that in acute-angled traingle ABC if r is inradius and R is radius of circumcircle then: a2+b2+c2≥4(R+r)2
+
+
+2005 Iran MO 3rd Round geometry P4
+Suppose in triangle ABC incircle touches the side BC at P and ∠APB=α. Prove that :  1p−b−1p−c=2rtgα
+
+
+2005 Iran MO 3rd Round geometry P5
+Suppose H and O are orthocenter and circumcenter of triangle ABC. ω is circumcircle of ABC. AO intersects with ω at A1. A1H intersects with ω at A′ and A′′ is the intersection point of ω and AH. We define points B′, B′′, C′ and C′′ similiarly. Prove that A′A′′,B′B′′ and C′C′′ are concurrent in a point on the Euler line of triangle ABC.
+
+2006 Iran MO 3rd Round geometry P1
+Prove that in triangle ABC, radical center of its excircles lies on line GI, which G is Centroid of triangle ABC, and I is the incenter.
+
+2006 Iran MO 3rd Round geometry P2
+ABC is a triangle and R,Q,P are midpoints of AB,AC,BC. Line AP intersects RQ in E and circumcircle of ABC in F. T,S are on RP,PQ such that ES⊥PQ,ET⊥RP. F′ is on circumcircle of ABC that FF′ is diameter. The point of intersection of AF′ and BC is E′. S′,T′ are on AB,AC that E′S′⊥AB,E′T′⊥AC. Prove that TS and T′S′ are perpendicular.
+
+2006 Iran MO 3rd Round geometry P3
+In triangle ABC, if L,M,N are midpoints of AB,AC,BC. And H is orthogonal center of triangle ABC, then prove that LH2+MH2+NH2≤14(AB2+AC2+BC2)
+
+2006 Iran MO 3rd Round geometry P4
+Circle Ω(O,R) and its chord AB is given. Suppose C is midpoint of arc AB. X is an arbitrary point on the cirlce. Perpendicular from B to CX intersects circle again in D. Perpendicular from C to DX intersects circle again in E. We draw three lines ℓ1,ℓ2,ℓ3 from A,B,E parralell to OX,OD,OC. Prove that these lines are concurrent and find locus of concurrncy point.
+
+2006 Iran MO 3rd Round geometry P5
+M is midpoint of side BC of triangle ABC, and I is incenter of triangle ABC, and T is midpoint of arc BC, that does not contain A. Prove that cosB+cosC=1⟺MI=MT
+
+2007 Iran MO 3rd Round geometry P1
+a) Let ABC be a triangle, and O be its circumcenter. BO and CO intersect with AC,AB at B′,C′. B′C′ intersects the circumcircle at two points P,Q. Prove that AP=AQ if and only if ABC is isosceles. b) Prove the same statement if O is replaced by I, the incenter.
+
+2007 Iran MO 3rd Round geometry P2
+a) Let ABC be a triangle, and O be its circumcenter. BO and CO intersect with AC,AB at B′,C′. B′C′ intersects the circumcircle at two points P,Q. Prove that AP=AQ if and only if ABC is isosceles. b) Prove the same statement if O is replaced by I, the incenter.
+
+2007 Iran MO 3rd Round geometry P3
+Let I be incenter of triangle ABC, M be midpoint of side BC, and T be the intersection point of IM with incircle, in such a way that I is between M and T. Prove that ∠BIM−∠CIM=32(∠B−∠C), if and only if AT⊥BC.
+
+2007 Iran MO 3rd Round geometry P4
+Let ABC be a triangle, and D be a point where incircle touches side BC. M is midpoint of BC, and K is a point on BC such that AK⊥BC. Let D′ be a point on BC such that D′MD′K=DMDK. Define ωa to be circle with diameter DD′. We define ωB,ωC similarly. Prove that every two of these circles are tangent.
+
+2007 Iran MO 3rd Round geometry P5
+Let ABC be a triangle. Squares ABcBaC, CAbAcB and BCaCbA are outside the triangle. Square BcB′cB′aBa with center P is outside square ABcBaC. Prove that BP,CaBa and AcBc are concurrent.
+
+2008 Iran MO 3rd Round geometry P1
+Let ABC be a triangle with BC>AC>AB. Let A′,B′,C′ be feet of perpendiculars from A,B,C to BC,AC,AB, such that AA′=BB′=CC′=x. Prove that: a) If ABC∼A′B′C′ then x=2r b) Prove that if A′,B′ and C′ are collinear, then x=R+d or x=R−d. (In this problem R is the radius of circumcircle, r is radius of incircle and d=OI)
+
+2008 Iran MO 3rd Round geometry P2
+Let la,lb,lc be three parallel lines passing through A,B,C respectively. Let l′a be reflection of la into BC. l′b and l′c are defined similarly. Prove that l′a,l′b,l′c are concurrent if and only if la is parallel to Euler line of triangle ABC.
+
+2008 Iran MO 3rd Round geometry P3
+Let ABCD be a quadrilateral, and E be intersection points of  AB,CD and AD,BC respectively. External bisectors of DAB and DCB intersect at P, external bisectors of ABC and ADC intersect at Q and external bisectors of AED and AFB intersect at R. Prove that P,Q,R are collinear.
+
+2008 Iran MO 3rd Round geometry P4
+Let ABC be an isosceles triangle with AB=AC, and D be midpoint of BC, and E be foot of altitude from C. Let H be orthocenter of ABC and N be midpoint of CE. AN intersects with circumcircle of triangle ABC at K. The tangent from C to circumcircle of ABC intersects with AD at F. Suppose that radical axis of circumcircles of CHA and CKF is BC. Find ∠BAC.
+
+2008 Iran MO 3rd Round geometry P5
+Let ABC be an isosceles triangle with AB=AC, and D be midpoint of BC, and E be foot of altitude from C. Let H be orthocenter of ABC and N be midpoint of CE. AN intersects with circumcircle of triangle ABC at K. The tangent from C to circumcircle of ABC intersects with AD at F. Suppose that radical axis of circumcircles of CHA and CKF is BC. Find ∠BAC.
+
+2009 Iran MO 3rd Round geometry P1
+Let △ABC be a triangle and (O) its circumcircle. D is the midpoint of arc BC which doesn't contain A. We draw a circle W that is tangent internally to (O) at D and tangent to BC.We draw the tangent AT from A to circle W.P is taken on AB such that AP=AT.P and T are at the same side wrt A. Prove ∠APD=90∘.
+
+2009 Iran MO 3rd Round geometry P2
+There is given a trapezoid ABCD.We have the following properties:AD∥BC,DA=DB=DC,∠BCD=72∘. A point K is taken on BD such that AD=AK,K≠D.Let M be the midpoint of CD.AM intersects BD at N.PROVE BK=ND.
+
+2009 Iran MO 3rd Round geometry P3
+There is given a trapezoid ABCD  in the plane with BC∥AD.We know that the angle bisectors of the angles of the trapezoid are concurrent at O.Let T be the intersection of the diagonals AC,BD.Let Q be on CD such that ∠OQD=90∘.Prove that if the circumcircle of the triangle OTQ intersects CD again at P then TP∥AD.
+
+2009 Iran MO 3rd Round geometry P4
+Point P is taken on the segment BC of the scalene triangle ABC such that AP≠AB,AP≠AC.l1,l2 are the incenters of triangles ABP,ACP respectively. circles W1,W2 are drawn centered at l1,l2 and with radius equal to l1P,l2P,respectively. W1,W2 intersects at P and Q. W1 intersects AB and BC at Y1 (  the intersection closer to B) and X1,respectively. W2 intersects AC and BC at Y2 (the intersection closer to C) and X2,respectively. Prove the concurrency of  PQ,X1Y1,X2Y2.
+
+2009 Iran MO 3rd Round geometry P5
+Two circles S1 and S2 with equal radius and intersecting at two points are given in the plane.A line l intersects S1 at B,D and S2 at A,C(the order of the points on the line are as follows:A,B,C,D).Two circles W1 and W2 are drawn such that both of them are tangent externally at S1 and internally at S2 and also tangent to l at both sides.Suppose W1 and W2 are tangent.Then PROVE AB=CD.
+
+2010 Iran MO 3rd Round geometry P1
+In a triangle ABC, O is the circumcenter and I is the incenter. X is the reflection of I to O. A1 is foot of the perpendicular from X to BC. B1 and C1 are defined similarly. prove that AA1,BB1 and CC1 are concurrent.
+
+2010 Iran MO 3rd Round geometry P2
+In a quadrilateral ABCD, E and F are on BC and AD respectively such that the area of triangles AED and BCF is 47 of the area of ABCD. R is the intersection point of digonals of ABCD. ARRC=35 and BRRD=56. a) in what ratio does EF cut the digonals?  b) find AFFD.
+
+2010 Iran MO 3rd Round geometry P3
+in a quadrilateral ABCD digonals are perpendicular to each other. let S be the intersection of digonals. K,L,M and N are reflections of S to AB,BC,CD and DA. BN cuts the circumcircle of SKN in E and BM cuts the circumcircle of SLM in F. prove that EFLK is concyclic.
+
+2010 Iran MO 3rd Round geometry P4
+in a triangle ABC, I is the incenter. BI and CI cut the circumcircle of ABC at E and F respectively. M is the midpoint of EF. C is a circle with diameter EF. IM cuts C at two points L and K and the arc BC of circumcircle of ABC (not containing A) at D. prove that DLIL=DKIK.
+
+2010 Iran MO 3rd Round geometry P5
+In a triangle ABC, I is the incenter. D is the reflection of A to I. the incircle is tangent to BC at point E. DE cuts IG at P (G is centroid). M is the midpoint of BC. prove that  a) AP||DM.  b) AP=2DM.
+
+2010 Iran MO 3rd Round geometry P6
+In a triangle ABC, ∠C=45. AD is the altitude of the triangle. X is on AD such that ∠XBC=90−∠B (X is in the triangle). AD and CX cut the circumcircle of ABC in M and N respectively. if tangent to circumcircle of ABC at M cuts AN at P, prove that P,B and O are collinear.
+
+2011 Iran MO 3rd Round geometry P1
+We have 4 circles in plane such that any two of them are tangent to each other. we connect the tangency point of two circles to the tangency point of two other circles. Prove that these three lines are concurrent.
+
+by Masoud Nourbakhsh
+2011 Iran MO 3rd Round geometry P2
+In triangle ABC, ω is its circumcircle and O is the center of this circle. Points M and N lie on sides AB and AC respectively. ω and the circumcircle of triangle AMN intersect each other for the second time in Q. Let P be the intersection point of MN and BC. Prove that PQ is tangent to ω iff OM=ON.
+
+by Mr.Etesami
+2011 Iran MO 3rd Round geometry P3
+In triangle ABC, X and Y are the tangency points of incircle (with center I) with sides AB and AC respectively. A tangent line to the circumcircle of triangle ABC (with center O) at point A, intersects the extension of BC at D. If D,X and Y are collinear then prove that D,I and O are also collinear.
+
+ by Amirhossein Zabeti
+2011 Iran MO 3rd Round geometry P4
+A variant triangle has fixed incircle and circumcircle. Prove that the radical center of its three excircles lies on a fixed circle and the circle's center is the midpoint of the line joining circumcenter and incenter.
+
+by Masoud Nourbakhsh
+2011 Iran MO 3rd Round geometry P5
+Given triangle ABC, D is the foot of the external angle bisector of A, I its incenter and Ia its A-excenter. Perpendicular from I to DIa intersects the circumcircle of triangle in A′. Define B′ and C′ similarly. Prove that AA′,BB′ and CC′ are concurrent.
+
+by Amirhossein Zabeti
+2012 Iran MO 3rd Round geometry P1
+Fixed points B and C are on a fixed circle ω and point A varies on this circle. We call the midpoint of arc BC (not containing A) D and the orthocenter of the triangle ABC, H. Line DH intersects circle ω again in K. Tangent in A to circumcircle of triangle AKH intersects line DH and circle ω again in L and M respectively. Prove that the value of ALAM is constant.
+
+ by Mehdi E'tesami Fard
+2012 Iran MO 3rd Round geometry P2
+Let the Nagel point of triangle ABC be N. We draw lines from B and C to N so that these lines intersect sides AC and AB in D and E respectively. M and T are midpoints of segments BE and CD respectively. P is the second intersection point of circumcircles of triangles BEN and CDN. l1 and l2 are perpendicular lines to PM and PT in points M and T respectively. Prove that lines l1 and l2 intersect on the circumcircle of triangle ABC.
+
+by Nima Hamidi
+2012 Iran MO 3rd Round geometry P3
+Consider ellipse ϵ with two foci A and B such that the lengths of it's major axis and minor axis are 2a and 2b respectively.  From a point T outside of the ellipse, we draw two tangent lines TP and TQ to the ellipse ϵ. Prove that TPTQ≥ba.
+
+ by Morteza Saghafian
+2012 Iran MO 3rd Round geometry P4
+The incircle of triangle ABC for which AB≠AC, is tangent to sides BC,CA and AB in points D,E and F respectively. Perpendicular from D to EF intersects side AB at X, and the second intersection point of circumcircles of triangles AEF and ABC is T. Prove that TX⊥TF.
+
+by Pedram Safaei
+2012 Iran MO 3rd Round geometry P5 Two fixed lines l1 and l2 are perpendicular to each other at a point Y. Points X and O are on l2 and both are on one side of line l1. We draw the circle ω with center O and radius OY. A variable point Z is on line l1. Line OZ cuts circle ω in P. Parallel to XP from O intersects XZ in S. Find the locus of the point S.
+
+by Nima Hamidi
+2013 Iran MO 3rd Round geometry P1
+Let ABCDE be a pentagon inscribe in a circle (O). Let BE∩AD=T. Suppose the parallel line with CD which passes through T which cut AB,CE at X,Y. If ω be the circumcircle of triangle AXY then prove that ω is tangent to (O).
+
+2013 Iran MO 3rd Round geometry P2
+Let ABC be a triangle with circumcircle (O). Let M,N be the midpoint of arc AB,AC which does not contain C,B and let M′,N′ be the point of tangency of incircle of △ABC with AB,AC. Suppose that X,Y are foot of perpendicular of A to MM′,NN′. If I is the incenter of △ABC then prove that quadrilateral AXIY is cyclic if and only if b+c=2a.
+
+2013 Iran MO 3rd Round geometry P3
+Suppose line ℓ and four points A,B,C,D lies on ℓ. Suppose that circles ω1,ω2 passes through A,B and circles ω′1,ω′2 passes through C,D. If ω1⊥ω′1 and ω2⊥ω′2 then prove that lines O1O′2,O2O′1,ℓ are concurrent where O1,O2,O′1,O′2 are center of ω1,ω2,ω′1,ω′2
+
+2013 Iran MO 3rd Round geometry P4
+In a triangle ABC with circumcircle (O) suppose that A-altitude cut (O) at D. Let altitude of B,C cut AC,AB at E,F. H is orthocenter and T is midpoint of AH. Parallel line with EF passes through T cut AB,AC at X,Y. Prove that ∠XDF=∠YDE.
+
+2013 Iran MO 3rd Round geometry P5
+Let ABC be triangle with circumcircle (O). Let AO cut (O) again at A′. Perpendicular bisector of OA′ cut BC at PA. PB,PC define similarly. Prove that : i) Point PA,PB,PC are collinear. ii ) Prove that the distance of O from this line is equal to R2 where R is the radius of the circumcircle.
+
+2014 Iran MO 3rd Round geometry P1
+In the circumcircle of triange △ABC, AA′ is a diameter. We draw  lines l′ and l from A′ parallel with Internal and external bisector of the vertex A. l′ Cut out AB,BC at B1 and B2.  l Cut out AC,BC at C1 and C2. Prove that the circumcircles of △ABC △CC1C2 and △BB1B2 have a common point.
+
+2014 Iran MO 3rd Round geometry P2
+△ABC is isosceles(AB=AC). Points P and Q exist inside the triangle such that Q lies inside PACˆ and PAQˆ=BACˆ2. We also have BP=PQ=CQ.Let X and Y be the intersection points of (AP,BQ) and (AQ,CP) respectively. Prove that quadrilateral PQYX is cyclic.
+
+2014 Iran MO 3rd Round geometry P3
+Distinct points B,B′,C,C′ lie on an arbitrary line ℓ. A is a point not lying on ℓ. A line passing through B and parallel to AB′ intersects with AC in E and a line passing through C and parallel to AC′ intersects with AB in F. Let X be the intersection point of the circumcircles of △ABC and △AB′C′(A≠X). Prove that EF∥AX.
+
+2014 Iran MO 3rd Round geometry P4
+D is an arbitrary point lying on side BC of △ABC. Circle ω1 is tangent to segments AD , BD and the circumcircle of △ABC and circle ω2 is tangent to segments AD , CD and the circumcircle of △ABC. Let X and Y be the intersection points of ω1 and ω2 with BC respectively and take M as the midpoint of XY. Let T be the midpoint of arc BC which does not contain A. If I is the incenter of △ABC, prove that TM goes through the midpoint of ID.
+
+2014 Iran MO 3rd Round geometry P5
+X and Y are two points lying on or on the extensions of side BC of △ABC such that XAYˆ=90. Let H be the orthocenter of △ABC. Take X′ and Y′ as the intersection points of (BH,AX) and (CH,AY) respectively. Prove that circumcircle of △CYY′,circumcircle of △BXX′ and X′Y′ are concurrent.
+
+2015 Iran MO 3rd Round geometry P1
+Let ABCD be the trapezoid such that AB∥CD. Let E be an arbitrary point on AC. point F lies on BD such that BE∥CF. Prove that circumcircles of △ABF,△BED and the line AC are concurrent.
+
+2015 Iran MO 3rd Round geometry P2
+Let ABC be a triangle with orthocenter H and circumcenter O. Let K be the midpoint of AH. point P lies on AC such that ∠BKP=90∘. Prove that OP∥BC.
+
+2015 Iran MO 3rd Round geometry P3
+Let ABC be a triangle. consider an arbitrary point P on the plain of △ABC. Let R,Q be the reflections of P wrt AB,AC respectively. Let RQ∩BC=T. Prove that ∠APB=∠APC if and if only ∠APT=90∘.
+
+2015 Iran MO 3rd Round geometry P4
+Let ABC be a triangle with incenter I. Let K be the midpoint of AI and BI∩⊙(△ABC)=M,CI∩⊙(△ABC)=N. points P,Q lie on AM,AN respectively such that ∠ABK=∠PBC,∠ACK=∠QCB. Prove that P,Q,I are collinear.
+
+2015 Iran MO 3rd Round Finals geometry P5
+Let ABC be a triangle with orthocenter H and circumcenter O. Let R be the radius of circumcircle of △ABC. Let A′,B′,C′ be the points on AH−→−,BH−→−,CH−→− respectively such that AH.AA′=R2,BH.BB′=R2,CH.CC′=R2. Prove that O is incenter of △A′B′C′.
+
+2016 Iran MO 3rd Round first geometry P1
+Let ABC be an arbitrary triangle,P is the intersection point of the altitude from C and the tangent line from A to the circumcircle. The bisector of angle A intersects BC at D . PD intersects AB at K, if H is the orthocenter then prove : HK⊥AD
+
+2016 Iran MO 3rd Round firstgeometry P2
+Let ABC be an arbitrary triangle. Let E,E be two points on AB,AC respectively such that their distance to the midpoint of BC is equal. Let P be the second intersection of the triangles ABC,AEF circumcircles . The tangents from E,F to the circumcircle of AEF intersect each other at K. Prove that : ∠KPA=90
+
+2016 Iran MO 3rd Round first geometry P3
+Let ABC be a triangle and let AD,BE,CF be its altitudes . FA1,DB1,EC1 are perpendicular segments to BC,AC,AB respectively. Prove that : ABC~A1B1C1
+
+2016 Iran MO 3rd Round finals geometry P1
+In triangle ABC , w is a circle which passes through B,C and intersects AB,AC at E,F respectively. BF,CE intersect the circumcircle of ABC at B′,C′ respectively. Let A′ be a point on BC such that ∠C′A′B=∠B′A′C . Prove that if we change w, then all the circumcircles of triangles A′B′C′ passes through a common point.
+
+2016 Iran MO 3rd Round finals geometry P2
+Given △ABC inscribed in (O) an let I and Ia be it's incenter and A-excenter ,respectively. Tangent lines to (O) at C,B intersect the angle bisector of A at M,N ,respectively. Second tangent lines through M,N intersect (O) at X,Y. Prove that XYIIa is cyclic.
+
+2016 Iran MO 3rd Round finals geometry P3
+Given triangle △ABC and let D,E,F be the foot of angle bisectors of A,B,C ,respectively. M,N lie on EF such that AM=AN. Let H be the foot of A-altitude on BC. Points K,L lie on EF such that triangles △AKL,△HMN are correspondingly similiar (with the given order of vertices) such that AK∦HM and AK∦HN. Show that: DK=DL
+
+2017 Iran MO 3rd Round first geometry P1
+Let ABC be a triangle. Suppose that X,Y are points in the plane such that BX,CY are tangent to the circumcircle of ABC, AB=BX,AC=CY and X,Y,A are in the same side of BC. If I be the incenter of ABC prove that ∠BAC+∠XIY=180.
+
+2017 Iran MO 3rd Round first geometry P2
+Let ABCD be a trapezoid (AB<CD,AB∥CD) and P≡AD∩BC. Suppose that Q be a point inside ABCD such that ∠QAB=∠QDC=90−∠BQC. Prove that ∠PQA=2∠QCD.
+
+2017 Iran MO 3rd Round first geometry P3
+Let ABC be an acute-angle triangle. Suppose that M be the midpoint of BC and H be the orthocenter of ABC. Let F≡BH∩AC and E≡CH∩AB. Suppose that X be a point on EF such that ∠XMH=∠HAM and A,X are in the distinct side of MH. Prove that AH bisects MX.
+
+2017 Iran MO 3rd Round finals geometry P1
+Let ABC be a right-angled triangle (∠A=90∘) and M be the midpoint of BC. ω1 is a circle which passes through B,M and touchs AC at X. ω2 is a circle which passes through C,M and touchs AB at Y (X,Y and A are in the same side of BC). Prove that XY passes through the midpoint of  arc BC (does not contain A) of the circumcircle of ABC.
+
+2017 Iran MO 3rd Round finals geometry P2
+Assume that P be an arbitrary point inside of triangle ABC. BP and CP intersects AC and AB in E and F, respectively. EF intersects the circumcircle of ABC in B′ and C′ (Point E is between of F and B′). Suppose that B′P and C′P intersects BC in C′′ and B′′ respectively. Prove that B′B′′ and C′C′′ intersect each other on the circumcircle of ABC.
+
+2017 Iran MO 3rd Round finals geometry P3
+In triangle ABC points P and Q lies on the external bisector of ∠A such that B and P lies on the same side of AC. Perpendicular from P to AB and Q to AC intersect at X. Points P′ and Q′ lies on PB and QC such that PX=P′X and QX=Q′X. Point T is the midpoint of arc BC (does not contain A) of the circumcircle of ABC. Prove that P′,Q′ and T are collinear if and only if ∠PBA+∠QCA=90∘.
+
+2018 Iran MO 3rd Round first geometry P1
+Incircle of triangle ABC is tangent to sides BC,CA,AB at D,E,F,respectively.Points P,Q are inside angle BAC such that FP=FB,FP||AC and EQ=EC,EQ||AB.Prove that P,Q,D are collinear.
+
+2018 Iran MO 3rd Round first geometry P2
+Two intersecting circles ω1 and ω2 are given.Lines AB,CD are common tangents of ω1,ω2(A,C∈ω1,B,D∈ω2) Let M be the midpoint of AB.Tangents through M to ω1 and ω2(other than AB) intersect CD at X,Y.Let I be the incenter of MXY.Prove that IC=ID.
+
+2018 Iran MO 3rd Round first geometry P3
+H is the orthocenter of acude triangle ABC.Let ω be the circumcircle of BHC with center O′.Ω is the nine-point circle of ABC.X is an arbitrary point on arc BHC of ω and AX intersects Ω at Y.P is a point on Ω such that PX=PY.Prove that O′PX=90.
+
+2018 Iran MO 3rd Round first geometry P4
+for acute triangle △ABC with orthocenter H, and E,F the feet of altitudes for B,C, we have P on EF such as that HO⊥HP. Q is on segment AH so HM⊥PQ. prove QA=3QH
+
+2019 Iran MO 3rd Round midterms geometry P1
+Given a cyclic quadrilateral ABCD. There is a point P on side BC such that ∠PAB=∠PDC=90∘. The medians of vertexes A and D in triangles PAB and PDC meet at K and the bisectors of ∠PAB and ∠PDC meet at L. Prove that KL⊥BC.
+
+2019 Iran MO 3rd Round midterms geometry P2
+Consider an acute-angled triangle ABC with AB=AC and ∠A>60∘. Let O be the circumcenter of ABC. Point P lies on circumcircle of BOC such that BP∥AC and point K lies on segment AP such that BK=BC. Prove that CK bisects the arc BC of circumcircle of BOC.
+
+2019 Iran MO 3rd Round midterms geometry P3
+Consider a triangle ABC with circumcenter O and incenter I. Incircle touches sides BC,CA and AB at D,E and F. K is a point such that KF is tangent to circumcircle of BFD and KE is tangent to circumcircle of CED. Prove that BC,OI and AK are concurrent.
+
+2019 Iran MO 3rd Round finals geometry P1
+Consider a triangle ABC with incenter I. Let D be the intersection of BI,AC and CI intersects the circumcircle of ABC at M. Point K lies on the line MD and ∠KIA=90∘. Let F be the reflection of B about C. Prove that BIKF is cyclic.
+
+2019 Iran MO 3rd Round finals geometry P2
+In acute-angled triangle ABC altitudes BE,CF meet at H. A perpendicular line is drawn from H to EF and intersects the arc BC of circumcircle of ABC (that doesn’t contain A) at K. If AK,BC meet at P, prove that PK=PH.
+
+2019 Iran MO 3rd Round finals geometry P3
+Given an inscribed pentagon ABCDE with circumcircle Γ. Line ℓ passes through vertex A and is tangent to Γ. Points X,Y lie on ℓ so that A lies between X and Y. Circumcircle of triangle XED intersects segment AD at Q and circumcircle of triangle YBC intersects segment AC at P. Lines XE,YB intersects each other at S and lines XQ,YP at Z. Prove that circumcircle of triangles XYZ and BES are tangent.
