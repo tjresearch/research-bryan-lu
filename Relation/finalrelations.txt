@@ -8,27 +8,55 @@ IsTriangle 1 bool var
 IsAngle 1 bool var
 HasRay 1 bool var
 IsQuadrilateral 1 bool var
-LengthOf 1 num var
 IsPolygon 1 bool var
 IsPentagon 1 bool var
-RadiusOf 1 num var
 IsSquare 1 bool var
 IsRectangle 1 bool var
+IsParallelogram 1 bool var
 IsTrapezoid 1 bool var
-IsTangent 1 bool var
-IsCircumcircle 1 bool var
-MidpointOf 1 var var
-FootOf 3 var var var var
-IsPerpendicular 1 bool var
-IsIncircle 1 bool var
-IntersectsAt 2 var var var
-IsMidpoint 2 bool var var
+
+RadiusOf 1 num var
+LengthOf 1 num var
+MeasureOf 1 num var
+
+Intersection 3 bool var var var
 Equals 2 bool var var
+NotEquals 2 bool var var
 IsCollinear 1 bool var
 IsParallel 2 bool var var
+IsSimilar 2 bool var var
 IsConcurrent 3 bool var var var
-ConcurrentAt 3 var var var var
+IsTangent 2 bool var var
+IsConcyclic 4 bool var var var var
+IsMidpoint 2 bool var var
+IsIncircle 2 bool var var
+IsCircumcircle 2 bool var var
+OnCircle 2 bool var var
+OnLine 2 bool var var
+IsPerpendicular 2 bool var var
+IsMidpoint 2 bool var var
 IsCyclic 1 bool var
-NotEquals 2 bool var var
-ABisectorOf 2 bool var var
-PBisectorOf 2 bool var var
+IsIncenter 2 bool var var
+IsCircumcenter 2 bool var var
+IsOrthocenter 2 bool var var
+IsCentroid 2 bool var var
+IsSimilar 2 bool var var
+IsABisectorOf 2 bool var var
+IsMedianOf 2 bool var var
+IsPBisectorOf 2 bool var var
+
+ConcurrentAt 3 var var var var
+ReflectionOf 2 var var var
+FootOf 2 var var
+IntersectsAt 2 var var var
+MidpointOf 1 var var
+TangentAt 2 var var var
+IncenterOf 1 var var
+OrthocenterOf 1 var var
+CircumcenterOf 1 var var
+CentroidOf 1 var var
+IncircleOf 1 var var
+CircumcircleOf 1 var var
+ABisectorOf 1 var var
+MedianOf 1 var var
+PBisectorOf 1 var var

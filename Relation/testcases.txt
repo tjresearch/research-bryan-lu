@@ -20,102 +20,306 @@ the circle at E neq A. Prove that orthocenter of AEB is on this circle.
 IsTriangle(ABC)
 Equals(AB, AC)
 IsCircle(circle)
+OnCircle(A, circle)
+OnCircle(C, circle)
+OnCircle(D, circle)
+Intersects(Angle bisector, circle, E)
+IntersectsAt(circle, AB, D)
+IsTriangle(AEB)
+OrthocenterOf(orthocenter, AEB)
+IsConcyclic(A, C, D, orthocenter)
 
-
-
-Let D be the midpoint of BC in triangle ABC. Let P be any point on AD. If the internal angle bisector of
+Let D be the midpoint of BC in triangle ABC. Let P be any point on AD. If the internal angle bisectors of
 angle ABP and angle ACP intersect at Q. Prove that, if BQ perp QC, then Q lies on AD.
 IsTriangle(ABC)
-Midpoint(D, BC)
+IsMidpoint(D, BC)
 IsPoint(D)
 IsPoint(P)
+ABisectorOf(angle bisectors, ABP)
+ABisectorOf(angle bisectors, ACP)
+IntersectsAt(angle bisectors, angle bisectors, Q)
 Collinear(P, A, D)
-Bisector
+IsPerpendicular(BQ, QC)
+Collinear(Q, A, D)
 
 Let triangle ABC be an acute triangle, and let D be the projection of A on BC. Let M,N be the midpoints of AB and AC
 respectively. Let Gamma_1 and Gamma_2 be the circumcircles of triangle BDM and triangle CDN respectively, and let K
 be the other intersection point of Gamma_1 and Gamma_2 not equal to D. Let P be an arbitrary point on BC and E,F are on
 AC and AB respectively such that PEAF is a parallelogram. Prove that if MN is a common tangent line of Gamma_1 and
 Gamma_2, then K,E,A,F are concyclic.
+IsTriangle(ABC)
+FootOf(A, BC, D)
+CircumcircleOf(Gamma_1, BDM)
+CircumcircleOf(Gamma_2, CDN)
+IntersectsAt(Gamma_1, Gamma_2, K)
+NotEqual(D, K)
+Collinear(P, B, C)
+Collinear(E, A, C)
+Collinear(F, A, B)
+IsParallelogram(PEAF)
+IsTangent(MN, Gamma_1)
+IsTangent(MN, Gamma_2)
+IsConcyclic(K, E, A, F)
 
 In a triangle ABC with AB = AC, let D be the midpoint of BC. A line passing through D intersects AB at K, AC at L.
 A point E on BC different from D, and a point P on AE is taken such that angle KPL = 90 − 12 angle KAL and E lies
 between A and P. The circumcircle of triangle PDE intersects PK at point X, PL at point Y for the second time.
 Lines DX and AB intersect at M, and lines DY and AC intersect at N. Prove that the points P, M, A, N are concyclic.
+IsTriangle(ABC)
+Equals(AB, AC)
+MidpointOf(D, BC)
+IntersectsAt(line, AB, K)
+IntersectsAt(line, AC, L)
+Collinear(D, K, L)
+IsCollinear(E, B, C)
+NotEquals(D, E)
+Collinear(P, E, A)
+CircumcircleOf(circumcircle, PDE)
+Equals(MeasureOf(KPL), 90 - 12 * MeasureOf(KAL))
+IntersectsAt(circumcircle, PK, X)
+IntersectsAt(circumcircle, PL, Y)
+IntersectsAt(DX, AB, M)
+IntersectsAt(DY, AC, N)
+IsConcyclic(P, M, A, N)
 
-In a triangle ABC, AB > AC. The foot of the altitude from A to BC is D, the intersection of angle bisector of B and AD
+In a triangle ABC, AB > AC. The foot of the altitude from A to BC is D, the intersection of angle bisector of ABC and AD
 is K, the foot of the altitude from B to CK is M and let BM and AK intersect at point N. The line through N parallel
 to DM intersects AC at T. Prove that BM is the bisector of angle TBC.
+IsTriangle(ABC)
+FootOf(A, BC, D)
+ABisectorOf(angle bisector, ABC)
+IntersectsAt(angle bisector, AD, K)
+FootOf(B, CK, M)
+IntersectsAt(BM, AK, N)
+OnLine(N, line)
+IsParallel(line, DM)
+IntersectsAt(AC, line, T)
+ABisectorOf(BM, TBC)
 
-In a triangle ABC such that m(angle B) > m(angle C), the internal and external bisectors of vertice A intersects BC
+In a triangle ABC such that m(angle B) > m(angle C), the internal and external bisectors of vertex A intersects BC
 respectively at points D and E. P is a variable point on EA such that A is on EP. DP intersects AC at M and ME
 intersects AD at Q. Prove that all PQ lines have a common point as P varies.
+IsTriangle(ABC)
+...
+
 
 In a triangle ABC, the angle bisector of ABC meets AC at D, and the angle bisector of BCA meets AB at E.
 Let X be the intersection of the lines BD and CE where |BX| = 3 - sqrt(|XD|), |XE| = (3 - sqrt 2) |XC|. Find the angles of
 triangle ABC.
+IsTriangle(ABC)
+ABisectorOf(angle bisector, ABC)
+IntersectsAt(AC, angle bisector, D)
+ABisectorOf(angle bisector, BCA)
+IntersectsAt(AB, angle bisector, E)
+IntersectsAt(BD, CE, X)
 
 Let E and F be the intersections of opposite sides of a convex quadrilateral ABCD. The two diagonals meet at P.
 Let O be the foot of the perpendicular from P to EF. Show that angle BOC = angle AOD.
+IsQuadrilateral(ABCD)
+IntersectsAt(AB, CD, E)
+IntersectsAt(BC, DA, F)
+IntersectsAt(AC, BD, P)
+FootOf(P, EF, O)
+Equals(MeasureOf(BOC), MeasureOf(AOD))
 
 Convex quadrilateral ABCD is cyclic in circle O, P is the intersection of the diagonals AC and BD. Circle O_1 passes
 through P and B, circle O_2 passes through P and A, Circles O_1 and O_2 intersect at P and Q. O_1 and O_2 intersect O
 at another points E, F besides B, A, respectively. Prove that PQ, CE, DF are concurrent or parallel.
+IsCyclic(ABCD)
+CircumcircleOf(ABCD, O)
+IntersectsAt(AC, BD, P)
+OnCircle(P, O_1)
+OnCircle(B, O_1)
+OnCircle(P, O_2)
+OnCircle(A, O_2)
+IntersectsAt(O_1, O_2, Q)
+NotEquals(P, Q)
+IntersectsAt(O_1, O, E)
+IntersectsAt(O_2, O, F)
+NotEquals(E, B)
+NotEquals(F, A)
 
 Given a scalene triangle ABC. Its incircle touches BC, AC, AB at D, E, F respectvely. Let L, M, N be the reflections
 of D over EF, of E over FD, of F over DE, respectively. Line AL intersects BC at P, line BM intersects CA at Q, line CN
 intersects AB at R. Prove that P, Q, R are collinear.
+IsTriangle(ABC)
+IsIncircle(incircle, ABC)
+IsTangent(BC, incircle)
+IntersectsAt(BC, incircle, D)
+IsTangent(CA, incircle)
+IntersectsAt(CA, incircle, E)
+IsTangent(AB, incircle)
+IntersectsAt(AB, incircle, F)
+ReflectionOf(D, EF, L)
+ReflectionOf(E, FD, M)
+ReflectionOf(F, DE, N)
+IntersectsAt(AL, BC, P)
+IntersectsAt(BM, CA, Q)
+IntersectsAt(CN, AB, R)
+Collinear(P, Q, R)
 
 Given that points D, E lie on the side lines AB, BC of triangle ABC, respectively, point P is in interior of
 triangle ABC such that PE = PC and triangle DEP is similar to triangle PCA. Prove that BP is tangent to the
 circumcircle of triangle PAD.
+IsTriangle(ABC)
+Collinear(A, D, B)
+Collinear(B, E, C)
+Equals(PE, PC)
+IsSimilar(DEP, PCA)
+CircumcircleOf(circumcircle, PAD)
+IsTangent(circumcircle, BP)
 
-Let ABC be a triangle and its bisector at A cuts its circumcircle at D. Let I be the incenter of triangle ABC, M be the
+Let ABC be a triangle and its bisector of BAC cuts its circumcircle at D. Let I be the incenter of triangle ABC, M be the
 midpoint of BC, P is the reflection of I over M (Assuming P is in the circumcircle). Extend DP until it cuts
 the circumcircle again at N. Prove that among segments AN, BN, CN, there is a segment that is the sum of the other two.
+IsTriangle(ABC)
+ABisectorOf(bisector, BAC)
+CircumcircleOf(circumcircle, BAC)
+IntersectsAt(bisector, circumcircle, D)
+IncenterOf(I, ABC)
+MidpointOf(M, BC)
+ReflectionOf(I, M, P)
+OnCircle(P, circumcircle)
+IntersectsAt(DP, circumcircle, N)
 
 Altitudes AD and CE of an acute angled triangle ABC intersect at point H. Let K be the midpoint of side AC and P be the
 midpoint of segment DE. Let Q be the reflection of K with respect to line AD.  Prove that angle QPH = 90.
+IsTriangle(ABC)
+FootOf(A, BC, D)
+FootOf(C, AB, E)
+IntersectsAt(AD, CE, H)
+MidpointOf(K, AC)
+MidpointOf(P, DE)
 
 The circle Gamma through A of triangle ABC meets sides AB, AC at E, F respectively, and circumcircle of ABC at P.
-Prove: Reflection of P across EF is on BC if and only if Gamma passes through O (the circumcentre of ABC).
+Let the reflection of P across EF be K. Prove: K is on BC if and only if Gamma passes through O (the circumcentre of ABC).
+IsTriangle(ABC)
+IsCircle(Gamma)
+OnCircle(A, Gamma)
+IntersectsAt(Gamma, AB, E)
+IntersectsAt(Gamma, AC, F)
+CircumcircleOf(circumcircle, ABC)
+IntersectsAt(Gamma, circumcircle, P)
+NotEquals(P, A)
+ReflectionOf(P, EF, K)
+Collinear(B, K, C)
+CircumcenterOf(ABC, O)
+OnCircle(O, Gamma)
 
 At the ABC triangle the midpoints of BC, AC, AB are respectively D, E, F and the triangle tangent to the incircle at G,
-H and I in the same order. The midpoint of AD is J. BJ and AG intersect at point K. The C−centered circle passing
-through A cuts the CB ray at point X. The line passing through K and parallel to the BC and AX meet at U. IU and BC
-intersect at the P point. There is Y point chosen at incircle. PY is tangent to incircle at point Y. Prove
-that D, E, F, Y are cyclic.
+H and I in the same order. The midpoint of AD is J. BJ and AG intersect at point K. A circle centered at C with radius
+AC cuts BC at point X. The line passing through K and parallel to the BC and AX meet at U. IU and BC intersect at the P
+point. There is Y point chosen at incircle. PY is tangent to incircle at point Y. Prove that D, E, F, Y are cyclic.
+IsTriangle(ABC)
+MidpointOf(D, BC)
+MidpointOf(E, AC)
+MidpointOf(F, AB)
+IncircleOf(incircle, ABC)
+IntersectsAt(incircle, BC, G)
+IntersectsAt(incircle, AC, H)
+IntersectsAt(incircle, AB, I)
+MidpointOf(AD, J)
+IntersectsAt(BJ, AG, K)
+IsCircle(circle)
+???
 
-In acute triangle ABC, points P,Q lie on its sidelines AB, AC, respectively. The circumcircle of triangle ABC
-intersects of triangle APQ at X (different from A). Let Y be the reflection of X in line PQ. Given PX > PB. Prove that
-[XPQ] > [YBC].
+
+In acute triangle ABC, points P, Q lie on its sidelines AB, AC, respectively. Let Gamma be the circumcircle of triangle
+ABC. Gamma intersects the circumcircle of triangle APQ at X (different from A). Let Y be the reflection of X in line PQ.
+Given PX > PB. Prove that [XPQ] > [YBC].
+IsTriangle(ABC)
+Collinear(A, P, B)
+Collinear(A, Q, C)
+CircumcircleOf(Gamma, ABC)
+CircumcircleOf(circumcircle, APQ)
+IntersectsAt(Gamma, circumcircle, X)
+NotEquals(A, X)
+ReflectionOf(X, PQ, Y)
 
 Let ABC be a triangle such that AB = AC and let D, E be points on the minor arcs AB and AC respectively. The lines
 AD and BC intersect at F and the line AE intersects the circumcircle of triangle FDE a second time at G. Prove that
 the line AC is tangent to the circumcircle of triangle ECG.
+IsTriangle(ABC)
+Equals(AB, AC)
+???
 
 Let ABCD be a cyclic quadrilateral and w be its circumcircle.  For a given point E inside w, DE intersects AB at F
 inside w. Let l be a line passes through E and tangent to circle AEF. Let G be any point on l and inside the
 quadrilateral ABCD. Show that if angle GAD = angle BAE and angle GCB + angle GAB = angle EAD + angle AGD + angle ABE
 then BC, AD and EG are concurrent.
+IsCyclic(ABCD)
+IsQuadrilateral(ABCD)
+IsCirumcircle(w, ABC)
+???
 
 Let ABC be a triangle. Point D lies on its sideline BC such that angle CAD = angle CBA. Circle O passing through B, D
 intersects AB, AD at E,F, respectively. BF meets DE at G. Denote M the midpoint of AG. Show that CM perp AO.
+IsTriangle(ABC)
+Collinear(B, D, C)
+Equals(MeasureOf(CAD), MeasureOf(CBA))
+IsCircle(O)
+OnCircle(B, O)
+OnCircle(D, O)
+IntersectsAt(O, AB, E)
+IntersectsAt(O, AD, F)
+IntersectsAt(BF, DE, G)
+Midpoint(M, AG)
+IsPerpendicular(CM, AO)
 
-In a triangle ABC, the circle through C tangent to AB at A and the circle through B tangent to AC at A have
-radii and meet again at D. Let E be the point on the ray AB such that AB = BE. The circle through A, D, E intersect
+In a triangle ABC, circle O_1 through C tangent to AB at A and the circle O_2 through B tangent to AC at A meet again
+at D. Let E be the point on the ray AB such that AB = BE. The circle through A, D, E intersect
 the ray CA again at F. Prove that AF = AC.
+IsTriangle(ABC)
+IsCircle(circle)
+OnCircle(C)
+IsTangent(circle, AB)
+OnCircle(A)
+???
+
 
 Let ABC be a triangle with circumcircle omega and let omega_A be a circle drawn outside ABC and tangent to side BC at
 A_1 and tangent to omega at A_2. Let the circles omega_B and omega_C and the points B_1, B_2, C_1, C_2 are defined
 similarly. Prove that if the lines AA_1, BB_1, CC_1 are concurrent, then the lines AA_2, BB_2, CC_2 are also concurrent.
+IsTriangle(ABC)
+CircumcircleOf(omega, ABC)
+IsTangent(omega_A, BC)
+IsTangent(omega_A, omega)
+IntersectsAt(omega_A, omega, A_2)
+IntersectsAt(omega_A, BC, A_1)
+IsTangent(omega_B, AC)
+IsTangent(omega_B, omega)
+IntersectsAt(omega_B, omega, B_2)
+IntersectsAt(omega_B, AC, B_1)
+IsTangent(omega_C, AB)
+IsTangent(omega_C, omega)
+IntersectsAt(omega_C, omega, C_2)
+IntersectsAt(omega_C, AB, C_1)
+IsConcurrent(AA_1, BB_1, CC_1)
+IsConcurrent(AA_2, BB_2, CC_2)
 
 Triangle ABC is inscribed in circle O. Tangent PD is drawn from A, D is on ray BC, P is on ray DA. Line PU (U on BD)
 intersects circle O at Q, T, and intersect AB and AC at R and S respectively. Prove that if QR = ST, then PQ = UT.
+IsTriangle(ABC)
+CircumcircleOf(O, ABC)
+Collinear(B, C, D)
+IsTangent(PD, O)
+IntersectsAt(PD, O, A)
+Collinear(B, U, D)
+IntersectsAt(PU, O, Q)
+IntersectsAt(PU, O, T)
+IntersectsAt(PU, AB, R)
+IntersectsAt(PU, AC, S)
+Equals(QR, ST)
+Equals(PQ, UT)
 
 In a non-isosceles acute triangle ABC, D is the midpoint of the edge BC. The points E and F lie on AC and AB,
 respectively, and the circumcircles of CDE and AEF intersect in P on AD. The angle bisector from P in triangle EFP
 intersects EF in Q. Prove that the tangent line to the circumcirle of AQP at A is perpendicular to BC.
+IsTriangle(ABC)
+MidpointOf(D, BC)
+Collinear(A, E, C)
+Collinear(A, F, B)
+CircumcircleOf(
 
 Given triangle ABC, squares ABEF, BCGH, CAIJ are constructed externally on side AB, BC, CA, respectively.
 Let AH intersect BJ = P_1, BJ intersect CF = Q_1, CF intersect AH = R_1, AG intersect CE = P_2, BI intersect AG = Q_2,
@@ -123,6 +327,7 @@ CE intersect BI = R_2. Prove that triangle P_1Q_1R_1 is congruent to triangle P_
 
 Let ABC be a triangle, line l cuts its sides BC, CA, AB at D, E, F, respectively. Denote by O_1, O_2, O_3 the
 circumcenters of triangle AEF, BFD, CDE, respectively. Prove that the orthocenter of triangle O_1O_2O_3 lies on line l.
+
 
 Let ABC be a triangle such that AB = AC. Let D, E be points on AB, AC respectively such that DE = AC. Let DE meet the
 circumcircle of triangle ABC at point T. Let P be a point on AT. Prove that PD + PE = AT if and only if P lies on the
@@ -144,10 +349,20 @@ APQ lies on the circumcircle of triangle ABC.
 
 ABC is a triangle with incenter I. The foot of the perpendicular from I to BC is D, and the foot of the perpendicular
 from I to AD is P. Prove that angle BPD = angle DPC.
+IsTriangle(ABC)
+IncenterOf(ABC, I)
+FootOf(D, BC, I)
+FootOf(I, AD, P)
+Equals(MeasureOf(BPD), MeasureOf(DPC))
 
 Let ABC be a triangle inscribed in circle omega, and let the medians from B and C intersect omega at D and E
 respectively. Let O_1 be the center of the circle through D tangent to AC at C, and let O_2 be the center of the
-circle through E tangent to AB at B. Prove that O_1, O_2, and the point N ABC are collinear.
+circle through E tangent to AB at B. Prove that O_1, O_2, and the nine-point center of ABC are collinear.
+IsTriangle(ABC)
+CircumcircleOf(omega, ABC)
+MedianOf(medians, B)
+MedianOf(medians, C)
+IntersectsAt(omega, median
 
 In triangle ABC, a point D lies on line BC.  The circumcircle of ABD meets AC at F (other than A), and the
 circumcircle of ADC meets AB at E (other than A).  Prove that as D varies, the circumcircle of AEF always passes
@@ -164,18 +379,65 @@ at a point Z.
 Given a triangle ABC, a point P is chosen on side BC. Points M and N lie on sides AB and AC, respectively, such that
 MP parallel AC and NP parallel AB. Point P is reflected across MN to point Q. Show that triangle QMB is similar to
 triangle CNQ.
+IsTriangle(ABC)
+IsCollinear(B, P, C)
+OnLine(M, AB)
+OnLine(N, AC)
+IsParallel(MP, AC)
+IsParallel(NP, AB)
+ReflectionOf(P, MN, Q)
+IsSimilar(QMB, CNQ)
 
 Let ABC be a triangle, and O the center of its circumcircle. Let a line through the point O intersect the lines AB and
 AC at the points M and N, respectively. Denote by S and R the midpoints of the segments BN and CM, respectively.
 Prove that angle ROS = angle BAC.
+IsTriangle(ABC)
+CircumcenterOf(ABC, O)
+IsLine(line)
+OnLine(O, line)
+IntersectsAt(AB, line, M)
+IntersectsAt(AC, line, N)
+Midpoint(S, BN)
+Midpoint(R, CM)
+Equals(MeasureOf(ROS), MeasureOf(BAC))
 
 Consider a triangle ABC with incenter I. Let D be the intersection of BI and AC, and CI intersects the circumcircle of
 ABC at M. Point K lies on the line MD and angle KIA = 90. Let F be the reflection of B about C.
 Prove that BIKF is cyclic.
+IsTriangle(ABC)
+IncenterOf(I, ABC)
+IntersectsAt(BI, AC, D)
+CircumcircleOf(circumcircle, ABC)
+IntersectsAt(CI, circumcircle, M)
+Collinear(M, D, K)
+Equals(MeasureOf(KIA), 90)
+ReflectionOf(B, C, F)
+IsConcyclic(B, I, K, F)
 
 In an acute triangle ABC, points D, E, F are the feet of the altitudes from A, B, C, respectively. A line through D
 parallel to EF meets AC at Q and AB at R. Lines BC and EF intersect at P. Prove that the circumcircle of triangle
 PQR passes through the midpoint of BC.
+IsTriangle(ABC)
+FootOf(A, BC, D)
+FootOf(B, AC, E)
+FootOf(C, AB, F)
+OnLine(line, D)
+IsParallel(line, EF)
+IntersectsAt(line, AC, Q)
+IntersectsAt(line, AB, R)
+IntersectsAt(BC, EF, P)
+CircumcircleOf(circumcircle, PQR)
+IsConcyclic(MidpointOf(BC), P, Q, R)
 
 The incircle of triangle ABC touches AB, AC at P, Q. BI, CI intersect with PQ at K, L. Prove that circumcircle of ILK
 is tangent to incircle of ABC if and only if AB + AC = 3BC.
+IsTriangle(ABC)
+IncircleOf(incircle, ABC)
+IsTangent(incircle, AB)
+IntersectsAt(incircle, AB, P)
+IsTangent(incircle, AC)
+IntersectsAt(incircle, AC, Q)
+IntersectsAt(BI, PQ, K)
+IntersectsAt(CI, PQ, L)
+CircumcircleOf(circumcircle, ILK)
+IsTangent(circumcircle, incircle)

@@ -62,10 +62,11 @@ meets : IntersectsAt
 meet : IntersectsAt
 tangent : IsTangent
 perpendicular : IsPerpendicular
+projection : FootOf
 midpoint : point IsPoint midpoint MidpointOf
 parallel : IsParallel
-intersect : IntersectsAt
-intersects : IntersectsAt
+intersect : IntersectsAt OnCircle
+intersects : IntersectsAt OnCircle
 collinear : IsCollinear
 concurrent : IsConcurrent ConcurrentAt
 cyclic : IsCyclic circle 

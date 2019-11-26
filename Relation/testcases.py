@@ -25,3 +25,4 @@ lines = [line for line in f]
 for i in range(15):
     randomindex = random.randint(0, 120)
     outfile.write(lines[randomindex])
+
