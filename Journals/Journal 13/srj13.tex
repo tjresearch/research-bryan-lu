@@ -1,0 +1,92 @@
+% Syslab Research Journal Template
+% By Patrick White
+% September 2019
+
+% Do not edit this header
+\documentclass[letterpaper,11pt]{article}
+\usepackage{fullpage}
+\usepackage{palatino}
+\usepackage{enumitem}
+\usepackage{courier}
+\usepackage{graphicx}
+\def\hrulefill{\leavevmode\leaders\hrule height 20pt\hfill\kern\z@}
+
+% ------------- Edit these definitions ---------------------
+\def\name{Bryan Lu}
+\def\journalnum{13}
+\def\daterange{01/06/20-01/13/20} % starts on Monday
+\def\period{2}
+% ------------------ END ---------------------------------
+% Do not edit this
+\begin{document}
+	\thispagestyle{empty}
+	\begin{flushright}
+		{\Large Journal Report \journalnum} \\
+		\daterange\\
+		\name \\
+		Computer Systems Research Lab \\
+		Period \period, White
+		\end{flushright}
+	\hrule height 1pt
+
+% ------ SECTION DAILY LOG -------------------------------------
+\vspace{-0.8em}
+\section*{Daily Log}
+%Detail for each day about what you research, coded, debug, designed, created, etc. Informal style is OK.
+\vspace{-0.8em}
+\subsection*{Monday, January 6}
+\vspace{-0.6em}
+Dusted off my code, tried tracing through \texttt{annotations\_to\_semantic\_tree.py} to reverse-engineer the form of the annotations.
+ 
+\vspace{-1.3em}
+\subsection*{Tuesday, January 7}
+\vspace{-0.6em}
+Tried tracing through code, consulted Dr. White on recursive descent parsing, made plans on how to move forward. 
+
+\vspace{-1.3em}
+\subsection*{Thursday, January 9}
+\vspace{-0.6em}
+Created my own short script to run annotations parsing on a particular question, started process of fixing errors, modified Python 2 $\rightarrow$ Python 3 incompatibilities, and debugging. Emailed original article authors for annotations. 
+
+\vspace{-0.8em}
+
+% ------ SECTION TIMELINE -------------------------------------
+%\newpage
+%\vspace{-1.7em}
+\vspace{-1.0em}
+\section*{Timeline}
+\begin{tabular}{|p{1in}|p{2.5in}|p{2.5in}|}
+	\hline
+\textbf{Date} & \textbf{Goal} & \textbf{Met}\\ \hline 
+	\hline
+1/6 & Figure out what the best next steps are for moving forward, based on not quite reaching my winter goal. & I think I have a fairly concrete plan for what to work on moving forward, but I'm not sure if it's super feasible\ldots need to discuss still. \\
+	\hline 
+1/13 & Get a script heavily based on their code to be runnable, pending annotations. & N/A \\
+	\hline 
+1/20 & Adapt the question input for their code to access local files instead of a database, try running their code with olympiad problems. & N/A \\
+	\hline 
+\end{tabular}
+
+\pagebreak 
+% ------ SECTION REFLECTION  ---------------------------------
+\section*{Reflection}
+%In narrative style, talk about your work this week. Successes, failures, changes to timeline, goals. This should also include concrete data, e.g. snippets of code, screenshots, output, analysis, graphs, etc.
+
+This was the first week after break, and coming back after break, I think I needed to fully flesh out what I needed to do with the trove of code that I pulled from the original project github that I recently discovered. 
+
+Generally, this is the plan I've come up with to use this code as effectively as possible. 
+\begin{enumerate}
+\item \textit{Get syntax parsing to work on a problem} -- (this week)
+\item \textit{Get a semantic tree from a problem}, assuming I can get my hands on those annotations for the problems or can figure out how they're formatted (this week/next week)
+\item Finish modifying the ontology (something I started before break, not super essential and can be done over time) 
+\item \textit{Fix input from database to have code pull from my local files} (next week)
+\item \textit{Start trying to run the Naive Tag Model on my olympiad geometry problems} (training the model now) 
+\item \textit{Test the Naive Model on a whole bunch of problems and see how it does.} Includes decisions on whether or not I can improve my code by fixing/running their more sophisticated processing model on olympiad problems, or just increasing my data set (which is pretty labor-intensive).
+\item \textit{Get predicted literals to output for a given problem}. 
+\item \textit{Interpret literals and give a set of Asymptote commands.} For whatever literals I get, I figure out what points are in the diagram, and essentially loop through the set of literals and interpret them by drawing what they say. Hopefully this set can be ordered in a meaningful way to make things easier.
+\item profit
+\end{enumerate}
+I'm not sure how plausible this is for the amount of time I have remaining, but I think this is a pretty reasonable path forward.
+
+\end{document}
+

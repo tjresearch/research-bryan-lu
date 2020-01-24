@@ -1,0 +1,87 @@
+% Syslab Research Journal Template
+% By Patrick White
+% September 2019
+
+% Do not edit this header
+\documentclass[letterpaper,11pt]{article}
+\usepackage{fullpage}
+\usepackage{palatino}
+\usepackage{enumitem}
+\usepackage{courier}
+\usepackage{graphicx}
+\def\hrulefill{\leavevmode\leaders\hrule height 20pt\hfill\kern\z@}
+
+% ------------- Edit these definitions ---------------------
+\def\name{Bryan Lu}
+\def\journalnum{11}
+\def\daterange{11/25/19-12/9/19} % starts on Monday
+\def\period{2}
+% ------------------ END ---------------------------------
+% Do not edit this
+\begin{document}
+	\thispagestyle{empty}
+	\begin{flushright}
+		{\Large Journal Report \journalnum} \\
+		\daterange\\
+		\name \\
+		Computer Systems Research Lab \\
+		Period \period, White
+		\end{flushright}
+	\hrule height 1pt
+
+% ------ SECTION DAILY LOG -------------------------------------
+\vspace{-0.8em}
+\section*{Daily Log}
+%Detail for each day about what you research, coded, debug, designed, created, etc. Informal style is OK.
+\vspace{-0.8em}
+\subsection*{Monday, November 25}
+\vspace{-0.6em}
+Fixed Github issues, prepared README file, and pushed all previous work onto Github in preparation for break. 
+\vspace{-1.3em}
+\subsection*{Monday, December 2}
+\vspace{-0.6em}
+Restructured \texttt{relations.txt} and fixed test cases, read original pdf to figure out how to 
+\vspace{-1.3em}
+\subsection*{Tuesday, December 3}
+\vspace{-0.6em}
+Found original project Github, downloaded the files from the original project, and started looking through their code to see how to use it to my advantage. 
+\vspace{-1.3em}
+\subsection*{Thursday, December 5}
+\vspace{-0.6em}
+Continued reading through original project code, and figured out what a decent number of the python classes/methods used do. 
+\vspace{-0.8em}
+
+% ------ SECTION TIMELINE -------------------------------------
+%\newpage
+%\vspace{-1.7em}
+\vspace{-1.0em}
+\section*{Timeline}
+\begin{tabular}{|p{1in}|p{2.5in}|p{2.5in}|}
+	\hline
+\textbf{Date} & \textbf{Goal} & \textbf{Met}\\ \hline 
+	\hline
+11/18 & Build the model with \texttt{scikit}, tweaking previous steps as needed, and finish the necessary test cases. & I didn't have any time this week to start building the actual model, but my test cases are now more or less where I want them to be. \\
+	\hline
+11/25 & Build, test, and train the logistic model, given the test data and the features computed. & No, Thanksgiving break -- did not do work on the project over break. \\
+	\hline 
+12/2 & Refine logistic learning model with extra methods to try to increase accuracy, and begin extracting the most likely literals. & Unclear how to do this from my work so far, found a different approach to continue work. \\
+	\hline 
+12/9 & Inject my problem statements, lexicon, and files into the existing framework given by the original project. & N/A \\
+	\hline 
+12/16 & Harness the existing code to identify the valid logical literals in a problem from the statement alone. & N/A \\
+	\hline 
+Winter Goal & Be able to output a set of possible literals (statements) based on detected relations in the problem. & N/A \\
+	\hline 
+\end{tabular}
+
+
+% ------ SECTION REFLECTION  ---------------------------------
+\section*{Reflection}
+%In narrative style, talk about your work this week. Successes, failures, changes to timeline, goals. This should also include concrete data, e.g. snippets of code, screenshots, output, analysis, graphs, etc.
+
+My plan is drastically changing again, because of a major development in my project's progress. I found the Github associated with the paper that my original paper is based off of, and I'm now shifting gears to looking through their files and modifying it to my needs. So far, I've found their project's lexicon, and I've found that they've created actual classes and objects for geometric objects, which is something I've avoided doing because it was a lot of work. Most of the work is now done for me, so all I have to do is add in any object that is not already in my own \texttt{relations.txt} file. 
+
+I don't currently know how to access and modify the problems they used for training, as they are stored on some sort of server somewhere, but that is something I will have to figure out this week. They specify something called ``annotations'' for every problem which I assume is similar to what I've been doing for the past two-three weeks for my own problems, that is, marking them up with the appropriate relations per problem. I do know that their project uses JSON requests to store their problems, and I need to format my problems in this way in order for their code to work. 
+
+\end{document}
+
