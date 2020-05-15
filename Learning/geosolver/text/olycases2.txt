@@ -1,0 +1,10 @@
+Let Gamma be the circumcircle of acute triangle ABC. Points D and E are on segments AB and AC respectively such that the length of AD equals the length of AE. The intersection of the perpendicular bisectors of BD and CE with minor arcs AB and AC of Gamma are F and G respectively. Prove that lines DE and FG are either parallel or they are the same line.
+In a triangle ABC, AB = AC. A circle passing through A and C intersects AB at D. Angle bisector from A intersects the circle at E neq A. Prove that orthocenter of AEB is on this circle.
+In a triangle ABC, the length of AB > the length of AC. The foot of the altitude from A to BC is D. The intersection of angle bisector of ABC and AD is K. The foot of the altitude from B to CK is M. Let BM and AK intersect at point N. The line through N parallel to DM intersects AC at T. Prove that BM is the bisector of angle TBC.
+In a convex quadrilateral ABCD, E is the intersection of AB and CD. F is the intersection of BC and AD. The two diagonals AC and BD meet at P. Let O be the foot of the perpendicular from P to EF. Show that the measure of angle BOC = the measure of angle AOD.
+Let ABC be a scalene triangle. The incircle of triangle ABC touches BC at D. The incircle of triangle ABC touches AC at E. The incircle of triangle ABC touches AB at F. L is the reflection of D over EF. M is the reflection of E over FD. N is the reflection of F over DE. Line AL intersects BC at P. Line BM intersects CA at Q. Line CN intersects AB at R. Prove that P, Q, R are collinear.
+Let ABC be a triangle. AD is an altitude of triangle ABC. CE is an altitude of triangle ABC. AD and CE intersect at point H. Let K be the midpoint of side AC. Let P be the midpoint of segment DE. Let Q be the reflection of K with respect to line AD. Prove that the measure of angle QPH = 90.
+
+
+
+

@@ -1,0 +1,8 @@
+sentences/annotations:
+
+In the figure above, line AB, line CD, and line EF intersect at P. 
+{"In", "the", "figure", "above", ",", "line", "AB", "," "line", "CD", ",", "and", "line", "EF", "intersect",
+"at", "P", "."}
+"IsLine@5(line@6)", "IsLine@8(line@9)", "IsLine@12(line@13)", "CC@11(line@6, line@9)", 
+"CC@11(line@6, line@13)", "IntersectAt@14(line@6, point@16)"
+

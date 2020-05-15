@@ -1,0 +1,145 @@
+Let Gamma be the circumcircle of acute triangle ABC.
+Points D and E are on segments AB and AC respectively such that the length of AD equals the length of AE.
+The intersection of the perpendicular bisectors of BD and CE with minor arcs AB and AC of Gamma are F and G respectively.
+Prove that lines DE and FG are either parallel or they are the same line.
+
+IsTriangle@7(triangle@8)
+IsCircle@4(circle@1)
+IsCircumcircle@4(circle@1, triangle@8)
+
+PointLiesOnLine@5(point@1, line@7)
+CC@2(point@1, point@3)
+CC@8(line@7, line@9)
+Equals@17(LengthOf@14(line@13), LengthOf@19(line@15))
+
+Is@18(IntersectionOf@1(arc@13, PBisector@4(line@7)), point@19)
+CC@8(line@7, line@9)
+CC@14(arc@13, arc@15)
+CC@20(point@19, point@21)
+
+Parallel@8(line@3, line@5)
+
+In a triangle ABC, AB = AC.
+A circle passing through A and C intersects AB at D.
+Angle bisector from A intersects the circle at E neq A.
+Prove that orthocenter of AEB is on this circle.
+
+IsTriangle@2(triangle@3)
+Equals@9(LengthOf@6(line@8), LengthOf@11(line@13))
+PointLiesOnCircle@3(point@4, circle@1)
+PointLiesOnCircle@3(point@6, circle@1)
+Is@9(IntersectionOf@7(line@8, circle@1), point@10)
+Is@10(IntersectionOf@7(ABisectorFrom@0(triangle@6, point@3), circle@9), point@11)
+NotEquals@12(point@11, point@13)
+PointLiesOnCircle@6(Orthocenter@2(triangle@4), circle@8)
+
+In triangle ABC, let D be the midpoint of BC.
+Let P be any point on AD.
+The internal angle bisectors of angle ABP and angle ACP intersect at Q. Prove that, if BQ perp QC, then Q lies on AD.
+???
+
+In a triangle ABC, the length of AB > the length of AC. The foot of the altitude from A to BC is D. The intersection of angle bisector of ABC and AD is K. The foot of the altitude from B to CK is M. Let BM and AK intersect at point N. The line through N parallel to DM intersects AC at T. Prove that BM is the bisector of angle TBC.
+
+IsTriangle@2(triangle@3)
+Ge@9(LengthOf@6(line@8), LengthOf@11(line@13))
+
+Is@9(FootOf@1(point@6, line@8), point@10)
+
+Is@9(IntersectionOf@1(ABisector@4(angle@6), line@8), point@10)
+
+Is@9(FootOf@1(point@6, line@8), point@10)
+
+Is@5(IntersectionOf@4(line@1, line@3), point@7)
+
+Parallel@4(line@1, line@6)
+PointLiesOnLine@2(point@3, line@1)
+Is@9(IntersectionOf(line@1, line@8), point@10)
+BisectsAngle@5(line@2, angle@8)
+
+In a convex quadrilateral ABCD, E is the intersection of AB and CD. F is the intersection of BC and AD. The two diagonals AC and BD meet at P. Let O be the foot of the perpendicular from P to EF. Show that the measure of angle BOC = the measure of angle AOD.
+
+IsQuad@3(quad@4)
+
+Is@7(IntersectionOf@9(line@11, line@13), point@6)
+
+Is@1(IntersectionOf@3(line@5, line@7), point@0)
+
+Is@7(IntersectionOf@9(line@3, line@5), point@8)
+
+Is@2(FootOf@4(point@9, line@11))
+
+Equals@7(MeasureOf@3(angle@6), MeasureOf@9(angle@12))
+
+Let ABC be a scalene triangle.
+The incircle of triangle ABC touches BC at D.
+The incircle of triangle ABC touches AC at E.
+The incircle of triangle ABC touches AB at F.
+L is the reflection of D over EF.
+M is the reflection of E over FD.
+N is the reflection of F over DE.
+Line AL intersects BC at P.
+Line BM intersects CA at Q.
+Line CN intersects AB at R.
+Prove that P, Q, R are collinear.
+
+IsTriangle@5(triangle@1)
+
+Tangent@5(line@6, Incircle@1(triangle@4))
+Is@7(IntersectionOf@5(line@6, Incircle@1(triangle@4)), point@8)
+
+Tangent@5(line@6, Incircle@1(triangle@4))
+Is@7(IntersectionOf@5(line@6, Incircle@1(triangle@4)), point@8)
+
+Tangent@5(line@6, Incircle@1(triangle@4))
+Is@7(IntersectionOf@5(line@6, Incircle@1(triangle@4)), point@8)
+
+Is@1(ReflectionL@3(point@5, line@7), point@0)
+
+Is@1(ReflectionL@3(point@5, line@7), point@0)
+
+Is@1(ReflectionL@3(point@5, line@7), point@0)
+
+Is@4(IntersectionOf@2(line@1, line@3), point@5)
+
+Is@4(IntersectionOf@2(line@1, line@3), point@5)
+
+Is@4(IntersectionOf@2(line@1, line@3), point@5)
+
+Collinear@8(point@2, point@4, point@6)
+
+Let ABC be a triangle and the angle bisector of BAC intersects its circumcircle at D.
+Let I be the incenter of triangle ABC.
+M is the midpoint of BC.
+P is the reflection of I over M (Assuming P is in the circumcircle).
+Extend DP until it intersects the circumcircle again at N.
+Prove that among segments AN, BN, CN, there is a segment that is the sum of the other two.
+
+IsTriangle@4(triangle@1)
+ABisector@8(ang@10)
+
+Let ABC be a triangle.
+AD is an altitude of triangle ABC.
+CE is an altitude of triangle ABC.
+AD and CE intersect at point H.
+Let K be the midpoint of side AC.
+Let P be the midpoint of segment DE.
+Let Q be the reflection of K with respect to line AD.
+Prove that the measure of angle QPH = 90.
+
+IsTriangle@4(triangle@1)
+
+IsAltitudeOf@3(line@0, triangle@6)
+
+IsAltitudeOf@3(line@0, triangle@6)
+
+Is@4(IntersectionOf@3(line@0, line@2), point@6)
+
+IsMidpointOf@4(point@1, line@7)
+
+IsMidpointOf@4(point@1, line@7)
+
+Is@2(ReflectionL@4(point@6, line@11), point@1)
+
+Equals@7(MeasureOf@3(angle@6), @8)
+
+

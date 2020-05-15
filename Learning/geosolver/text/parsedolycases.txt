@@ -1,0 +1,74 @@
+{0: 'Let', 1: 'Gamma', 2: 'be', 3: 'the', 4: 'circumcircle', 5: 'of', 6: 'acute', 7: 'triangle', 8: 'ABC', 9: '.'}
+{0: 'Points', 1: 'D', 2: 'and', 3: 'E', 4: 'are', 5: 'on', 6: 'segments', 7: 'AB', 8: 'and', 9: 'AC', 10: 'respectively', 11: 'such', 12: 'that', 13: 'AD', 14: '=', 15: 'AE', 16: '.'}
+{0: 'The', 1: 'perpendicular', 2: 'bisectors', 3: 'of', 4: 'BD', 5: 'and', 6: 'CE', 7: 'intersect', 8: 'minor', 9: 'arcs', 10: 'AB', 11: 'and', 12: 'AC', 13: 'of', 14: 'Gamma', 15: 'at', 16: 'points', 17: 'F', 18: 'and', 19: 'G', 20: 'respectively', 21: '.'}
+{0: 'Prove', 1: 'that', 2: 'lines', 3: 'DE', 4: 'and', 5: 'FG', 6: 'are', 7: 'either', 8: 'parallel', 9: 'or', 10: 'they', 11: 'are', 12: 'the', 13: 'same', 14: 'line', 15: '.'}
+{0: 'In', 1: 'a', 2: 'triangle', 3: 'ABC', 4: ',', 5: 'AB', 6: '=', 7: 'AC', 8: '.'}
+{0: 'A', 1: 'circle', 2: 'passing', 3: 'through', 4: 'A', 5: 'and', 6: 'C', 7: 'intersects', 8: 'AB', 9: 'at', 10: 'D', 11: '.'}
+{0: 'Angle', 1: 'bisector', 2: 'from', 3: 'A', 4: 'intersects', 5: 'the', 6: 'circle', 7: 'at', 8: 'E', 9: 'neq', 10: 'A', 11: '.'}
+{0: 'Prove', 1: 'that', 2: 'orthocenter', 3: 'of', 4: 'AEB', 5: 'is', 6: 'on', 7: 'this', 8: 'circle', 9: '.'}
+{0: 'Let', 1: 'D', 2: 'be', 3: 'the', 4: 'midpoint', 5: 'of', 6: 'BC', 7: 'in', 8: 'triangle', 9: 'ABC', 10: '.'}
+{0: 'Let', 1: 'P', 2: 'be', 3: 'any', 4: 'point', 5: 'on', 6: 'AD', 7: '.'}
+{0: 'If', 1: 'the', 2: 'internal', 3: 'angle', 4: 'bisectors', 5: 'of', 6: 'angle', 7: 'ABP', 8: 'and', 9: 'angle', 10: 'ACP', 11: 'intersect', 12: 'at', 13: 'Q', 14: '.'}
+{0: 'Prove', 1: 'that', 2: ',', 3: 'if', 4: 'BQ', 5: 'perp', 6: 'QC', 7: ',', 8: 'then', 9: 'Q', 10: 'lies', 11: 'on', 12: 'AD', 13: '.'}
+{0: 'In', 1: 'a', 2: 'triangle', 3: 'ABC', 4: ',', 5: 'AB', 6: '>', 7: 'AC', 8: '.'}
+{0: 'The', 1: 'foot', 2: 'of', 3: 'the', 4: 'altitude', 5: 'from', 6: 'A', 7: 'to', 8: 'BC', 9: 'is', 10: 'D', 11: ',', 12: 'the', 13: 'intersection', 14: 'of', 15: 'angle', 16: 'bisector', 17: 'of', 18: 'ABC', 19: 'and', 20: 'AD', 21: 'is', 22: 'K', 23: ',', 24: 'the', 25: 'foot', 26: 'of', 27: 'the', 28: 'altitude', 29: 'from', 30: 'B', 31: 'to', 32: 'CK', 33: 'is', 34: 'M', 35: 'and', 36: 'let', 37: 'BM', 38: 'and', 39: 'AK', 40: 'intersect', 41: 'at', 42: 'point', 43: 'N', 44: '.'}
+{0: 'The', 1: 'line', 2: 'through', 3: 'N', 4: 'parallel', 5: 'to', 6: 'DM', 7: 'intersects', 8: 'AC', 9: 'at', 10: 'T', 11: '.'}
+{0: 'Prove', 1: 'that', 2: 'BM', 3: 'is', 4: 'the', 5: 'bisector', 6: 'of', 7: 'angle', 8: 'TBC', 9: '.'}
+{0: 'In', 1: 'a', 2: 'triangle', 3: 'ABC', 4: 'such', 5: 'that', 6: 'mangle', 7: '(', 8: 'B', 9: ')', 10: '>', 11: 'mangle', 12: '(', 13: 'C', 14: ')', 15: ',', 16: 'the', 17: 'internal', 18: 'and', 19: 'external', 20: 'bisectors', 21: 'of', 22: 'vertex', 23: 'A', 24: 'intersects', 25: 'BC', 26: 'respectively', 27: 'at', 28: 'points', 29: 'D', 30: 'and', 31: 'E', 32: '.'}
+{0: 'P', 1: 'is', 2: 'a', 3: 'variable', 4: 'point', 5: 'on', 6: 'EA', 7: 'such', 8: 'that', 9: 'A', 10: 'is', 11: 'on', 12: 'EP', 13: '.'}
+{0: 'DP', 1: 'intersects', 2: 'AC', 3: 'at', 4: 'M', 5: 'and', 6: 'ME', 7: 'intersects', 8: 'AD', 9: 'at', 10: 'Q', 11: '.'}
+{0: 'Prove', 1: 'that', 2: 'all', 3: 'PQ', 4: 'lines', 5: 'have', 6: 'a', 7: 'common', 8: 'point', 9: 'as', 10: 'P', 11: 'varies', 12: '.'}
+{0: 'Let', 1: 'E', 2: 'and', 3: 'F', 4: 'be', 5: 'the', 6: 'intersections', 7: 'of', 8: 'opposite', 9: 'sides', 10: 'of', 11: 'a', 12: 'convex', 13: 'quadrilateral', 14: 'ABCD', 15: '.'}
+{0: 'The', 1: 'two', 2: 'diagonals', 3: 'meet', 4: 'at', 5: 'P', 6: '.'}
+{0: 'Let', 1: 'O', 2: 'be', 3: 'the', 4: 'foot', 5: 'of', 6: 'the', 7: 'perpendicular', 8: 'from', 9: 'P', 10: 'to', 11: 'EF', 12: '.'}
+{0: 'Show', 1: 'that', 2: 'angle', 3: 'BOC', 4: '=', 5: 'angle', 6: 'AOD', 7: '.'}
+{0: 'Convex', 1: 'quadrilateral', 2: 'ABCD', 3: 'is', 4: 'cyclic', 5: 'in', 6: 'circle', 7: 'O', 8: ',', 9: 'P', 10: 'is', 11: 'the', 12: 'intersection', 13: 'of', 14: 'the', 15: 'diagonals', 16: 'AC', 17: 'and', 18: 'BD', 19: '.'}
+{0: 'Circle', 1: 'O1', 2: 'passes', 3: 'through', 4: 'P', 5: 'and', 6: 'B', 7: ',', 8: 'circle', 9: 'O2', 10: 'passes', 11: 'through', 12: 'P', 13: 'and', 14: 'A', 15: '.'}
+{0: 'Circles', 1: 'O1', 2: 'and', 3: 'O2', 4: 'intersect', 5: 'at', 6: 'P', 7: 'and', 8: 'Q', 9: '.'}
+{0: 'O1', 1: 'and', 2: 'O2', 3: 'intersect', 4: 'O', 5: 'at', 6: 'another', 7: 'points', 8: 'E', 9: ',', 10: 'F', 11: 'besides', 12: 'B', 13: ',', 14: 'A', 15: ',', 16: 'respectively', 17: '.'}
+{0: 'Prove', 1: 'that', 2: 'PQ', 3: ',', 4: 'CE', 5: ',', 6: 'DF', 7: 'are', 8: 'concurrent', 9: 'or', 10: 'parallel', 11: '.'}
+{0: 'Given', 1: 'a', 2: 'scalene', 3: 'triangle', 4: 'ABC', 5: '.'}
+{0: 'Its', 1: 'incircle', 2: 'touches', 3: 'BC', 4: ',', 5: 'AC', 6: ',', 7: 'AB', 8: 'at', 9: 'D', 10: ',', 11: 'E', 12: ',', 13: 'F', 14: 'respectively', 15: '.'}
+{0: 'Let', 1: 'L', 2: ',', 3: 'M', 4: ',', 5: 'N', 6: 'be', 7: 'the', 8: 'reflections', 9: 'of', 10: 'D', 11: 'over', 12: 'EF', 13: ',', 14: 'of', 15: 'E', 16: 'over', 17: 'FD', 18: ',', 19: 'of', 20: 'F', 21: 'over', 22: 'DE', 23: ',', 24: 'respectively', 25: '.'}
+{0: 'Line', 1: 'AL', 2: 'intersects', 3: 'BC', 4: 'at', 5: 'P', 6: ',', 7: 'line', 8: 'BM', 9: 'intersects', 10: 'CA', 11: 'at', 12: 'Q', 13: ',', 14: 'line', 15: 'CN', 16: 'intersects', 17: 'AB', 18: 'at', 19: 'R', 20: '.'}
+{0: 'Prove', 1: 'that', 2: 'P', 3: ',', 4: 'Q', 5: ',', 6: 'R', 7: 'are', 8: 'collinear', 9: '.'}
+{0: 'Let', 1: 'ABC', 2: 'be', 3: 'a', 4: 'triangle', 5: 'and', 6: 'the', 7: 'angle', 8: 'bisector', 9: 'of', 10: 'BAC', 11: 'intersects', 12: 'its', 13: 'circumcircle', 14: 'at', 15: 'D', 16: '.'}
+{0: 'Let', 1: 'I', 2: 'be', 3: 'the', 4: 'incenter', 5: 'of', 6: 'triangle', 7: 'ABC', 8: ',', 9: 'M', 10: 'be', 11: 'the', 12: 'midpoint', 13: 'of', 14: 'BC', 15: ',', 16: 'P', 17: 'is', 18: 'the', 19: 'reflection', 20: 'of', 21: 'I', 22: 'over', 23: 'M', 24: 'Assuming', 25: '(', 26: 'P', 27: 'is', 28: 'in', 29: 'the', 30: 'circumcircle', 31: ')', 32: '.'}
+{0: 'Extend', 1: 'DP', 2: 'until', 3: 'it', 4: 'cuts', 5: 'the', 6: 'circumcircle', 7: 'again', 8: 'at', 9: 'N', 10: '.'}
+{0: 'Prove', 1: 'that', 2: 'among', 3: 'segments', 4: 'AN', 5: ',', 6: 'BN', 7: ',', 8: 'CN', 9: ',', 10: 'there', 11: 'is', 12: 'a', 13: 'segment', 14: 'that', 15: 'is', 16: 'the', 17: 'sum', 18: 'of', 19: 'the', 20: 'other', 21: 'two', 22: '.'}
+{0: 'Altitudes', 1: 'AD', 2: 'and', 3: 'CE', 4: 'of', 5: 'an', 6: 'acute', 7: 'angled', 8: 'triangle', 9: 'ABC', 10: 'intersect', 11: 'at', 12: 'point', 13: 'H', 14: '.'}
+{0: 'Let', 1: 'K', 2: 'be', 3: 'the', 4: 'midpoint', 5: 'of', 6: 'side', 7: 'AC', 8: 'and', 9: 'P', 10: 'be', 11: 'the', 12: 'midpoint', 13: 'of', 14: 'segment', 15: 'DE', 16: '.'}
+{0: 'Let', 1: 'Q', 2: 'be', 3: 'the', 4: 'reflection', 5: 'of', 6: 'K', 7: 'with', 8: 'respect', 9: 'to', 10: 'line', 11: 'AD', 12: '.'}
+{0: 'Prove', 1: 'that', 2: 'angle', 3: 'QPH', 4: '=', 5: '90', 6: '.'}
+{0: 'At', 1: 'the', 2: 'ABC', 3: 'triangle', 4: 'the', 5: 'midpoints', 6: 'of', 7: 'BC', 8: ',', 9: 'AC', 10: ',', 11: 'AB', 12: 'are', 13: 'respectively', 14: 'D', 15: ',', 16: 'E', 17: ',', 18: 'F', 19: 'and', 20: 'the', 21: 'triangle', 22: 'tangent', 23: 'to', 24: 'the', 25: 'incircle', 26: 'at', 27: 'G', 28: ',', 29: 'H', 30: 'and', 31: 'I', 32: 'in', 33: 'the', 34: 'same', 35: 'order', 36: '.'}
+{0: 'The', 1: 'midpoint', 2: 'of', 3: 'AD', 4: 'is', 5: 'J', 6: '.'}
+{0: 'BJ', 1: 'and', 2: 'AG', 3: 'intersect', 4: 'at', 5: 'point', 6: 'K', 7: '.'}
+{0: 'A', 1: 'circle', 2: 'centered', 3: 'at', 4: 'C', 5: 'with', 6: 'radius', 7: 'AC', 8: 'cuts', 9: 'BC', 10: 'at', 11: 'point', 12: 'X', 13: '.'}
+{0: 'The', 1: 'line', 2: 'passing', 3: 'through', 4: 'K', 5: 'and', 6: 'parallel', 7: 'to', 8: 'BC', 9: 'meets', 10: 'AX', 11: 'at', 12: 'U', 13: '.'}
+{0: 'IU', 1: 'and', 2: 'BC', 3: 'intersect', 4: 'at', 5: 'the', 6: 'point', 7: 'P', 8: '.'}
+{0: 'Point', 1: 'Y', 2: 'is', 3: 'chosen', 4: 'on', 5: 'the', 6: 'incircle', 7: 'such', 8: 'that', 9: 'PY', 10: 'is', 11: 'tangent', 12: 'to', 13: 'incircle', 14: 'at', 15: 'point', 16: 'Y', 17: '.'}
+{0: 'Prove', 1: 'that', 2: 'D', 3: ',', 4: 'E', 5: ',', 6: 'F', 7: ',', 8: 'Y', 9: 'are', 10: 'cyclic', 11: '.'}
+{0: 'In', 1: 'acute', 2: 'triangle', 3: 'ABC', 4: ',', 5: 'points', 6: 'P', 7: ',', 8: 'Q', 9: 'lie', 10: 'on', 11: 'its', 12: 'sidelines', 13: 'AB', 14: ',', 15: 'AC', 16: ',', 17: 'respectively', 18: '.'}
+{0: 'Let', 1: 'Gamma', 2: 'be', 3: 'the', 4: 'circumcircle', 5: 'of', 6: 'triangle', 7: 'ABC', 8: '.'}
+{0: 'Gamma', 1: 'intersects', 2: 'the', 3: 'circumcircle', 4: 'of', 5: 'triangle', 6: 'APQ', 7: 'at', 8: 'X', 9: 'different', 10: '(', 11: 'from', 12: 'A', 13: ')', 14: '.'}
+{0: 'Let', 1: 'Y', 2: 'be', 3: 'the', 4: 'reflection', 5: 'of', 6: 'X', 7: 'in', 8: 'line', 9: 'PQ', 10: '.'}
+{0: 'Given', 1: 'PX', 2: '>', 3: 'PB', 4: '.'}
+{0: 'Prove', 1: 'that', 2: 'XPQ', 3: '[', 4: ']', 5: '>', 6: 'YBC', 7: '[', 8: ']', 9: '.'}
+{0: 'Let', 1: 'ABC', 2: 'be', 3: 'a', 4: 'triangle', 5: '.'}
+{0: 'Point', 1: 'D', 2: 'lies', 3: 'on', 4: 'its', 5: 'sideline', 6: 'BC', 7: 'such', 8: 'that', 9: 'angle', 10: 'CAD', 11: '=', 12: 'angle', 13: 'CBA', 14: '.'}
+{0: 'Circle', 1: 'O', 2: 'passing', 3: 'through', 4: 'B', 5: ',', 6: 'D', 7: 'intersects', 8: 'AB', 9: ',', 10: 'AD', 11: 'at', 12: 'EF', 13: ',', 14: ',', 15: 'respectively', 16: '.'}
+{0: 'BF', 1: 'meets', 2: 'DE', 3: 'at', 4: 'G', 5: '.'}
+{0: 'Denote', 1: 'M', 2: 'the', 3: 'midpoint', 4: 'of', 5: 'AG', 6: '.'}
+{0: 'Show', 1: 'that', 2: 'CM', 3: 'perp', 4: 'AO', 5: '.'}
+{0: 'In', 1: 'a', 2: 'triangle', 3: 'ABC', 4: ',', 5: 'circle', 6: 'O1', 7: 'through', 8: 'C', 9: 'tangent', 10: 'to', 11: 'AB', 12: 'at', 13: 'A', 14: 'and', 15: 'the', 16: 'circle', 17: 'O2', 18: 'through', 19: 'B', 20: 'tangent', 21: 'to', 22: 'AC', 23: 'at', 24: 'A', 25: 'meet', 26: 'again', 27: 'at', 28: 'D', 29: '.'}
+{0: 'Let', 1: 'E', 2: 'be', 3: 'the', 4: 'point', 5: 'on', 6: 'the', 7: 'ray', 8: 'AB', 9: 'such', 10: 'that', 11: 'AB', 12: '=', 13: 'BE', 14: '.'}
+{0: 'The', 1: 'circle', 2: 'through', 3: 'A', 4: ',', 5: 'D', 6: ',', 7: 'E', 8: 'intersect', 9: 'the', 10: 'ray', 11: 'CA', 12: 'again', 13: 'at', 14: 'F', 15: '.'}
+{0: 'Prove', 1: 'that', 2: 'AF', 3: '=', 4: 'AC', 5: '.'}
+{0: 'Triangle', 1: 'ABC', 2: 'is', 3: 'inscribed', 4: 'in', 5: 'circle', 6: 'O', 7: '.'}
+{0: 'Tangent', 1: 'PD', 2: 'is', 3: 'drawn', 4: 'from', 5: 'A', 6: ',', 7: 'D', 8: 'is', 9: 'on', 10: 'ray', 11: 'BC', 12: ',', 13: 'P', 14: 'is', 15: 'on', 16: 'ray', 17: 'DA', 18: '.'}
+{0: 'Line', 1: 'PU', 2: 'U', 3: '(', 4: 'on', 5: 'BD', 6: ')', 7: 'intersects', 8: 'circle', 9: 'O', 10: 'at', 11: 'Q', 12: ',', 13: 'T', 14: ',', 15: 'and', 16: 'intersect', 17: 'AB', 18: 'and', 19: 'AC', 20: 'at', 21: 'R', 22: 'and', 23: 'S', 24: 'respectively', 25: '.'}
+{0: 'Prove', 1: 'that', 2: 'if', 3: 'QR', 4: '=', 5: 'ST', 6: ',', 7: 'then', 8: 'PQ', 9: '=', 10: 'UT', 11: '.'}
+{0: 'In', 1: 'a', 2: 'non-isosceles', 3: 'acute', 4: 'triangle', 5: 'ABC', 6: ',', 7: 'D', 8: 'is', 9: 'the', 10: 'midpoint', 11: 'of', 12: 'the', 13: 'edge', 14: 'BC', 15: '.'}
+{0: 'The', 1: 'points', 2: 'E', 3: 'and', 4: 'F', 5: 'lie', 6: 'on', 7: 'AC', 8: 'and', 9: 'AB', 10: ',', 11: 'respectively', 12: ',', 13: 'and', 14: 'the', 15: 'circumcircles', 16: 'of', 17: 'CDE', 18: 'and', 19: 'AEF', 20: 'intersect', 21: 'in', 22: 'P', 23: 'on', 24: 'AD', 25: '.'}
+{0: 'The', 1: 'angle', 2: 'bisector', 3: 'from', 4: 'P', 5: 'in', 6: 'triangle', 7: 'EFP', 8: 'intersects', 9: 'EF', 10: 'in', 11: 'Q', 12: '.'}
+{0: 'Prove', 1: 'that', 2: 'the', 3: 'tangent', 4: 'line', 5: 'to', 6: 'the', 7: 'circumcircle', 8: 'of', 9: 'AQP', 10: 'at', 11: 'A', 12: 'is', 13: 'perpendicular', 14: 'to', 15: 'BC', 16: '.'}
